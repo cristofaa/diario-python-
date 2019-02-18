@@ -1,0 +1,473 @@
+
+
+1.- palabras reservadas y utilizacion
+
+else  if 	or  not 
+and     
+elif     while    del   is    x =1      x is 0+1 >>False     x == 0+1 True      x is 1  >> True
+
+import 
+ from   as 
+class    def   
+pass  global   return     lambda   >> landa  es una funcion de una solo linea      x= lambda  a,b : a+b >> x(1,2)>> 3
+ 
+exec   exec("print('hola')")     # ejecuta un codigo que este en string 
+ 
+in       x=[hola,criss]         hola in x >>True     nose in x >>>false
+   for          >>>for i in [1,2,3]:         for  i in ranger(1,30)  for es un iterador  binca de un a uno 
+break     rompe el  ciclo 
+continue   reinicia el ciclo , pero solo ciclo las variables se quedan     
+ ....................................................................................................................................................
+with    es  un poquitin complejilla  investigar mas  a fondo 
+     
+yield ,investigar mas a profundidad 
+......................................................................................................................................................
+print
+
+ raise 
+
+ except  
+finally 
+assert
+   try 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+2.- funciones de las variables [str,int,bool,exa etc] 
+str 
+---------------------------------------------------------------------------------------------------------------------------------------------------------- 
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+'__subclasshook__',
+startswith  		x= 'carro ' 			x.startswith("c")	>> True 			x.startswith("o")>>false 
+
+endswith 		x= "carro"  			x.endswith("o")		>> True  			x.endswith("c")>>false
+isalnum			x= "11c" 			x.isalnum()		>> true
+isdecimal 		x= "11"  			x.isdecimal() 		>> true
+isnumeric 		x= "11"  			x.isnumeric() 		>> true 
+isdigit       		x= "11"  			x.isdigit()		>> true
+isupper  		x= "CARRO"  			x.isupper()		>> true 
+islower			x= "carro" 			x.islower() 		>> true
+isspace    		x= " "  			x.isspace()  		>> true
+isalpha     		x= "carro" 			x.isalpha() 		>> true 			x="carro rojo"  > x.isalpha() >>false
+isprintable   		x= "hola"  b="\nhola\t"       	x.isprintable()		>> True       			b.isprintable()>>False       
+istitle 
+          	x= "Hola Banda" y="hola banda"  x.istitle()		>> true   			y.istitle()>>False
+isidentifier  		x= "hola"  y="hola a los 22"    x.isidentifier()	>> True       			y.isidentifier() >>false        lee si hay  espacio o numeros
+center    		x= "hola"   			x.center(24,"*")    	>> '**********hola**********'
+ljust    		x= "hola"    			x.ljust(10,'*')  	>> 'hola******'
+rjust    		x= "hola"    			x.rjust(10,'*')  	>> '******hola'
+capitalize  		
+x= "carro"  			x.capitalize() 		>> 'Carro'
+partition 
+  		x= 'carro rojo' 		x.partition ("ro") 	>> ('car', 'ro', ' rojo')	x.partition ("z") >>("carro rojo","","")
+replace 
+ 		x= "carro"  			x.replace("ca","zo") 	>> "zorro"  			x.replace("r","o",1)  >>'caoro'
+split 			x= "carro rojo"  		x.split()  		>> ['carro', 'rojo'] 		x.split("r") >>['ca', '', 'o ', 'ojo']-->x.split (None ,0) >>  ['carro rojo']
+count      		x= "carro"      		x.count("o")   		>> 1  				x.count("r",0,2)  >>2
+find			x= "carro" 			x.find(ro) 		>> 3   				x.find ("r",0,4) >>2 -> x.find ("r",0,1) >> -1
+index 
+    		x= "carro " 	  		x.index("o") 		>> 4 				# es igual al de arriva    
+lower  			x= "CARRO"  			x.lower()  		>> "carro"
+upper 			x= "carro"   			x.upper() 		>> "CARRO"
+swapcase 
+		x= "carro ROJO"  		x.swapcase()   		>> 'CARRO rojo'
+encode 
+			x= "carro" 			x.encode("utf-16") 	>> b'\xff\xfec\x00a\x00r\x00r\x00o\x00 \x00r\x00o\x00j\x00o\x00'      x.encode("utf-8")->>b'carro rojo'
+expandtabs 	   	x= 'carro\trojo'   		x.expandtabs (20) 	>> 'carro               rojo' 
+title    		x= "bienvenidos sean todos " 	x.title()		>> Bienvenidos Sean Todos     	#pone la primera de cada palabra en mayuscula
+zfill      		x= "hola"   			x.zfill(10) 		>> '000000hola'
+join    		x= ["1","2","3"] espacio="__"   espacio.join(x)		>> "1__2__3"
+
+splitlines   		x= "hola banda" y="hola\nbanda" x.splitlines() 		>> ["hola banda"]  		x.splitlines() >> ["hola","banda"]
+rsplit   		x= "hola cristo"  		x.rsplit("cristo") 	>> ["hola",""]     		#genera una lista pero permite eliminar una palabra 
+rfind    		x= "holao"     			x.find("o")		>> 1      			x.rfind("o")>>4
+rindex  		x= "holao"     			x.index("o")		>> 1      			x.rindex("o")>>4 
+rpartition   		x= "muhola mundo"    		x.partition("mu")	>> ('', 'mu', 'hola mundo')   	x.rpartition("mu")    >>>('muhola ', 'mu', 'ndo')
+lstrip   		x= "holah"     			x.lstrip(h) 		>> olah 
+rstrip    		x= "holah"     			x.rstrip(h) 		>> hola 
+strip  			x= "holah"     			x.strip(h) 		>> ola    			#elimina todos los scaracteres 
+casefold        	x= "HOLA"      			x.casefold()  		>> hola    			#tambien lee igual la s alemana  por ss    
+format_map              x={"1":"cristo","2":"tapia"}    "mi nombre es {1} {2}"  >>"mi nombre es cristo tapia"
+maketrans               x=str.maketrans("ho","h2")      crea una igualacion de caracteres   y esta se manda a traslate para crearla 
+translate               "hola mundo".translate (x) >>    'h2la mund2'            x={104: "hola", 111: 50}          "hola mundo".translate (x)   >>> 'hola2la mund2'   # se puede usar  una igualacion con str
+format
+ format_spec ::=  [[fill]align][sign][#][0][width][,][.precision][type]
+ fill        ::=  <any character>
+
+ align       ::= 
+  "<" |   '{:<30}'.format('alinear')>>'                 alinear'                # alinea acia la izquierda 
+  ">" |   '{:>30}'.format('alinear')>>'alinear                 '                # alinea acia la derecha 
+  "^" |   '{:^30}'.format('alinear')>>'       alinear          ' 		# centra dentro del espacio disponible 
+  fill    '{:*^30}'.format('alinear')>>'******alinear**********'                # rellena la alinearcion 
+  "=" |   '{:0=30}'.format(30)>>'000000000000000000000000000030'		# alinea acia la izquiera con numeros solo se usan numeros sino marcar error de valor  
+ sign 
+  "+" |'{:+d}'.format(+30)                '+30'         indica que los numeros positivos se veran con un +
+  "-" |'{:-d}'.format(-30)                '-30'         indicaque los numeros negativos se veran con un -
+  " " |'{: d},{: d}'.format(30,-30)>>  ' 30,-30'	indica que se debe usar un - para numeros negativos y un espaciio para numeros positivos 
+ width       ::=  integer
+ precision   ::=  integer
+  ,      '{:,}'.format(1234567890)  >>  1,234,567,890   se utiliza "," para separar por miles 
+ type        ::= 
+  - "b" |'{0:b}'.format(37) >>'100101'	                  #binario
+    "b" |'{0:#b}'.format(37) >>'0b100101'                 #binario
+ -  "d" |'{0:d}'.format(37)>>37		                  #decimal
+  - "o" |'{0:o}'.format(37)>>'45'	                  #octal
+  - "o" |'{0:#o}'.format(37)>>'0o45'	                  #octal
+  - "x" |'{0:x}'.format(37)>>'25'	                  #exadecimal
+  - "x" |'{0:#x}'.format(37)>>'0x25'	                  #exadecimal
+   "%" |'{:%}'.format(1)>>'100.000000%'	                  #Multiplica el número por 100 y se muestra en formato fijo ('f'), seguido de un signo de porcentaje.
+   "s" |'{:s}'.format("hola")>>"hola"			  #string es el que eseta por defecto
+   "f" |'{:f}'.format(12)>>'12.000000'			  # punto fijo
+   "n" |'{:n}'.format(440) >>'442'			  #numero  es parecido a decimal
+   "e" |'{:e}'.format(100000000000000/3) >>'3.333333e+13' # notacion cientifica
+   "c" |'{:c}'.format(440)>> '?'			          #caracter
+   "g" |'{:.4g}'.format(10/3) >>3.333			  #formato general  es mas raro e inpresiso cuando se ace grande crea redondeos
+   "X" |'{}'.format()			#exadecimal mayusculas
+   "G" |'{}'.format()			# formato general pero en mayusculas
+   "E" |'{}'.format()			# notacion cientifica pero e en mayusculas E
+   "F" |'{}'.format()			# igual punto fijo solo camvia nan a NAN y inf a INF
+posicion
+'{3},{2},{1},{3}'.format("hola","como ","estan","todos") >>'todos,estan,como ,todos' # numera las posiciones de salida 
+' {1}, {0}'.format(*'ab') >>'b,a' separa palabra por palabra
+'{0}{1}{2}{3}{4}'.format('abra', 'cad','fsdf','df',"sdfgsdfg")  'abracadfsdfdfsdfgsdfg' 
+
+>>f'{255:#x}',f'{255:x}',f'{255:X}'
+('0xff','ff','FF')
+
+#tiene un poquito mas de uso 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+listas 
+
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 
+append		x = [,1,2]      
+	x.append(3)    	>> [1,2,3]
+clear		x = [1,1,2,3,4]  	x.clear 	>> []
+copy   		x = [1,2,3]     	y=x.copy()     	# si se istancia lo que le pase a la lista le  va a pasar  ala  otra  y viseversa 
+count    	x = [1,1,2,3,4]         x.count(1)  	>> 2
+extend    	x = [,1,2]    		y=[3,4]      	x.extend(y)   >> x   >>  [1,2,3,4]
+index  		x = [,1,2]    		x.index(2)  	>> 1
+insert  	x = [1,2,3,4,5]   	x.insert(1,12) 	>> [1,12,2,3,4,5]
+pop 
+ 		x = [1,1,2,3,4]    	x.pop(1) 	>> 1
+remove 		x = [,1,2]     		x.remove(2) 	>> [1]
+reverse       	x = [6,5,4,3,2,1]    	x.reverse()   	>> [1, 2, 3, 4, 5, 6]
+sort   		x = [6,5,4,3,2,1]    	x.sort()   	>> [1, 2, 3, 4, 5, 6]
+##############################################################################################################################
+######## 
+diccionario  x{ "hola":"hi"} 
+------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+['__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+clear 
+		x={1:"hola",2:"dos",3:"tres"}  x.clear() >>x >>{}   elimina todo 
+copy		x={1:"hola",2:"dos",3:"tres"}  y=x.copy()  >>>  # copea  la lista 
+get
+		x={1:"hola",2:"dos",3:"tres"}  x.get(1) >>"hola"  
+items 		x={1:"hola",2:"dos",3:"tres"}  x.items() >>  dict_items([(1, 'hola'), (2, 'dos'), (3, 'tres')]) los muestra como tuplas 
+keys 
+		x={1:"hola",2:"dos",3:"tres"}  x.keys() >> dict_keys([1, 2, 3])   regresa las llaves 
+pop 		x={1:"hola",2:"dos",3:"tres"}  x.pop(1) >>"hola"  >>x >>{2:"dos",3:"tres"}devuelve y elimina el key y el dato
+popitem 
+ 	x={1:"hola",2:"dos",3:"tres"}  x.popitem(1)>>(1,"hola") >>los muestra como tuplas  
+update		x={1:"hola",2:"dos",3:"tres"}  x.update({0:"cero"}) >>   {0: 'cero', 1: 'hola', 2: 'dos', 3: 'tres'}
+values		x={1:"hola",2:"dos",3:"tres"}  x.values() >> dict_values(["hola",'dos', 'tres'])
+setdefault	x={1:"hola",2:"dos",3:"tres"}  x.setdefault (1,"adios") >>"hola",x.setdefault (4,"adios")>> adios  #si lla existe un valor asignado para ese key lo coloca 
+fromkeys	x={1,2,3,4} y = "valor"	     dict.fromkeys(x,y)>> {1:valor,2:valor}  crea un diccionaliro
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+tuplas >> x=(2,3,2) 
+:::::::::['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 
+----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+count   	x = (1,2,2)  		x.count(2) >>>  2
+index  		x = (0,2,3,4)          	x.index(1) >> 2
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+bolean 
+------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__',  
+------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+'bit_length', 
+     >>> bin(37)  -> '0b100101'   >>> (37).bit_length()  >> 6
+'conjugate', 
+       x= 0b100101 ->x.conjugate()>> 37
+'denominator', 
+
+'numerator', 
+'from_bytes',
+ 'to_bytes'
+'imag',
+ 'real',
+]
+ 
+
+int 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__',  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+'bit_length',     x= 3   x.bit_length() >>2    # cuenta los digitos binarios 
+  
+'conjugate',    x=3     x.conjugate()  >> 3   # cambia los diferentes numeros a decimales 
+  
+'denominator', 
+ 
+ 'numerator',
+ 
+ 'imag', 
+ 
+ 'real', 
+ 
+'to_bytes'
+'from_bytes',
+
+ 
+float 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+'__abs__', '__add__'
+, '__bool__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getformat__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__int__', '__le__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__pos__', '__pow__', '__radd__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmod__', '__rmul__', '__round__', '__rpow__', '__rsub__', '__rtruediv__', '__setattr__', '__setformat__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__',  
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+'as_integer_ratio',
+ 
+ 'conjugate',  x= 2.2      x.conjugate() >> 2.2   #  no tiene efecto 
+ 'fromhex', 
+ 
+'hex', 
+
+ 'imag',
+ 
+ 'is_integer',     x="23.233"   x.is_integer()>> False   y=20.0000   y.is_integer() >>True
+ 
+ 'real'
+
+] 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.:::::
+
+ 
+3.- objetos, sus funciones,"propiedades" y manejo avazado
+
+ 
+ 
+4.- documentacion generar documentacion  
+ 
+ 
+
+
+pep8
+class ejemplos :
+""" es ete es un comentario para clases """
+ 
+	def ejemplo();
+	""" este es un ejemplo de una documentacion
+	 esto es  puede poner en cualquiera  area 
+	"""
+print(ejemplo.__doc__)
+help(ejemplos)
+from modulos import funciones 
+help(modulos)
+ 
+ 
+6.- librerias dedicadas al sistema
+ 
+
+sys,dedicada al systema python
+ 
+os dedicada al systema operativo y el lugar que ocupa python en el
+7.- el resto ,ilos contructores,bd,times,random,etc 
+ 
+8.- graficas ,tkinter,,canvas
+5.- librerias dedicadas al internet 
+
+ 
+ 
+9.- librerias externas 
+ 
+ 
+
+
+keyword  #########################################################################################3
+__all__
+__builtins__
+__doc__
+__file__
+__name__
+__package__
+iskeyword  iskeyword("print")>>True    iskeyword("pow")>>False
+kwlist      keyword.kwlist        #es una variable que muestra todas las palabras reservadas 
+main
+
+math#########################################################################################################################
+######################################################
+__doc__
+__name__
+__package__
+
+sin	asin	sinh	asinh
+cos	acos	cosh	acosh
+tan	atan	tanh	atanh
+log
+log10
+sqrt
+
+atan2
+e
+pi
+ceil
+copysign
+degrees
+erf
+erfc
+exp
+expm1
+fabs
+factorial
+floor
+fmod
+frexp
+fsum
+gamma
+hypot
+isinf
+isnan
+ldexp
+lgamma
+
+log1p
+modf
+
+pow
+radians
+
+
+
+
+trunc
+
+###########################################3
+cmath
+__doc__
+__name__     cmath.__name__ >> cmath
+__package__
+
+cos	acos	cosh	acosh
+sin	asin	sinh	asinh
+tan	atan	tanh	atanh
+e	pi
+
+log  (x,base)
+log10  
+sqrt   raiz cuardrada
+exp   = e**x
+
+isinf
+isnan
+phase
+polar
+rect
+#####################################################
+####  random    ###########################################
+'BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST', 'SystemRandom', 'TWOPI', '_BuiltinMethodType', '_MethodType', '_Sequence', '_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_acos', '_ceil', '_cos', '_e', '_exp', '_inst', '_log', '_pi', '_random', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn'
+
+betavariate
+choice                         choice(["ola","cristo","como ","estas"]) >> "como" >> ace un random de una lista 
+expovariate
+gammavariate
+gauss
+getrandbits
+getstate
+lognormvariate
+normalvariate
+paretovariate
+randint                         randint(0,5)  # ase  un rando de del 0 al 5  
+random				random.random()*100     >>11.374116225811992
+randrange			
+sample
+seed
+setstate
+shuffle				x  = ["ola","cristo","como ","estas"] >> random.shuffle(x)  >>['como ', 'estas', 'cristo', 'ola']
+triangular
+uniform
+vonmisesvariate
+weibullvariate
+##################################################
+##############  time ######################
+_STRUCT_TM_ITEMS
+__doc__ 	__loader__	__name__	__package__	__spec__
+
+time				time()     >> 1549658352.7184017    	# regresa en segundos el tiempo que ha  pasado desde 1-ene-1970
+clock				time.clock()    			# debuelve cuanto tiempo ha corrido desde que inicio el programa 
+sleep                           slee(0.5)   	 			#duerme en milisegundos 
+
+altzone
+asctime
+ctime
+daylight
+get_clock_info
+gmtime
+localtime
+mktime
+monotonic
+perf_counter
+process_time
+strftime
+strptime
+struct_time
+timezone
+tzname
+
+###################################################
+idle 
+import idle  >> llama a otro ide 
+###################################################
