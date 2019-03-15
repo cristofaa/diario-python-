@@ -414,7 +414,7 @@ exp   = e**x
 isinf
 isnan
 phase
-polar
+polar    cmath.polar(1j) >> (1.0, 1.5707963267948966)    # repesenta  un numero en sus cordenadas  polares 
 rect
 #####################################################
 ####  random    ###########################################
