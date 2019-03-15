@@ -239,12 +239,11 @@ int
  
  'numerator',
  
- 'imag', 
+ 'imag', 12j+3= x  x.imag >>12
+ 'real',   12j+3= x  x.real >>3 
  
- 'real', 
- 
-'to_bytes'
-'from_bytes',
+'to_bytes' x.to_bytes(2,byteorder = "little")  >> b'\x17\x00' convierte un nuemero a byte primer parametro se ecoje manualmente el tamaño y el segundo el orden de como se va a mostra  de mayor a menor o de menor a mayor "big" o "little"
+'from_bytes' int.from_bytes(b'\x17\x00',byteorder = "little") >> 23 convierte un numero exadecimal  a decimal 
 
  
 float 
