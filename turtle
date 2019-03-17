@@ -1,0 +1,196 @@
+
+turtle
+#################################################################################################
+#################################################################################################
+#################################################################################################
+#################################################################################################
+                                                                      turtle   >>>>>>>c:/python34/lib/turtle.py
+
+['Canvas', 'Pen', 'RawPen', 'RawTurtle', 'Screen', 'ScrolledCanvas', 'Shape', 'TK', 'TNavigator', 'TPen', 'Tbuffer', 'Terminator', 'Turtle', 'TurtleGraphicsError', 'TurtleScreen', 'TurtleScreenBase', 'Vec2D', '_CFG', '_LANGUAGE', '_Root', '_Screen', '_TurtleImage', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__forwardmethods', '__loader__', '__methodDict', '__methods', '__name__', '__package__', '__spec__', '__stringBody', '_alias_list', '_getpen', '_getscreen', '_screen_docrevise', '_tg_classes', '_tg_screen_functions', '_tg_turtle_functions', '_tg_utilities', '_turtle_docrevise', '_ver', 'addshape', 'back', 'backward', 'begin_fill', 'begin_poly', 'bgcolor', 'bgpic', 'bk', 'bye', 'circle', 'clear', 'clearscreen', 'clearstamp', 'clearstamps', 'clone', 'color', 'colormode', 'config_dict', 'deepcopy', 'defstr', 'degrees', 'delay', 'distance', 'done', 'dot', 'down', 'end_fill', 'end_poly', 'exitonclick', 'fd', 'fillcolor', 'filling', 'forward', 'get_poly', 'get_shapepoly', 'getcanvas', 'getmethparlist', 'getpen', 'getscreen', 'getshapes', 'getturtle', 'goto', 'heading', 'hideturtle', 'home', 'ht', 'inspect', 'isdown', 'isfile', 'isvisible', 'join', 'left', 'listen', 'lt', 'mainloop', 'math', 'methodname', 'mode', 'numinput', 'onclick', 'ondrag', 'onkey', 'onkeypress', 'onkeyrelease', 'onrelease', 'onscreenclick', 'ontimer', 'pd', 'pen', 'pencolor', 'pendown', 'pensize', 'penup', 'pl1', 'pl2', 'pos', 'position', 'pu', 'radians', 'read_docstrings', 'readconfig', 'register_shape', 'reset', 'resetscreen', 'resizemode', 'right', 'rt', 'screensize', 'seth', 'setheading', 'setpos', 'setposition', 'settiltangle', 'setundobuffer', 'setup', 'setworldcoordinates', 'setx', 'sety', 'shape', 'shapesize', 'shapetransform', 'shearfactor', 'showturtle', 'simpledialog', 'speed', 'split', 'st', 'stamp', 'textinput', 'tilt', 'tiltangle', 'time', 'title', 'towards', 'tracer', 'turtles', 'turtlesize', 'types', 'undo', 'undobufferentries', 'up', 'update', 'width', 'window_height', 'window_width', 'write', 'write_docstringdict', 'xcor', 'ycor']
+
+turtle.Pen()
+
+
+DEFAULT_ANGLEOFFSET
+DEFAULT_ANGLEORIENT
+DEFAULT_MODE
+START_ORIENTATION
+__class__,__delattr__,__dict__,__dir__,__doc__,__eq__,__format__,__ge__,__getattribute__,__gt__,__hash__,__init__,__le__,__lt____module____ne__,__new____reduce____reduce_ex__,__repr__,__setattr__,__sizeof__,__str__
+__subclasshook__
+__weakref__
+_angleOffset
+_angleOrient
+_cc
+_clear
+_clearstamp
+_color
+_colorstr
+_creatingPoly
+_degreesPerAU
+_delay
+_drawing
+_drawturtle
+_fillcolor
+_fillitem
+_fillpath
+_fullcircle
+_getshapepoly
+_go
+_goto
+_hidden_from_screen
+_mode
+_newLine
+_orient
+_outlinewidth
+_pen
+_pencolor
+_pensize
+_poly
+_polytrafo
+_position
+_reset
+_resizemode
+_rotate
+_screen
+_setDegreesPerAU
+_setmode
+_shapetrafo
+_shearfactor
+_shown
+_speed
+_stretchfactor
+_tilt
+_tracer
+_undo
+_undobuffersize
+_undogoto
+_update
+_update,_data,_write
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+back | backward | bk             bk(50)     # mueve la pluma acia atras
+forward  | fd				    # mueve la pluma acia delante
+right   rt				    # gira la pluma por grados si son negativos,regresa     rt(180)  
+left    lt				    # gira la pluma por grados si son negativos,regresa     rt(180)
+goto   setpos	setposition     setpos(x,y) # salta a las cordenadas marcadas 
+:::::::::::::::::::::::::::::::::::
+setx				setx(10)    # cambia de posision pero solo en x 
+sety				sety(20)    # cambia de posicion pero solo en y 
+seth	setheading	  sethheading(90)   # define la posion en grados del pincel 
+circle		        circle (20,180,40)  # radio,grados,rederizado 
+home				home()      # pone su posiion en 0  y tambien los grados 
+dot			dot(20,"blue")      # solo es  un punto pide el tamaño y color ,no se queda en se tamaño 	 
+stamp			stamp()		    # genera una huella del pincel y tambien muestra su id  
+clearstamp		clearstamp(stamp)   # elimina la huella creada 
+clearstamps             clearstamps()       # elimina todos los stamps creados 
+undo			for i in range(30): tortuga.undo()  # elimina  los pasos creados  del ultimo al primero
+speed        speed(1), speed(0.02)          # velocidad del 1 al 10 en decimal  y en flotate  los mide en milisegundos 
+##########################
+pos    position			pos()       # muestra la cordenada actual 
+towards	  goto(0,10) towards(0,0)>>90	    # regresa los grados de un punto al pincel 
+xcor				xcor()	    # regresa la cordenada en x
+ycor				ycor()      # regresa la cordenada en y 
+distance   goto(0,0)   distance(10,40)      # mide la distancia de un punto al pincel 
+heading				heading()   # muestra los grados actuales 
+############################
+degrees             degrees(400)            # por defecto tiene 360 grados  pero se puede cambiar 
+radians 	radianes() 	            # degrees(2*math.pi)  
+##########################
+pendown  pd  down                           # baja el pincel para pintar 
+penup   pu   up				    # levana el pince  para no pintar 
+pensize   width		pensize(10)         # asina el ancho del pincel 		    
+pen                      pen(fillcolor="black", pencolor="red")   # asigna las varialbes para la configuraicon
+  pen().items            items()            # muestra la comfiguracion actua del pincel
+isdown                   isdown()           # regresa true si esta abajo el pincel 
+##########################
+fillcolor               fillcolor("blue")   # asigna el color de relleno 
+end_fill				    # ba a rellenar todo lo que este dentro de begin_fill
+begin_fill                                  # todo lo que se cree en ese bloque
+pencolor      pencolor("brown")             #asigna y debuelve el color actual  del pincel 
+color			color("blue","green")	    # cambia el color del pincel y de fillcolor 
+filling      filling()                       # pregunta si esta activo el fillcolor
+#########################
+reset        reset()			    #elimina todo y lo deja por defecto 
+clear         clear()			    #elimina solo lo dibujado , las configuraciones las deja 
+write     write("hola", move=False, align="left", font=("Arial", 8, "normal")) #tiene mas configuraciones  
+####################
+showturtle   st					# muestra el pincel 
+hideturtle	ht                             #oculta el pincel 
+isvisible        				# pregunta si esta oculto 
+###########################
+shape						cambia la forma del pincel shapes: “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”. 
+resizemode
+shapesize   turtlesize  shapesize(10,10)       cambia tamaño del pincel 
+shearfactor
+settiltangle
+tiltangle
+tilt
+shapetransform
+get_shapepoly
+###########################
+onclick
+ondrag
+onrelease
+#######################
+begin_poly
+end_poly
+get_poly
+clone                 tortugita2=tortugita.clone()  # regresa un clon de la primera tortuga                      
+getturtle   getpen
+getscreen                
+
+setundobuffer
+undobufferentries
+##############################################################################################3
+currentLine
+currentLineItem
+drawingLineItem
+items
+screens
+stampItems
+turtle
+undobuffer
+
+Pen.screen
+ bgcolor
+ bgpic
+ clear	clearscreen
+ reset 	resetscreen
+ screensize 
+ setworldcoordinates
+ ########################
+ delay
+ tracer
+ update
+ ###################
+ listen
+ onkey  onkeyrelease
+ onkeypress
+ onscreenclick
+ ontimer
+ mainloop
+ ###################
+ mode
+ colormode
+ getcanvas
+ addshape
+ turtles
+ window_height
+ window_width
+ ########################
+ numinput
+ textinput
+ ###################
+ 
+ bye
+ exitonclick
+ setup
+ title
+ ######################
+ canvheight
+ canvwidth
+ cv
+ getshapes
+ register_shape
+ xscale
+ yscale
+ 
