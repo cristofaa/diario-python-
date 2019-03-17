@@ -1,0 +1,255 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+funciones tiene las mismas que el tipo de datos que debuelva  
+clases sele agregan segun las funciones que esten declaradas  mas estas
+
+ 
+ 
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__' 
+ 
+ 
+funciones  preconstruidas  dir(__builtins__) 
+
+
+               IO Error
+               OS Error
+              EOF Error
+
+              Key Error
+              Tab Error
+             Name Error
+             Type Error
+            Value Error
+            Index Error
+           System Error
+           Memory Error
+           Buffer Error
+           Import Error
+           Lookup Error
+           Syntax Error
+          Unicode Error
+
+          Windows Error
+          Runtime Error
+          Timeout Error
+         Overflow Error
+        Reference Error
+        Assertion Error
+
+        Attribute Error
+       Permission Error
+       Arithmetic Error
+       Connection Error
+       BlockingIO Error
+
+       BrokenPipe Error
+       FileExists Error
+      Environment Error
+      Indentation Error
+      Interrupted Error
+     ChildProcess Error
+     FileNotFound Error
+
+     IsADirectory Error
+     ZeroDivision Error
+     UnboundLocal Error
+    FloatingPoint Error
+    ProcessLookup Error
+    NotADirectory Error
+    UnicodeDecode Error
+
+    UnicodeEncode Error
+   NotImplemented Error
+  ConnectionReset Error
+ UnicodeTranslate Error
+ConnectionRefused Error
+ConnectionAborted Error
+                   Warning 
+              User Warning
+
+             Bytes Warning
+
+            Future Warning
+            Import Warning
+            Syntax Warning
+           Unicode Warning
+           Runtime Warning
+          Resource Warning
+
+       Deprecation Warning
+PendingDeprecation Warning
+    Exception
+BaseException
+KeyboardInterrupt 
+NotImplemented
+GeneratorExit
+StopIteration
+SystemExit
+__build_class__
+
+Ellipsis
+
+
+
+, __debug__
+,
+ __doc__', 
+
+'__import__',
+
+ '__loader__',
+
+ '__name__', 
+
+'__package__',
+ 
+'__spec__',
+
+
+ 
+
+
+
+bytearray
+
+, __add__, __alloc__, __class__, __contains__, __delattr__, __delitem__, __dir__, __doc__, __eq__, __format__, __ge__, __getattribute__, __getitem__, __gt__, __hash__, __iadd__, __imul__, __init__, __init_subclass__, __iter__, __le__, __len__, __lt__, __mod__, __mul__, __ne__, __new__,__reduce__, __reduce_ex__, __repr__, __rmod__, __rmul__, __setattr__, __setitem__, __sizeof__, __str__, __subclasshook__
+ append
+ capitalize
+ center
+ clear
+ copy
+ count
+ decode
+ endswith
+ expandtabs
+ extend
+ find
+ fromhex
+ hex
+ index
+ insert
+ isalnum
+ isalpha
+ isascii
+ isdigit
+ islower
+ isspace
+ istitle
+ isupper
+ join
+ ljust
+ lower
+ lstrip
+ maketrans
+ partition
+ pop
+ remove
+ replace
+ reverse
+ rfind
+ rindex
+ rjust
+ rpartition
+ rsplit
+ rstrip
+ split
+ splitlines
+ startswith
+ strip
+ swapcase
+ title
+ translate
+ upper
+ zfill
+  
+
+
+
+memoryview
+  format
+  itemsize
+  ndim
+  readonly
+  release
+  shape
+  strides
+  suboffsets
+  tobytes
+  tolist
+
+property
+staticmethod
+
+super
+
+
+
+slice            x="HOLA"   y=slice(0,5,2)         x[y]  >>> "HL"   # es el constructor de los slicing 
+callable         callable(objeto)   >>> true           # si el objeto es invocable se  marca true si no se puede invocar marca false 
+map		list((map(funcion,lista)))  >> afecta la funcion a toda la lisda de datos  por ejemplo si a todos le suma 1  en toda la lista se  suma 1 
+format        format("hola",">30")    # es como el str.format()
+repr            repr(12) >>'12'  es parecido a str  investigar mas sobre este porque este los respresenta para el sistema 
+zip             >>> x = [1, 2, 3]
+>>> y = [4, 5, 6]
+>>> zipped = zip(x, y)
+>>> list(zipped)
+[(1, 4), (2, 5), (3, 6)]
+>>> x2, y2 = zip(*zip(x, y))
+>>> x == list(x2) and y == list(y2)>>True 
+setattr		setattr(x, 'foobar', 123) is equivalent to x.foobar = 123.
+getattr		getattr(objeto,"funcion")  #OBTIENE VALOR DEL ATRIBUTO ES EQUIVAOENTE A  OBJETO.FUNCION()
+hasattr
+ 	hasattr(objeto,"FUNCION")  # SI ESTA ATRIBUIDO REGRESA tRUE Y SI NO ESTA ATRIBUIDO REGRESA FALSE 
+delattr
+         delattr(objeto,"funcion")  #elimina la funcion del objeto 
+any		x=["1","2","3","4","5"]     any(x)   >>> True  # si esta vacio  regresa  un False 
+vars     	vars(objeto)    >>  es e	equivalente a locals()  muestra las  variable de un objeto 
+filter           nums = [0, 2, 5, 8, 10, 23, 31, 35, 36, 47, 50, 77, 93]
+                 result = filter(lambda x: x % 2 == 0, nums)
+                 print(result)    #
+id 		 x=12  id(x) >>     muestra  la  memoria que esta utilizando ese objeto 
+reversed
+        for i in reversed(xrange(1,10,2)):    print(i)          # pone a revez  una iteracion 
+enumerate       for i,v in enumerate(["hola","como ","estas"]):  print(i,v)      enumera  una iteracion 
+locals          locals()  debuelve todas las variables 
+globals         globals()  debuelve todas las variables  investigar su funcionamiento 
+isinstance
+      x=instancia   isinstance(x,instancia) >> True regresa cierto si esa es la instancia
+issubclass      issubclass(clase_hija, clase_padre) >>true   # regresa cierto si la hija pertenece al padre
+complex         complex(1j) >>(1j)  # crea un numero imaginario complejo
+type        	x=12  type(x) 
+set             crear un direccionario vacio  s2 = set(range(10))  o lo crear  con uno iterable 
+frozenset       es parecido a set  investigar diferencias  c:
+ 
+'False',
+'True', 
+
+'None',
+'tuple'    x=[1,2,3]   c=tupla(x) >>c>>(1,2,3)
+ 
+'classmethod',   convierte  una funcion en un metodo
+ 'sum',
+     x=[1,1,1,1,2]     sum(x)   >>  6
+'hash',   muestra y direcciones el lugar que ocupa un objeto  investigar mas 
+
+ 
+'all',         c=[0,0,0,0,0,0]   all(c) >>false    x=[1,1,1,1,2]   all(x) >>>True
+
+ 'copyright',  'credits', 
+'license', 
+'iter',
+    'next',
+  
+'compile', 	'exec',	'eval',       eval("12+3")        >>15
+ 'dict' 
+'str',	'int',
+	'oct',
+ 	'hex', 
+'float',  'bytes' 'ascii','bool', 
+'bin',('chr',ord)son inversos   
+'open',	 'range'	'quit',
+	'print',	'input', 	'help', 'exit'  'dir',
+ 'max',	 'pow',	'abs',         
+'min',	'len',	'list',    
+'sorted',	divmod(9,2)>(4, 1) 'round(112.123,2)' >>112.12  round(112.123,-2)>>100.0 
+
