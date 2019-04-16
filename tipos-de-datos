@@ -224,28 +224,20 @@ bolean
 'imag',
  'real',
 ]
- 
-
 int 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__',  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 'bit_length',     x= 3   x.bit_length() >>2    # cuenta los digitos binarios 
-  
 'conjugate',    x=3     x.conjugate()  >> 3   # cambia los diferentes numeros a decimales 
-  
 'denominator', 
- 
  'numerator',
- 
  'imag', 12j+3= x  x.imag >>12
  'real',   12j+3= x  x.real >>3 
- 
 'to_bytes' x.to_bytes(2,byteorder = "little")  >> b'\x17\x00' convierte un nuemero a byte primer parametro se ecoje manualmente el tamaño y el segundo el orden de como se va a mostra  de mayor a menor o de menor a mayor "big" o "little"
 'from_bytes' int.from_bytes(b'\x17\x00',byteorder = "little") >> 23 convierte un numero exadecimal  a decimal 
 
- 
 float 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
@@ -256,58 +248,20 @@ float
  
  'conjugate',  x= 2.2      x.conjugate() >> 2.2   #  no tiene efecto 
  'fromhex', 
- 
 'hex', 
-
  'imag',
- 
  'is_integer',     x="23.233"   x.is_integer()>> False   y=20.0000   y.is_integer() >>True
- 
  'real'
-
 ] 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.:::::
-
- 
 3.- objetos, sus funciones,"propiedades" y manejo avazado
-
- 
- 
 4.- documentacion generar documentacion  
- 
- 
-
-
 pep8
 class ejemplos :
 """ es ete es un comentario para clases """
- 
 	def ejemplo();
 	""" este es un ejemplo de una documentacion
 	 esto es  puede poner en cualquiera  area 
@@ -316,157 +270,12 @@ print(ejemplo.__doc__)
 help(ejemplos)
 from modulos import funciones 
 help(modulos)
- 
- 
 6.- librerias dedicadas al sistema
- 
-
 sys,dedicada al systema python
- 
 os dedicada al systema operativo y el lugar que ocupa python en el
 7.- el resto ,ilos contructores,bd,times,random,etc 
- 
 8.- graficas ,tkinter,,canvas
 5.- librerias dedicadas al internet 
 
  
  
-9.- librerias externas 
- 
- 
-
-
-keyword  #########################################################################################3
-__all__
-__builtins__
-__doc__
-__file__
-__name__
-__package__
-iskeyword  iskeyword("print")>>True    iskeyword("pow")>>False
-kwlist      keyword.kwlist        #es una variable que muestra todas las palabras reservadas 
-main
-
-math#########################################################################################################################
-######################################################
-__doc__
-__name__
-__package__
-
-sin	asin	sinh	asinh
-cos	acos	cosh	acosh
-tan	atan	tanh	atanh
-log
-log10
-sqrt
-
-atan2
-e
-pi
-ceil
-copysign
-degrees
-erf
-erfc
-exp
-expm1
-fabs
-factorial
-floor
-fmod
-frexp
-fsum
-gamma
-hypot
-isinf
-isnan
-ldexp
-lgamma
-
-log1p
-modf
-
-pow
-radians
-
-
-
-
-trunc
-
-###########################################3
-cmath
-__doc__
-__name__     cmath.__name__ >> cmath
-__package__
-
-cos	acos	cosh	acosh
-sin	asin	sinh	asinh
-tan	atan	tanh	atanh
-e	pi
-
-log  (x,base)
-log10  
-sqrt   raiz cuardrada
-exp   = e**x
-
-isinf
-isnan
-phase
-polar    cmath.polar(1j) >> (1.0, 1.5707963267948966)    # repesenta  un numero en sus cordenadas  polares 
-rect
-#####################################################
-####  random    ###########################################
-'BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST', 'SystemRandom', 'TWOPI', '_BuiltinMethodType', '_MethodType', '_Sequence', '_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_acos', '_ceil', '_cos', '_e', '_exp', '_inst', '_log', '_pi', '_random', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn'
-
-betavariate
-choice                         choice(["ola","cristo","como ","estas"]) >> "como" >> ace un random de una lista 
-expovariate
-gammavariate
-gauss
-getrandbits
-getstate
-lognormvariate
-normalvariate
-paretovariate
-randint                         randint(0,5)  # ase  un rando de del 0 al 5  
-random				random.random()*100     >>11.374116225811992
-randrange			
-sample
-seed
-setstate
-shuffle				x  = ["ola","cristo","como ","estas"] >> random.shuffle(x)  >>['como ', 'estas', 'cristo', 'ola']
-triangular
-uniform
-vonmisesvariate
-weibullvariate
-##################################################
-##############  time ######################
-_STRUCT_TM_ITEMS
-__doc__ 	__loader__	__name__	__package__	__spec__
-
-time				time()     >> 1549658352.7184017    	# regresa en segundos el tiempo que ha  pasado desde 1-ene-1970
-clock				time.clock()    			# debuelve cuanto tiempo ha corrido desde que inicio el programa 
-sleep                           slee(0.5)   	 			#duerme en milisegundos 
-
-altzone
-asctime
-ctime
-daylight
-get_clock_info
-gmtime
-localtime
-mktime
-monotonic
-perf_counter
-process_time
-strftime
-strptime
-struct_time
-timezone
-tzname
-
-###################################################
-idle 
-import idle  >> llama a otro ide 
-###################################################
