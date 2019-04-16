@@ -1,0 +1,139 @@
+9.- librerias externas 
+ 
+ 
+
+
+keyword  #########################################################################################3
+__all__
+__builtins__
+__doc__
+__file__
+__name__
+__package__
+iskeyword  iskeyword("print")>>True    iskeyword("pow")>>False
+kwlist      keyword.kwlist        #es una variable que muestra todas las palabras reservadas 
+main
+
+math#########################################################################################################################
+######################################################
+__doc__
+__name__
+__package__
+
+sin	asin	sinh	asinh
+cos	acos	cosh	acosh
+tan	atan	tanh	atanh
+log
+log10
+sqrt
+
+atan2
+e
+pi
+ceil
+copysign
+degrees
+erf
+erfc
+exp
+expm1
+fabs
+factorial
+floor
+fmod
+frexp
+fsum
+gamma
+hypot
+isinf
+isnan
+ldexp
+lgamma
+
+log1p
+modf
+
+pow
+radians
+
+
+
+
+trunc
+
+###########################################3
+cmath
+__doc__
+__name__     cmath.__name__ >> cmath
+__package__
+
+cos	acos	cosh	acosh
+sin	asin	sinh	asinh
+tan	atan	tanh	atanh
+e	pi
+
+log  (x,base)
+log10  
+sqrt   raiz cuardrada
+exp   = e**x
+
+isinf
+isnan
+phase
+polar    cmath.polar(1j) >> (1.0, 1.5707963267948966)    # repesenta  un numero en sus cordenadas  polares 
+rect
+#####################################################
+####  random    ###########################################
+'BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST', 'SystemRandom', 'TWOPI', '_BuiltinMethodType', '_MethodType', '_Sequence', '_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_acos', '_ceil', '_cos', '_e', '_exp', '_inst', '_log', '_pi', '_random', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn'
+
+betavariate
+choice                         choice(["ola","cristo","como ","estas"]) >> "como" >> ace un random de una lista 
+expovariate
+gammavariate
+gauss
+getrandbits
+getstate
+lognormvariate
+normalvariate
+paretovariate
+randint                         randint(0,5)  # ase  un rando de del 0 al 5  
+random				random.random()*100     >>11.374116225811992
+randrange			
+sample
+seed
+setstate
+shuffle				x  = ["ola","cristo","como ","estas"] >> random.shuffle(x)  >>['como ', 'estas', 'cristo', 'ola']
+triangular
+uniform
+vonmisesvariate
+weibullvariate
+##################################################
+##############  time ######################
+_STRUCT_TM_ITEMS
+__doc__ 	__loader__	__name__	__package__	__spec__
+
+time				time()     >> 1549658352.7184017    	# regresa en segundos el tiempo que ha  pasado desde 1-ene-1970
+clock				time.clock()    			# debuelve cuanto tiempo ha corrido desde que inicio el programa 
+sleep                           slee(0.5)   	 			#duerme en milisegundos 
+
+altzone
+asctime
+ctime
+daylight
+get_clock_info
+gmtime
+localtime
+mktime
+monotonic
+perf_counter
+process_time
+strftime
+strptime
+struct_time
+timezone
+tzname
+
+###################################################
+idle 
+import idle  >> llama a otro ide 
+###################################################
