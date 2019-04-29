@@ -1,1 +1,33 @@
+1.- palabras reservadas y utilizacion
 
+else  if 	or  not 
+and     
+elif     while    del   is    x =1      x is 0+1 >>False     x == 0+1 True      x is 1  >> True
+
+import 
+ from   as 
+class    def   
+pass  global   return     lambda   >> landa  es una funcion de una solo linea      x= lambda  a,b : a+b >> x(1,2)>> 3
+ 
+exec   exec("print('hola')")     # ejecuta un codigo que este en string 
+ 
+in       x=[hola,criss]         hola in x >>True     nose in x >>>false
+   for          >>>for i in [1,2,3]:         for  i in ranger(1,30)  for es un iterador  binca de un a uno 
+break     rompe el  ciclo 
+continue   reinicia el ciclo , pero solo ciclo las variables se quedan     
+ .............................................................................................................
+with    es  un poquitin complejilla  investigar mas  a fondo 
+     
+yield ,investigar mas a profundidad 
+..................................................................................................................................
+print
+
+ raise 
+
+ except  
+finally 
+assert
+   try 
+ 
+ 
+ 
