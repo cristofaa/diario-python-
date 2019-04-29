@@ -41,81 +41,81 @@ assert
 2.- funciones de las variables [str,int,bool,exa etc] 
 str 
 ________________________________________________________
-['__add__',
-'__class__', 
-'__contains__',
-'__delattr__',
-'__dir__', 
-'__doc__', 
-'__eq__', 
-'__format__',
-'__ge__',
-'__getattribute__', 
-'__getitem__', 
-'__getnewargs__',
-'__gt__', 
-'__hash__',
-'__init__',
-'__iter__',
-'__le__',
-'__len__', 
-'__lt__', 
-'__mod__', 
-'__mul__', 
-'__ne__', 
-'__new__', 
-'__reduce__',
-'__reduce_ex__',
-'__repr__',
-'__rmod__', 
-'__rmul__', 
-'__setattr__',
-'__sizeof__',
-'__str__', 
-'__subclasshook__',
-startswith     x= 'carro ' 		    	x.startswith("c")	                    >> True 			x.startswith("o")>>false 
-endswith       x= "carro"  		   	  x.endswith("o")		                    >> True  			x.endswith("c")>>false
-isalnum        x= "11c" 			      x.isalnum()		                        >> true
-isdecimal      x= "11"  			      x.isdecimal() 		                    >> true
-isnumeric 		 x= "11"  			      x.isnumeric() 		                    >> true 
-isdigit        x= "11"  			      x.isdigit()		                        >> true
-isupper  		   x= "CARRO"  			    x.isupper()		                        >> true 
-islower			   x= "carro" 			    x.islower() 		                      >> true
-isspace    		 x= " "  			        x.isspace()  		                      >> true
-isalpha     	 x= "carro" 			    x.isalpha() 		                      >> true 			x="carro rojo"  > x.isalpha() >>false
-isprintable    x= "hola"            b="\nhola\t"     	 x.isprintable()	  >> True       			b.isprintable()>>False       
-istitle        x= "Hola Banda"      y="hola banda"     x.istitle()		    >> true   			y.istitle()>>False
-isidentifier   x= "hola"            y="hola a los 22"  x.isidentifier()	  >> True       			y.isidentifier() >>false        lee si hay  espacio o numeros
-center    		 x= "hola"   		    	x.center(24,"*")    	                >> '**********hola**********'
-ljust    		   x= "hola"    	    	x.ljust(10,'*')  	                    >> 'hola******'
-rjust    		   x= "hola"    	    	x.rjust(10,'*')  	                    >> '******hola'
-capitalize  	 x= "carro"  		    	x.capitalize() 		                    >> 'Carro'
-partition      x= 'carro rojo'    	x.partition ("ro") 	                  >> ('car', 'ro', ' rojo')	x.partition ("z") >>("carro rojo","","")
-replace        x= "carro"  			    x.replace("ca","zo") 	                >> "zorro"  			x.replace("r","o",1)  >>'caoro'
-split 			   x= "carro rojo"      x.split()  		                        >> ['carro', 'rojo'] 		x.split("r") >>['ca', '', 'o ', 'ojo']-->x.split (None ,0) >>  ['carro rojo']
-count      		 x= "carro"          	x.count("o")   		                    >> 1  				x.count("r",0,2)  >>2
-find			     x= "carro" 			    x.find(ro) 		                        >> 3   				x.find ("r",0,4) >>2 -> x.find ("r",0,1) >> -1
-index          x= "carro " 	      	x.index("o") 	                 	      >> 4 				# es igual al de arriva    
-lower  			   x= "CARRO"  		    	x.lower()  		                        >> "carro"
-upper 			   x= "carro"   		    x.upper() 		                        >> "CARRO"
-swapcase       x= "carro ROJO"      x.swapcase()   		                    >> 'CARRO rojo'
-encode         x= "carro" 			    x.encode("utf-16") 	                  >> b'\xff\xfec\x00a\x00r\x00r\x00o\x00 \x00r\x00o\x00j\x00o\x00'      x.encode("utf-8")->>b'carro rojo'
-expandtabs     x= 'carro\trojo'     x.expandtabs (20) 	                  >> 'carro               rojo' 
-title    		   x= "hola todos "     x.title()		                          >> Hola Todos    	#pone la primera de cada palabra en mayuscula
-zfill      		 x= "hola"   			    x.zfill(10) 		                      >> '000000hola'
-join    		   x= ["1","2","3"]     espacio="__"       espacio.join(x)		>> "1__2__3"
-splitlines   		x= "hola banda"     y="hola\nbanda" x.splitlines() 		    >> ["hola banda"]  		x.splitlines() >> ["hola","banda"]
-rsplit   		    x= "hola cristo"    x.rsplit("cristo") 	                  >> ["hola",""]     		#genera una lista pero permite eliminar una palabra 
-rfind    		    x= "holao"     	    x.find("o")		                        >> 1      			x.rfind("o")>>4
-rindex  		    x= "holao"       	  x.index("o")		                      >> 1      			x.rindex("o")>>4 
-rpartition   		x= "muhola mundo"   x.partition("mu")         	          >> ('', 'mu', 'hola mundo')   	x.rpartition("mu")    >>>('muhola ', 'mu', 'ndo')
-lstrip   		    x= "holah"     			x.lstrip(h) 		                      >> olah 
-rstrip    		  x= "holah"     			x.rstrip(h) 		                      >> hola 
-strip  			    x= "holah"     			x.strip(h) 		                        >> ola    			#elimina todos los scaracteres 
-casefold        x= "HOLA"      			x.casefold()  		                    >> hola    			#tambien lee igual la s alemana  por ss    
-format_map      x= {"1":"cristo","2":"tapia"}    "mi nombre es {1} {2}"   >>"mi nombre es cristo tapia"
-maketrans       x= str.maketrans("ho","h2")                               #crea una igualacion de caracteres   y esta se manda a traslate para crearla 
-translate       "hola mundo".translate (x)                                >>    'h2la mund2'            x={104: "hola", 111: 50}          "hola mundo".translate (x)   >>> 'hola2la mund2'   # se puede usar  una igualacion con str
+['__add__',         x.__add__()              <=>
+'__class__',        x.__class__()            <=>
+'__contains__',     x.__contains__()         <=>
+'__delattr__',      x.__delattr__()          <=>
+'__dir__',          x.__dir__()              <=>
+'__doc__',          x.__doc__()              <=>
+'__eq__',           x.__eq__()               <=>
+'__format__',       x.__format__()           <=>
+'__ge__',           x.__ge__()               <=>
+'__getattribute__', x.__ getattribute__()    <=>
+'__getitem__',      x.__getitem__()          <=>
+'__getnewargs__',   x.__getnewargs__()       <=>
+'__gt__',           x.__gt__()               <=>
+'__hash__',         x.__hash__()             <=>
+'__init__',         x.__init__()             <=>
+'__iter__',         x.__iter__()             <=>
+'__le__',           x.__le__()               <=>
+'__len__',          x.__len__()              <=>
+'__lt__',           x.__lt__()               <=>
+'__mod__',          x.__mod__()              <=>
+'__mul__',          x.__mul__()              <=>
+'__ne__',           x.__ne__()               <=>
+'__new__',          x.__new__()              <=>
+'__reduce__',       x.__reduce__()           <=>
+'__reduce_ex__',    x.__reduce_ex__()        <=>
+'__repr__',         x.__repr__()             <=>
+'__rmod__',         x.__rmod__()             <=>
+'__rmul__',         x.__rmul__()             <=>  
+'__setattr__',      x.__setattr__()          <=>
+'__sizeof__',       x.__sizeof__()           <=>
+'__str__',          x.__str__()              <=>
+'__subclasshook__', x.__subclasshook__()     <=>
+startswith            x= 'carro ' 		    	x.startswith("c")	                    >> True 			x.startswith("o")>>false 
+endswith              x= "carro"  		        x.endswith("o")		                    >> True  			x.endswith("c")>>false
+isalnum               x= "11c" 			        x.isalnum()		                        >> true
+isdecimal             x= "11"  			        x.isdecimal() 		                    >> true
+isnumeric             x= "11"  			        x.isnumeric() 		                    >> true 
+isdigit               x= "11"  			        x.isdigit()		                        >> true
+isupper               x= "CARRO"  		        x.isupper()		                        >> true 
+islower               x= "carro"                        x.islower() 		                      >> true
+isspace               x= " "  			        x.isspace()  		                      >> true
+isalpha               x= "carro" 		        x.isalpha() 		                      >> true 			x="carro rojo"  > x.isalpha() >>false
+isprintable           x= "hola"                         b="\nhola\t"     	 x.isprintable()	  >> True       			b.isprintable()>>False       
+istitle               x= "Hola Banda"                   y="hola banda"     x.istitle()		    >> true   			y.istitle()>>False
+isidentifier          x= "hola"                         y="hola a los 22"  x.isidentifier()	  >> True       			y.isidentifier() >>false        lee si hay  espacio o numeros
+center                x= "hola"   		    	x.center(24,"*")    	                >> '**********hola**********'
+ljust                 x= "hola"    	        	x.ljust(10,'*')  	                    >> 'hola******'
+rjust                 x= "hola"    	    	        x.rjust(10,'*')  	                    >> '******hola'
+capitalize            x= "carro"  		    	x.capitalize() 		                    >> 'Carro'
+partition             x= 'carro rojo'             	x.partition ("ro") 	                  >> ('car', 'ro', ' rojo')	x.partition ("z") >>("carro rojo","","")
+replace               x= "carro"  		        x.replace("ca","zo") 	                >> "zorro"  			x.replace("r","o",1)  >>'caoro'
+split                 x= "carro rojo"                   x.split()  		                        >> ['carro', 'rojo'] 		x.split("r") >>['ca', '', 'o ', 'ojo']-->x.split (None ,0) >>  ['carro rojo']
+count                 x= "carro"          	        x.count("o")   		                    >> 1  				x.count("r",0,2)  >>2
+find                  x= "carro"                        x.find(ro) 		                        >> 3   				x.find ("r",0,4) >>2 -> x.find ("r",0,1) >> -1
+index                 x= "carro " 	          	x.index("o") 	                 	      >> 4 				# es igual al de arriva    
+lower                 x= "CARRO"  		    	x.lower()  		                        >> "carro"
+upper                 x= "carro"   		        x.upper() 		                        >> "CARRO"
+swapcase              x= "carro ROJO"                   x.swapcase()   		                    >> 'CARRO rojo'
+encode                x= "carro"                        x.encode("utf-16") 	                  >> b'\xff\xfec\x00a\x00r\x00r\x00o\x00 \x00r\x00o\x00j\x00o\x00'      x.encode("utf-8")->>b'carro rojo'
+expandtabs            x= 'carro\trojo'                  x.expandtabs (20) 	                  >> 'carro               rojo' 
+title                 x= "hola todos "                  x.title()		                          >> Hola Todos    	#pone la primera de cada palabra en mayuscula
+zfill                 x= "hola"                         x.zfill(10) 		                      >> '000000hola'
+join                  x= ["1","2","3"]                  espacio="__"       espacio.join(x)		>> "1__2__3"
+splitlines            x= "hola banda"                   y="hola\nbanda" x.splitlines() 		    >> ["hola banda"]  		x.splitlines() >> ["hola","banda"]
+rsplit                x= "hola cristo"                  x.rsplit("cristo") 	                  >> ["hola",""]     		#genera una lista pero permite eliminar una palabra 
+rfind                 x= "holao"     	                x.find("o")		                        >> 1      			x.rfind("o")>>4
+rindex                x= "holao"        	        x.index("o")		                      >> 1      			x.rindex("o")>>4 
+rpartition            x= "muhola mundo"                 x.partition("mu")         	          >> ('', 'mu', 'hola mundo')   	x.rpartition("mu")    >>>('muhola ', 'mu', 'ndo')
+lstrip                x= "holah"     			x.lstrip(h) 		                      >> olah 
+rstrip                x= "holah"     			x.rstrip(h) 		                      >> hola 
+strip                 x= "holah"     			x.strip(h) 		                        >> ola    			#elimina todos los scaracteres 
+casefold              x= "HOLA"      			x.casefold()  		                    >> hola    			#tambien lee igual la s alemana  por ss    
+format_map            x= {"1":"cristo","2":"tapia"}    "mi nombre es {1} {2}"   >>"mi nombre es cristo tapia"
+maketrans             x= str.maketrans("ho","h2")                               #crea una igualacion de caracteres   y esta se manda a traslate para crearla 
+translate             "hola mundo".translate (x)                                >>    'h2la mund2'            x={104: "hola", 111: 50}          "hola mundo".translate (x)   >>> 'hola2la mund2'   # se puede usar  una igualacion con str
 
 format
  format_spec ::=  [[fill]align][sign][#][0][width][,][.precision][type]
@@ -293,69 +293,68 @@ index  		x = (0,2,3,4)  	x.index(1) >> 2
 ___________________________________________________________
 bolean 
 ----------------------------------------------------------------------------------------------------------------------- 
-['__abs__',
-'__add__', 
-'__and__',
-'__bool__', 
-'__ceil__', 
-'__class__',
-'__delattr__',
-'__dir__', 
-'__divmod__',
-'__doc__',
-'__eq__', 
-'__float__',
-'__floor__', 
-'__floordiv__', 
-'__format__',
-'__ge__',
-'__getattribute__',
-'__getnewargs__',
-'__gt__', 
-'__hash__',
-'__index__', 
-'__init__',
-'__int__', 
-'__invert__', 
-'__le__', 
-'__lshift__',
-'__lt__',
-'__mod__', 
-'__mul__', 
-'__ne__', 
-'__neg__',
-'__new__',
-'__or__', 
-'__pos__',
-'__pow__',
-'__radd__',
-'__rand__', 
-'__rdivmod__', 
-'__reduce__',
-'__reduce_ex__',
-'__repr__',
-'__rfloordiv__', 
-'__rlshift__',
-'__rmod__', 
-'__rmul__', 
-'__ror__',
-'__round__', 
-'__rpow__',
-'__rrshift__',
-'__rshift__',
-'__rsub__',
-'__rtruediv__', 
-'__rxor__', 
-'__setattr__', 
-'__sizeof__',
-'__str__', 
-'__sub__', 
-'__subclasshook__',
-'__truediv__',
-'__trunc__',
-'__xor__',  
------------------------------------------
-
+['__abs__',           x.__abs__()                     <=>            abs(x)
+'__add__',            x.__add__(y)                    <=>            x+y
+'__and__',            x.__and__()                     <=>            x&y
+'__bool__',           x.__bool__()                    <=>
+'__ceil__',           x.__ceil__()                    <=>
+'__class__',          x.__class__()                   <=>
+'__delattr__',        x.__delattr__()                 <=>
+'__dir__',            x.__dir__()                     <=>
+'__divmod__',         x.__divmod__(y)                 <=>           divmod(x,y)
+'__doc__',            x.__doc__()                     <=>
+'__eq__',             x.__eq__()                      <=>
+'__float__',          x.__foat__()                    <=>
+'__floor__',          x.__floor__()                   <=>
+'__floordiv__',       x.__floordiv__()                <=>
+'__format__',         x.__format__()                  <=>
+'__ge__',             x.__ge__()                      <=>
+'__getattribute__',   x.__getattribute__()            <=>
+'__getnewargs__',     x.____getnewargs__()            <=>
+'__gt__',             x.__gt__()                      <=>
+'__hash__',           x__hash__()                     <=>
+'__index__',          x[y.__index__():z.__index__()]  <=>    x[y:z]
+'__init__',           x.__init__()                    <=>
+'__int__',            x.__int__()                     <=>
+'__invert__',         x.__invert__()                  <=>
+'__le__',             x.__le__()                      <=>
+'__lshift__',         x.__lshift__()                  <=>
+'__lt__',             x.__lt__()                      <=>
+'__mod__',            x.__mod__()                     <=>
+'__mul__',            x.__mul__()                     <=>
+'__ne__',             x.__ne__()                      <=>
+'__neg__',            x.__neg__()                     <=>
+'__new__',            x.__new__()                     <=>
+'__or__',             x.__or__()                      <=>
+'__pos__',            x.__pos__()                     <=>
+'__pow__',            x.__pow__()                     <=>
+'__radd__',           x.__radd__()                    <=>
+'__rand__',           x.__rand__()                    <=>
+'__rdivmod__',        x.__rdivmod__()                 <=>
+'__reduce__',         x.__reduce__()                  <=>
+'__reduce_ex__',      x.__reduce_ex__()               <=>
+'__repr__',           x.__repr__()                    <=>
+'__rfloordiv__',      x.__rfloordiv__()               <=>
+'__rlshift__',        x.__rlshift__()                 <=>
+'__rmod__',           x.__rmod__()                    <=>
+'__rmul__',           x.__rmul__()                    <=>
+'__ror__',            x.__ror__()                     <=>
+'__round__',          x.__round__()                   <=>
+'__rpow__',           x.__rpow__()                    <=>
+'__rrshift__',        x.__rrshift__()                 <=>
+'__rshift__',         x.__rshift__()                  <=>
+'__rsub__',           x.__rsub__()                    <=>
+'__rtruediv__',       x.__rtruediv__()                <=>
+'__rxor__',           x.__rxor__()                    <=>
+'__setattr__',        x.__setattr__()                 <=>
+'__sizeof__',         x.__sizeof__()                  <=>
+'__str__',            x.__str__()                     <=>
+'__sub__',            x.__sub__()                     <=>
+'__subclasshook__',   x.__subclasshook__()            <=>
+'__truediv__',        x.__truediv__()                 <=>
+'__trunc__',          x.__trunc__()                   <=>
+'__xor__',            x.__xor__()                     <=>
+-----------------------------------------________________________
 'bit_length',   >>> bin(37)  -> '0b100101'   >>> (37).bit_length()  >> 6
 'conjugate',    x= 0b100101 ->x.conjugate()>> 37
 'denominator', 
