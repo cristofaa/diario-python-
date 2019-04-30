@@ -1,7 +1,7 @@
 2.- funciones de las variables [str,int,bool,exa etc] 
 str 
 ________________________________________________________
-['__add__',         x.__add__()              <=>
+['__add__',         x.__add__("hola")        <=>x+"hola"
 '__class__',        x.__class__()            <=>
 '__contains__',     x.__contains__()         <=>
 '__delattr__',      x.__delattr__()          <=>
@@ -33,8 +33,8 @@ ________________________________________________________
 '__sizeof__',       x.__sizeof__()           <=>
 '__str__',          x.__str__()              <=>
 '__subclasshook__', x.__subclasshook__()     <=>
-startswith            x= 'carro ' 		    	x.startswith("c")	                    >> True 			x.startswith("o")>>false 
-endswith              x= "carro"  		        x.endswith("o")		                    >> True  			x.endswith("c")>>false
+startswith            x= 'carro ' 		    	x.startswith("c")	                        >> True 			x.startswith("o")>>false 
+endswith              x= "carro"  		        x.endswith("o")		                        >> True  			x.endswith("c")>>false
 isalnum               x= "11c" 			        x.isalnum()		                        >> true
 isdecimal             x= "11"  			        x.isdecimal() 		                    >> true
 isnumeric             x= "11"  			        x.isnumeric() 		                    >> true 
@@ -124,83 +124,83 @@ posicion
  
 listas 
 
-['__add__',
-'__class__',
-'__contains__',
-'__delattr__', 
-'__delitem__',
-'__dir__',
-'__doc__', 
-'__eq__', 
-'__format__', 
-'__ge__', 
-'__getattribute__', 
-'__getitem__', 
-'__gt__',
-'__hash__', 
-'__iadd__', 
-'__imul__', 
-'__init__', 
-'__iter__', 
-'__le__', 
-'__len__', 
-'__lt__', 
-'__mul__', 
-'__ne__', 
-'__new__',
-'__reduce__',
-'__reduce_ex__',
-'__repr__', 
-'__reversed__',
-'__rmul__',
-'__setattr__', 
-'__setitem__', 
-'__sizeof__', 
-'__str__', 
-'__subclasshook__', 
-append		x = [,1,2]      	x.append(3)    	>> [1,2,3]
-clear		  x = [1,1,2,3,4]  	x.clear 	      >> []
-copy   		x = [1,2,3]     	y=x.copy()      # si se istancia lo que le pase a la lista le  va a pasar  ala  otra  y viseversa 
-count    	x = [1,1,2,3,4]   x.count(1)  	  >> 2
-extend    x = [,1,2]    		y=[3,4]      	  x.extend(y)   >> x   >>  [1,2,3,4]
-index  		x = [,1,2]    		x.index(2)  	  >> 1
-insert  	x = [1,2,3,4,5]   x.insert(1,12) 	>> [1,12,2,3,4,5]
-pop       x = [1,1,2,3,4]  	x.pop(1) 	      >> 1
-remove 		x = [,1,2]     		x.remove(2) 	  >> [1]
-reverse  	x = [6,5,4,3,2,1] x.reverse()   	>> [1, 2, 3, 4, 5, 6]
-sort   		x = [6,5,4,3,2,1] x.sort()   	    >> [1, 2, 3, 4, 5, 6]
+['__add__'              x.__add__()
+'__class__',            x.__class__()
+'__contains__',         x.__contains__()
+'__delattr__',          x.__delattr__()
+'__delitem__',          x.__delitem__()
+'__dir__',              x.__dir__()
+'__doc__',              x.__doc__()
+'__eq__',               x.__eq__()
+'__format__',           x.__format__()
+'__ge__',               x.__ge__()
+'__getattribute__',     x.__getattribute__()
+'__getitem__',          x.__getitem__()
+'__gt__',               x.__gt__()
+'__hash__',             x.__hash__()
+'__iadd__',             x.__iadd__()
+'__imul__',             x.__imul__()
+'__init__',             x.__init__()
+'__iter__',             x.__iter__()
+'__le__',               x.__le__()
+'__len__',              x.__len__()
+'__lt__',               x.__lt__()
+'__mul__',              x.__mul__()
+'__ne__',               x.__ne__()
+'__new__',              x.__new__()
+'__reduce__',           x.__reduce__()
+'__reduce_ex__',        x.__reduce_ex__()
+'__repr__',             x.__repr__()
+'__reversed__' ,        x.__reversed__()
+'__rmul__',             x.__rmul__()
+'__setattr__',          x.__setattr__()
+'__setitem__',          x.__setitem__()
+'__sizeof__',           x.__sizeof__()
+'__str__',              x.__str__()
+'__subclasshook__',     x.__subclasshook__()
+append		        x = [,1,2]      	x.append(3)    	>> [1,2,3]
+clear		        x = [1,1,2,3,4]  	x.clear 	      >> []
+copy   		        x = [1,2,3]     	y=x.copy()      # si se istancia lo que le pase a la lista le  va a pasar  ala  otra  y viseversa 
+count    	        x = [1,1,2,3,4]    x.count(1)  	  >> 2
+extend                  x = [,1,2]    		y=[3,4]      	  x.extend(y)   >> x   >>  [1,2,3,4]
+index  		        x = [,1,2]    		x.index(2)  	  >> 1
+insert  	        x = [1,2,3,4,5]   x.insert(1,12) 	>> [1,12,2,3,4,5]
+pop                     x = [1,1,2,3,4]  	x.pop(1) 	      >> 1
+remove 		        x = [,1,2]     		x.remove(2) 	  >> [1]
+reverse  	        x = [6,5,4,3,2,1] x.reverse()   	>> [1, 2, 3, 4, 5, 6]
+sort   		        x = [6,5,4,3,2,1] x.sort()   	    >> [1, 2, 3, 4, 5, 6]
 ##############################################################################################################################
 ######## 
 diccionario  x{ "hola":"hi"} 
 ------------------------------------------------------------------------------------------------------------------------------- 
-['__class__', 
-'__contains__', 
-'__delattr__', 
-'__delitem__', 
-'__dir__', 
-'__doc__', 
-'__eq__', 
-'__format__',
-'__ge__', 
-'__getattribute__',
-'__getitem__', 
-'__gt__', 
-'__hash__',
-'__init__', 
-'__iter__',
-'__le__',
-'__len__', 
-'__lt__', 
-'__ne__', 
-'__new__',
-'__reduce__',
-'__reduce_ex__',
-'__repr__', 
-'__setattr__', 
-'__setitem__',
-'__sizeof__',
-'__str__', 
-'__subclasshook__', 
+['__class__',          x.__class__()
+'__contains__',        x.__contains__()
+'__delattr__',         x.__delattr__()
+'__delitem__',         x.__delitem__()
+'__dir__',             x.__dir__()
+'__doc__',             x.__doc__()
+'__eq__',              x.__eq__()
+'__format__',          x.__format__()
+'__ge__',              x.__ge__()
+'__getattribute__',    x.__getattribute__()
+'__getitem__',         x.__getitem__()
+'__gt__',              x.__gt__()
+'__hash__',            x.__hash__()
+'__init__',            x.__init__()
+'__iter__',            x.__iter__()
+'__le__',              x.__le__()
+'__len__',             x.__len__()
+'__lt__',              x.__lt__()
+'__ne__',              x.__ne__()
+'__new__',             x.__new__()
+'__reduce__',          x.__reduce__()
+'__reduce_ex__',       x.__reduce_ex__()
+'__repr__',            x.__repr__()
+'__setattr__',         x.__setattr__()
+'__setitem__',         x.__setitem__()
+'__sizeof__',          x.__sizeof__()
+'__str__',             x.__str__()
+'__subclasshook__',    x.__subclasshook__()
 
 clear       x={1:"hola",2:"dos",3:"tres"}  x.clear()                >>x >>{}   elimina todo 
 copy		    x={1:"hola",2:"dos",3:"tres"}  y=x.copy()               >>  # copea  la lista 
@@ -218,38 +218,39 @@ fromkeys	  x={1,2,3,4} y = "valor"	       dict.fromkeys(x,y)       >> {1:valor,2
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 tuplas >> x=(2,3,2) 
-:::::::::['__add__', 
-'__class__',
-'__contains__',
-'__delattr__',
-'__dir__',
-'__doc__', 
-'__eq__', 
-'__format__',
-'__ge__',
-'__getattribute__', 
-'__getitem__', 
-'__getnewargs__',
-'__gt__', 
-'__hash__',
-'__init__', 
-'__iter__',
-'__le__',
-'__len__', 
-'__lt__', 
-'__mul__',
-'__ne__', 
-'__new__', 
-'__reduce__',
-'__reduce_ex__',
-'__repr__', 
-'__rmul__', 
-'__setattr__',
-'__sizeof__',
-'__str__', 
-'__subclasshook__', 
-count   	x = (1,2,2)  		x.count(2) >>>  2
-index  		x = (0,2,3,4)  	x.index(1) >> 2
+
+['__add__',             x.__add__()
+'__class__',            x.__class__()
+'__contains__',         x.__contains__()
+'__delattr__',          x.__delattr__()
+'__dir__',              x.__dir__()
+'__doc__',              x.__doc__()
+'__eq__',               x.__eq__()
+'__format__',           x.__format__()
+'__ge__',               x.__ge__()
+'__getattribute__',     x.__getattribute__() 
+'__getitem__',          x.__getitem__()
+'__getnewargs__',       x.__getnewargs__()
+'__gt__',               x.__gt__()
+'__hash__',             x.__hash__()
+'__init__',             x.__init__()
+'__iter__',             x.__iter__()
+'__le__',               x.__le__()
+'__len__',              x.__len__()
+'__lt__',               x.__lt__()
+'__mul__',              x._mul__()
+'__ne__',               x.__ne__()
+'__new__',              x.__new__()
+'__reduce__',           x.__reduce__()
+'__reduce_ex__' ,       x.__reduce_ex__()
+'__repr__',             x.__repr__()
+'__rmul__',             x.__rmul__()
+'__setattr__',          x.__seattr__()
+'__sizeof__',           x.__sizeof__()
+'__str__',              x.__str__()
+'__subclasshook__',     x.__subclasshook__()
+count                   x = (1,2,2)  		x.count(2) >>>  2
+index                   x = (0,2,3,4)  	x.index(1) >> 2
 ___________________________________________________________
 bolean 
 ----------------------------------------------------------------------------------------------------------------------- 
@@ -325,67 +326,67 @@ bolean
  'real',
 int 
 --------------------------------------------------------------------------- 
-['__abs__',
-'__add__', 
-'__and__',
-'__bool__',
-'__ceil__',
-'__class__',
-'__delattr__', 
-'__dir__', 
-'__divmod__',
-'__doc__',
-'__eq__', 
-'__float__',
-'__floor__', 
-'__floordiv__', 
-'__format__', 
-'__ge__',
-'__getattribute__',
-'__getnewargs__', 
-'__gt__',
-'__hash__',
-'__index__', 
-'__init__', 
-'__int__', 
-'__invert__',
-'__le__',
-'__lshift__',
-'__lt__', 
-'__mod__', 
-'__mul__',
-'__ne__',
-'__neg__',
-'__new__',
-'__or__', 
-'__pos__', 
-'__pow__',
-'__radd__',
-'__rand__', 
-'__rdivmod__',
-'__reduce__',
-'__reduce_ex__',
-'__repr__',
-'__rfloordiv__',
-'__rlshift__', 
-'__rmod__',
-'__rmul__', 
-'__ror__', 
-'__round__',
-'__rpow__', 
-'__rrshift__',
-'__rshift__', 
-'__rsub__',
-'__rtruediv__', 
-'__rxor__',
-'__setattr__', 
-'__sizeof__',
-'__str__', 
-'__sub__',
-'__subclasshook__', 
-'__truediv__',
-'__trunc__',
-'__xor__',  
+['__abs__',          x.__abs__()
+'__add__',           x.__add__()
+'__and__',           x.__and__()
+'__bool__',          x.__bool__()
+'__ceil__',          x.__ceil__()
+'__class__',         x.__class__()
+'__delattr__',       x.__delattr__()
+'__dir__',           x.__dir__()
+'__divmod__',        x.__divmod__()
+'__doc__',           x.__doc__()
+'__eq__',            x.__eq__()
+'__float__',         x.__float__()
+'__floor__',         x.__floor__()
+'__floordiv__',      x.__floordiv__()
+'__format__',        x.__format__()
+'__ge__',            x.__ge__()
+'__getattribute__',  x.__getattribute__()
+'__getnewargs__',    x.__getnewargs__()
+'__gt__',            x.__gt__()
+'__hash__',          x.__hash__()
+'__index__',         x.__index__()
+'__init__',          x.__init__()
+'__int__',           x.__int__()
+'__invert__',        x.__invert__()
+'__le__',            x.__le__()
+'__lshift__',        x.__lshift__()
+'__lt__',            x.__lt__()
+'__mod__',           x.__mod__()
+'__mul__',           x.__mul__()
+'__ne__',            x.__ne__()
+'__neg__',           x__neg__()
+'__new__',           x._new__()
+'__or__',            x.__or__()
+'__pos__',           x.__pos__()
+'__pow__',           x.__pow__()
+'__radd__',          x.__radd__()
+'__rand__',          x.__rand__()
+'__rdivmod__',       x.__rdivmod__()
+'__reduce__',        x.__reduce__()
+'__reduce_ex__',     x.__reduce_ex__()
+'__repr__',          x.__repr__()
+'__rfloordiv__',     x.__rfloordiv__()
+'__rlshift__',       x.__rlshift__()
+'__rmod__',          x.__rmod__()
+'__rmul__',          x._rmul__()
+'__ror__',           x.__ror__()
+'__round__',         x.__round__()
+'__rpow__',          x.__rpow__()
+'__rrshift__',       x.__rrshift__()
+'__rshift__',        x.__rshift__()
+'__rsub__',          x.__rsub__()
+'__rtruediv__',      x.__rtruediv__() 
+'__rxor__',          x.__rxor__()
+'__setattr__',       x.__setattr__()
+'__sizeof__',        x.__sizeof__()
+'__str__',           x.__str__()
+'__sub__',           x.__sub__()
+'__subclasshook__',  x.__subclasshook __()
+'__truediv__',       x.__truediv__()
+'__trunc__',         x.__trunc__()
+'__xor__',           x.__xor__()
 
 'bit_length',     x= 3   x.bit_length() >>2    # cuenta los digitos binarios 
 'conjugate',      x=3     x.conjugate()  >> 3   # cambia los diferentes numeros a decimales 
@@ -399,55 +400,55 @@ el tamaño y el segundo el orden de como se va a mostra  de mayor a menor o de m
 
 float 
 
-'__abs__',
-'__add__'
-, '__bool__',
-'__class__', 
-'__delattr__', 
-'__dir__', 
-'__divmod__', 
-'__doc__',
-'__eq__', 
-'__float__', 
-'__floordiv__', 
-'__format__', 
-'__ge__',
-'__getattribute__',
-'__getformat__',
-'__getnewargs__', 
-'__gt__',
-'__hash__', 
-'__init__', 
-'__int__', 
-'__le__', 
-'__lt__',
-'__mod__',
-'__mul__',
-'__ne__',
-'__neg__', 
-'__new__', 
-'__pos__',
-'__pow__', 
-'__radd__', 
-'__rdivmod__', 
-'__reduce__',
-'__reduce_ex__', 
-'__repr__',
-'__rfloordiv__', 
-'__rmod__', 
-'__rmul__', 
-'__round__', 
-'__rpow__',
-'__rsub__',
-'__rtruediv__', 
-'__setattr__',
-'__setformat__',
-'__sizeof__', 
-'__str__', 
-'__sub__',
-'__subclasshook__', 
-'__truediv__',
-'__trunc__',  
+'__abs__',              x.__abs__()
+'__add__'               x.__add__()
+, '__bool__',           x.__bool__()
+'__class__',            x.__class__()
+'__delattr__',          x.__delattr__()
+'__dir__',              x.__dir__()
+'__divmod__',           x.__divmod__()
+'__doc__',              x.__doc__()
+'__eq__',               x.__eq__()
+'__float__',            x.__float__()
+'__floordiv__',         x.__floordiv__()
+'__format__',           x.__format__()
+'__ge__',               x.__get__()
+'__getattribute__',     x.__getattribute__()
+'__getformat__',        x.__getformat__()
+'__getnewargs__',       x.__getnewargs__()
+'__gt__',               x.__gt__()
+'__hash__',             x.__hash__()
+'__init__',             x.__int__()
+'__int__',              x.__int__()
+'__le__',               x.__le
+'__lt__',               x.__lt__()
+'__mod__',              x.__mod__()
+'__mul__',              x.__mul__()
+'__ne__',               x.__ne__()
+'__neg__',              x.__neg__()
+'__new__',              x.__new__()
+'__pos__',              x.__pos__()
+'__pow__',              x.__pow__()
+'__radd__',             x.__radd__()
+'__rdivmod__',          x.__rdivmod__()
+'__reduce__',           x.__reduce__()
+'__reduce_ex__',        x.__reduce_ex__()
+'__repr__',             x.__repr__()
+'__rfloordiv__',        x.__rfloordiv__() 
+'__rmod__',             x.__rmod__()
+'__rmul__',             x.__rmul__()
+'__round__',            x.__round__()
+'__rpow__',             x.__rpow__()
+'__rsub__',             x.__rsub__()
+'__rtruediv__',         x.__rtruediv__()
+'__setattr__',          x.__setattr__()
+'__setformat__',        x.__setformat__()
+'__sizeof__',           x.__sizeof__()
+'__str__',              x.__str__()
+'__sub__',              x.__sub__()
+'__subclasshook__',     x.__subclasshook__() 
+'__truediv__',          x.__truediv__()
+'__trunc__',            x.__trunc__()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 'as_integer_ratio',
  
