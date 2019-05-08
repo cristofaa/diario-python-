@@ -6,7 +6,31 @@ clases sele agregan segun las funciones que esten declaradas  mas estas
  from . import *  >>  importa todas  las funciones  y importa  todas  la funciones 
 from .. import * >>  importa   la  carpeta  que esta arriva   
  
-['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__' 
+['__class__', 
+'__delattr__', 
+'__dict__',
+'__dir__', 
+'__doc__',
+'__eq__',
+'__format__', 
+'__ge__', 
+'__getattribute__', 
+'__gt__',
+'__hash__',
+'__init__', 
+'__le__', 
+'__lt__', 
+'__module__', 
+'__ne__',
+'__new__', 
+'__reduce__', 
+'__reduce_ex__', 
+'__repr__',
+'__setattr__',
+'__sizeof__', 
+'__str__',
+'__subclasshook__',
+'__weakref__' 
  
  
 funciones  preconstruidas  dir(__builtins__) 
@@ -89,9 +113,6 @@ SystemExit
 __build_class__
 
 Ellipsis
-
-
-
 , __debug__
 ,
  __doc__', 
@@ -104,16 +125,45 @@ Ellipsis
 
 '__package__',
  
-'__spec__',
-
-
- 
-
-
-
+'__spec__'
 bytearray
-
-, __add__, __alloc__, __class__, __contains__, __delattr__, __delitem__, __dir__, __doc__, __eq__, __format__, __ge__, __getattribute__, __getitem__, __gt__, __hash__, __iadd__, __imul__, __init__, __init_subclass__, __iter__, __le__, __len__, __lt__, __mod__, __mul__, __ne__, __new__,__reduce__, __reduce_ex__, __repr__, __rmod__, __rmul__, __setattr__, __setitem__, __sizeof__, __str__, __subclasshook__
+, __add__,
+__alloc__, 
+__class__,
+__contains__,
+__delattr__,
+__delitem__, 
+__dir__,
+__doc__,
+__eq__, 
+__format__,
+__ge__, 
+__getattribute__,
+__getitem__,
+__gt__,
+__hash__, 
+__iadd__, 
+__imul__,
+__init__,
+__init_subclass__, 
+__iter__,
+__le__,
+__len__,
+__lt__,
+__mod__, 
+__mul__, 
+__ne__, 
+__new__,
+__reduce__,
+__reduce_ex__,
+__repr__,
+__rmod__,
+__rmul__, 
+__setattr__,
+__setitem__,
+__sizeof__,
+__str__, 
+__subclasshook__
  append
  capitalize
  center
@@ -190,67 +240,136 @@ callable         callable(objeto)   >>> true           # si el objeto es invocab
 map		list((map(funcion,lista)))  >> afecta la funcion a toda la lisda de datos  por ejemplo si a todos le suma 1  en toda la lista se  suma 1 
 format        format("hola",">30")    # es como el str.format()
 repr            repr(12) >>'12'  es parecido a str  investigar mas sobre este porque este los respresenta para el sistema 
-zip             >>> x = [1, 2, 3]
->>> y = [4, 5, 6]
->>> zipped = zip(x, y)
->>> list(zipped)
-[(1, 4), (2, 5), (3, 6)]
->>> x2, y2 = zip(*zip(x, y))
->>> x == list(x2) and y == list(y2)>>True 
+zip             >>> x = [1, 2, 3] >>> y = [4, 5, 6] >>> zipped = zip(x, y) >>> list(zipped)  [(1, 4), (2, 5), (3, 6)] >>> x2, y2 = zip(*zip(x, y)) >>> x == list(x2) and y == list(y2)>>True 
 setattr		setattr(x, 'foobar', 123) is equivalent to x.foobar = 123.
 getattr		getattr(objeto,"funcion")  #OBTIENE VALOR DEL ATRIBUTO ES EQUIVAOENTE A  OBJETO.FUNCION()
-hasattr
- 	hasattr(objeto,"FUNCION")  # SI ESTA ATRIBUIDO REGRESA tRUE Y SI NO ESTA ATRIBUIDO REGRESA FALSE 
-delattr
-         delattr(objeto,"funcion")  #elimina la funcion del objeto 
+hasattr         hasattr(objeto,"FUNCION")  # SI ESTA ATRIBUIDO REGRESA tRUE Y SI NO ESTA ATRIBUIDO REGRESA FALSE 
+delattr        delattr(objeto,"funcion")  #elimina la funcion del objeto 
 any		x=["1","2","3","4","5"]     any(x)   >>> True  # si esta vacio  regresa  un False 
 vars     	vars(objeto)    >>  es e	equivalente a locals()  muestra las  variable de un objeto 
-filter           nums = [0, 2, 5, 8, 10, 23, 31, 35, 36, 47, 50, 77, 93]
-                 result = filter(lambda x: x % 2 == 0, nums)
-                 print(result)    #
+filter           nums = [0, 2, 5, 8, 10, 23, 31, 35, 36, 47, 50, 77, 93]     result = filter(lambda x: x % 2 == 0, nums)                 print(result)    #
 id 		 x=12  id(x) >>     muestra  la  memoria que esta utilizando ese objeto 
-reversed
-        for i in reversed(xrange(1,10,2)):    print(i)          # pone a revez  una iteracion 
+reversed        for i in reversed(xrange(1,10,2)):    print(i)          # pone a revez  una iteracion 
 enumerate       for i,v in enumerate(["hola","como ","estas"]):  print(i,v)      enumera  una iteracion 
 locals          locals()  debuelve todas las variables 
 globals         globals()  debuelve todas las variables  investigar su funcionamiento 
-isinstance
-      x=instancia   isinstance(x,instancia) >> True regresa cierto si esa es la instancia
+isinstance     x=instancia   isinstance(x,instancia) >> True regresa cierto si esa es la instancia
 issubclass      issubclass(clase_hija, clase_padre) >>true   # regresa cierto si la hija pertenece al padre
 complex         complex(1j) >>(1j)  # crea un numero imaginario complejo
 type        	x=12  type(x) 
-set             crear un direccionario vacio  s2 = set(range(10))  o lo crear  con uno iterable 
+set             crear un diccionario vacio  s2 = set(range(10))  o lo crear  con uno iterable 
 frozenset       es parecido a set  investigar diferencias  c:
- 
-'False',
-'True', 
-
-'None',
-'tuple'    x=[1,2,3]   c=tupla(x) >>c>>(1,2,3)
- 
+'False',          es una constante de falso 
+'True',           es  una constante de ciert0
+'None',		  es  una constante de vacio
+'tuple'           x=[1,2,3]   c=tupla(x) >>c>>(1,2,3)    convierte  una lista en una tupla 
 'classmethod',   convierte  una funcion en un metodo
- 'sum',
-     x=[1,1,1,1,2]     sum(x)   >>  6
-'hash',   muestra y direcciones el lugar que ocupa un objeto  investigar mas 
-
- 
+ 'sum',          x=[1,1,1,1,2]     sum(x)   >>  6
+'hash',           muestra y direcciones el lugar que ocupa un objeto  investigar mas 
 'all',         c=[0,0,0,0,0,0]   all(c) >>false    x=[1,1,1,1,2]   all(x) >>>True
-
  'copyright',  'credits', 
 'license', 
+
 'iter',
-    'next',
+ 'next',
   
-'compile', 	'exec',	'eval',       eval("12+3")        >>15
+  
+'compile', 	
+'exec',
+'eval',          eval("12+3")        >>15
+ 'list',
  'dict' 
-'str',	'int',
-	'oct',
- 	'hex', 
-'float',  'bytes' 'ascii','bool', 
+'str',	         x=3 str(x)  >>  "3"
+'int',		 x="3" str(x)  >>  3
+'oct',           x=9 oct(x)     10
+ 'hex',          x=11  hex(x)    a
+'float', 
+'bytes' 
+'ascii',
+'bool', 
 'bin',('chr',ord)son inversos   
-'open',	 'range'	'quit',
-	'print',	'input', 	'help', 'exit'  'dir',
- 'max',	 'pow',	'abs',         
-'min',	'len',	'list',    
-'sorted',	divmod(9,2)>(4, 1) 'round(112.123,2)' >>112.12  round(112.123,-2)>>100.0 
+'range'	
+'quit',
+'exit'
+'print',	
+'input', 	
+'help', 
+'dir',
+ 'max',	 
+ 'pow',	
+ 'abs',         
+'min',
+'len',    
+'sorted',
+divmod(9,2)>(4, 1) '
+round(112.123,2)' >>112.12  round(112.123,-2)>>100.0 
+x='open' ("file.txt","rwxbt+U")
+r
+w
+x
+b
+t
++
+U
+   x.__class__
+   x.__del__
+  x.__delattr__ 
+  x.__dict__
+  x.__dir__
+  x.__doc__
+  x.__enter__
+   x.__eq__
+  x.__exit__
+  x.__format__
+  x.__ge__
+   x.__getattribute__
+   x.__getstate__
+   x.__gt__
+  x.__hash__
+   x.__init__
+   x.__init_subclass__
+   x.__iter__
+   x.__le__
+   x.__lt__
+   x.__ne__
+   x.__new__
+   x.__next__
+   x.__reduce__
+   x.__reduce_ex__
+   x. __repr__
+   x.__setattr__
+   x.__sizeof__
+   x.__str__
+   x.__subclasshook__
+   x._checkClosed
+   x._checkReadable
+   x._checkSeekable
+   x._checkWritable
+   x._finalizing
+   x.buffer
+   x.close           cierra el archivo 
+   x.closed          regresa  True  si esta  cerrado 
+   x.detach
+   x.encoding
+   x.errors
+   x.fileno
+   x.flush
+   x.isatty
+   x.line_buffering
+   x.mode                # regresa el modo en el que se abrio #es una variable 
+   x.name               "file.txt"
+   x.newlines
+  x.read
+  x.readable            debuelve True  si este se puede leeer 
+  x.readline
+  x.readlines
+  x.reconfigure
+  x.seek
+  x.seekable
+  x.tell
+  x. truncate
+  x.writable           regresa True  si se  puede ecribir en el 
+  x.write              elimina todo y solo escribe lo que sele escribe 
+  x.write_through
+  x.writelines
 
