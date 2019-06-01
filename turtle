@@ -117,15 +117,15 @@ showturtle   st					# muestra el pincel
 hideturtle	ht                             #oculta el pincel 
 isvisible        				# pregunta si esta oculto 
 ###########################
-shape						cambia la forma del pincel shapes: “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”. 
-resizemode
-shapesize   turtlesize  shapesize(10,10)       cambia tamaño del pincel 
-shearfactor
-settiltangle
-tiltangle
-tilt
-shapetransform
-get_shapepoly
+shape						         cambia la forma del pincel shapes: “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”. 
+resizemode               adapta el tamaño de la tortuga al tamaño del pincel   auto ,user, noresize auto iguala al tamaño de pensize user apdapa el tamñao sharpesize 
+shapesize   turtlesize   shapesize(10,10)       cambia tamaño del pincel 
+shearfactor               sharfactor(0.3)  aplasta la tortuaga para generar un tipo de italica o 3D
+settiltangle               settiltange(90)   gira ala imagen de la tortuga por grados  
+tiltangle                  tiltangle(90)      ace lo mismo que settiltangle()
+tilt                      tilt (10)          gira por grados la imagen de la tortuga sin tener una posicion definida 
+shapetransform             muestra los grados de cada punto que forma la figura con respeto a su posicion 
+get_shapepoly              regresa las cordenadas de la imagen de la figura  con respecto  ala tortuga 
 ###########################
 onclick
 ondrag
