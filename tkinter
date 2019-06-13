@@ -448,6 +448,32 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
+
+
+>>>>>>>>>>>>>>xview
+>>>>>>>>>>>>>>>xview_moveto
+>>>>>>>>>>>>>>>>>xview_scroll
+>>>>>>>>>delete
+>>>>>>>>>>>>>get
+>>>>>>>>>>>>>>>>icursor
+>>>>>>>><<<>>>index
+>>>>>>>>>>>>>>insert
+>>>>>>>>>>>scan_dragto
+>>>>>>>>>>>>scan_mark
+>>>>>><<<<select_adjust
+>>>>>><<<<select_clear
+>>>>>><<<<select_from
+>>>>>><<<<select_present
+>>>>>><<<<select_range
+>>>>>><<<<select_to
+>>>>>><<<<selection_adjust
+>>>>>><<<<selection_from
+>>>>>><<<<selection_present
+>>>>>><<<<selection_range
+>>>>>><<<<selection_to
+
 after
 after_cancel
 after_idle
@@ -465,7 +491,6 @@ colormodel
 columnconfigure
 config
 configure
-delete
 deletecommand
 destroy
 event_add
@@ -479,7 +504,6 @@ focus_get
 focus_lastfor
 focus_set
 forget
-get
 getboolean
 getdouble
 getint
@@ -501,12 +525,9 @@ grid_remove
 grid_rowconfigure
 grid_size
 grid_slaves
-icursor
 image_names
 image_types
-index
 info
-insert
 keys
 lift
 location
@@ -532,24 +553,11 @@ propagate
 quit
 register
 rowconfigure
-scan_dragto
-scan_mark
-select_adjust
-select_clear
-select_from
-select_present
-select_range
-select_to
-selection_adjust
 selection_clear
-selection_from
 selection_get
 selection_handle
 selection_own
 selection_own_get
-selection_present
-selection_range
-selection_to
 send
 setvar
 size
@@ -620,9 +628,7 @@ winfo_vrooty
 winfo_width
 winfo_x
 winfo_y
-xview
-xview_moveto
-xview_scroll
+
 
 
 #####################################################
@@ -680,160 +686,163 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+after                   ~~~ Label
+after_cancel            ~~~ Label
+after_idle              ~~~ Label
+bbox                    ~~~ Label
+bell                    ~~~ Label
+bind                    ~~~ Label
+bind_all                ~~~ Label
+bind_class              ~~~ Label
+bindtags                ~~~ Label
+cget                    ~~~ Label
+clipboard_append        ~~~ Label
+clipboard_clear         ~~~ Label
+clipboard_get           ~~~ Label
+colormodel              ~~~ Label
+columnconfigure         ~~~ Label
+config                  ~~~ Label
+configure               ~~~ Label
+
+deletecommand           ~~~ Label
+destroy                 ~~~ Label
+event_add               ~~~ Label
+event_delete            ~~~ Label
+event_generate          ~~~ Label
+event_info              ~~~ Label
+focus                   ~~~ Label
+focus_displayof         ~~~ Label
+focus_force             ~~~ Label
+focus_get               ~~~ Label
+focus_lastfor           ~~~ Label
+focus_set               ~~~ Label
+forget                  ~~~ Label
+getboolean              ~~~ Label
+getdouble               ~~~ Label
+getint                  ~~~ Label
+getvar                  ~~~ Label
+grab_current            ~~~ Label
+grab_release            ~~~ Label
+grab_set                ~~~ Label
+grab_set_global         ~~~ Label
+grab_status             ~~~ Label
+grid                    ~~~ Label
+grid_bbox               ~~~ Label
+grid_columnconfigure    ~~~ Label
+grid_configure          ~~~ Label
+grid_forget             ~~~ Label
+grid_info               ~~~ Label
+grid_location           ~~~ Label
+grid_propagate          ~~~ Label
+grid_remove             ~~~ Label
+grid_rowconfigure       ~~~ Label
+grid_size               ~~~ Label
+grid_slaves             ~~~ Label
+image_names             ~~~ Label
+image_types             ~~~ Label
+info                    ~~~ Label
+keys                    ~~~ Label
+lift                    ~~~ Label
+location                ~~~ Label
+lower                   ~~~ Label
+mainloop                ~~~ Label
+nametowidget            ~~~ Label
+option_add              ~~~ Label
+option_clear            ~~~ Label
+option_get              ~~~ Label
+option_readfile         ~~~ Label
+pack                    ~~~ Label
+pack_configure          ~~~ Label
+pack_forget             ~~~ Label
+pack_info               ~~~ Label
+pack_propagate          ~~~ Label
+pack_slaves             ~~~ Label
+place                   ~~~ Label
+place_configure         ~~~ Label
+place_forget            ~~~ Label
+place_info              ~~~ Label
+place_slaves            ~~~ Label
+propagate               ~~~ Label
+quit                    ~~~ Label
+register                ~~~ Label
+rowconfigure            ~~~ Label
+selection_clear         ~~~ Label
+selection_get           ~~~ Label
+selection_handle        ~~~ Label
+selection_own           ~~~ Label
+selection_own_get       ~~~ Label
+send                    ~~~ Label
+setvar                  ~~~ Label
+size                    ~~~ Label
+slaves                  ~~~ Label
+tk_bisque               ~~~ Label
+tk_focusFollowsMouse    ~~~ Label
+tk_focusNext            ~~~ Label
+tk_focusPrev            ~~~ Label
+tk_menuBar              ~~~ Label
+tk_setPalette           ~~~ Label
+tk_strictMotif          ~~~ Label
+tkraise                 ~~~ Label
+unbind                  ~~~ Label
+unbind_all              ~~~ Label
+unbind_class            ~~~ Label
+update                  ~~~ Label
+update_idletasks        ~~~ Label
+wait_variable           ~~~ Label
+wait_visibility         ~~~ Label
+wait_window             ~~~ Label
+waitvar                 ~~~ Label
+winfo_atom              ~~~ Label
+winfo_atomname          ~~~ Label
+winfo_cells             ~~~ Label
+winfo_children          ~~~ Label
+winfo_class             ~~~ Label
+winfo_colormapfull      ~~~ Label
+winfo_containing        ~~~ Label
+winfo_depth             ~~~ Label
+winfo_exists            ~~~ Label
+winfo_fpixels           ~~~ Label
+winfo_geometry          ~~~ Label
+winfo_height            ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps           ~~~ Label
+winfo_ismapped          ~~~ Label
+winfo_manager           ~~~ Label
+winfo_name              ~~~ Label
+winfo_parent            ~~~ Label
+winfo_pathname          ~~~ Label
+winfo_pixels            ~~~ Label
+winfo_pointerx          ~~~ Label
+winfo_pointerxy         ~~~ Label
+winfo_pointery          ~~~ Label
+winfo_reqheight         ~~~ Label
+winfo_reqwidth          ~~~ Label
+winfo_rgb               ~~~ Label
+winfo_rootx             ~~~ Label
+winfo_rooty             ~~~ Label
+winfo_screen            ~~~ Label
+winfo_screencells       ~~~ Label
+winfo_screendepth       ~~~ Label
+winfo_screenheight      ~~~ Label
+winfo_screenmmheight    ~~~ Label
+winfo_screenmmwidth     ~~~ Label
+winfo_screenvisual      ~~~ Label
+winfo_screenwidth       ~~~ Label
+winfo_server            ~~~ Label
+winfo_toplevel          ~~~ Label
+winfo_viewable          ~~~ Label
+winfo_visual            ~~~ Label
+winfo_visualid          ~~~ Label
+winfo_visualsavailable  ~~~ Label
+winfo_vrootheight       ~~~ Label
+winfo_vrootwidth        ~~~ Label
+winfo_vrootx            ~~~ Label
+winfo_vrooty            ~~~ Label
+winfo_width             ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
 
 #######################################################
 
@@ -896,160 +905,164 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+
+
+after                   ~~~ Label
+after_cancel            ~~~ Label
+after_idle              ~~~ Label
+bbox                    ~~~ Label
+bell                    ~~~ Label
+bind                    ~~~ Label
+bind_all                ~~~ Label
+bind_class              ~~~ Label
+bindtags                ~~~ Label
+cget                    ~~~ Label
+clipboard_append        ~~~ Label
+clipboard_clear         ~~~ Label
+clipboard_get           ~~~ Label
+colormodel              ~~~ Label
+columnconfigure         ~~~ Label
+config                  ~~~ Label
+configure               ~~~ Label
+deletecommand           ~~~ Label
+destroy                 ~~~ Label
+event_add               ~~~ Label
+event_delete            ~~~ Label
+event_generate          ~~~ Label
+event_info              ~~~ Label
+focus                   ~~~ Label
+focus_displayof         ~~~ Label
+focus_force             ~~~ Label
+focus_get               ~~~ Label
+focus_lastfor           ~~~ Label
+focus_set               ~~~ Label
+forget                  ~~~ Label
+getboolean              ~~~ Label
+getdouble               ~~~ Label
+getint                  ~~~ Label
+getvar                  ~~~ Label
+grab_current            ~~~ Label
+grab_release            ~~~ Label
+grab_set                ~~~ Label
+grab_set_global         ~~~ Label
+grab_status             ~~~ Label
+grid                    ~~~ Label
+grid_bbox               ~~~ Label
+grid_columnconfigure    ~~~ Label
+grid_configure          ~~~ Label
+grid_forget             ~~~ Label
+grid_info               ~~~ Label
+grid_location           ~~~ Label
+grid_propagate          ~~~ Label
+grid_remove             ~~~ Label
+grid_rowconfigure       ~~~ Label
+grid_size               ~~~ Label
+grid_slaves             ~~~ Label
+image_names             ~~~ Label
+image_types             ~~~ Label
+info                    ~~~ Label
+keys                    ~~~ Label
+lift                    ~~~ Label
+location                ~~~ Label
+lower                   ~~~ Label
+mainloop                ~~~ Label
+nametowidget            ~~~ Label
+option_add              ~~~ Label
+option_clear            ~~~ Label
+option_get              ~~~ Label
+option_readfile         ~~~ Label
+pack                    ~~~ Label
+pack_configure          ~~~ Label
+pack_forget             ~~~ Label
+pack_info               ~~~ Label
+pack_propagate          ~~~ Label
+pack_slaves             ~~~ Label
+place                   ~~~ Label
+place_configure         ~~~ Label
+place_forget            ~~~ Label
+place_info              ~~~ Label
+place_slaves            ~~~ Label
+propagate               ~~~ Label
+quit                    ~~~ Label
+register                ~~~ Label
+rowconfigure            ~~~ Label
+selection_clear         ~~~ Label
+selection_get           ~~~ Label
+selection_handle        ~~~ Label
+selection_own           ~~~ Label
+selection_own_get       ~~~ Label
+send                    ~~~ Label
+setvar                  ~~~ Label
+size                    ~~~ Label
+slaves                  ~~~ Label
+tk_bisque               ~~~ Label
+tk_focusFollowsMouse    ~~~ Label
+tk_focusNext            ~~~ Label
+tk_focusPrev            ~~~ Label
+tk_menuBar              ~~~ Label
+tk_setPalette           ~~~ Label
+tk_strictMotif          ~~~ Label
+tkraise                 ~~~ Label
+unbind                  ~~~ Label
+unbind_all              ~~~ Label
+unbind_class            ~~~ Label
+update                  ~~~ Label
+update_idletasks        ~~~ Label
+wait_variable           ~~~ Label
+wait_visibility         ~~~ Label
+wait_window             ~~~ Label
+waitvar                 ~~~ Label
+winfo_atom              ~~~ Label
+winfo_atomname          ~~~ Label
+winfo_cells             ~~~ Label
+winfo_children          ~~~ Label
+winfo_class             ~~~ Label
+winfo_colormapfull      ~~~ Label
+winfo_containing        ~~~ Label
+winfo_depth             ~~~ Label
+winfo_exists            ~~~ Label
+winfo_fpixels           ~~~ Label
+winfo_geometry          ~~~ Label
+winfo_height            ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps           ~~~ Label
+winfo_ismapped          ~~~ Label
+winfo_manager           ~~~ Label
+winfo_name              ~~~ Label
+winfo_parent            ~~~ Label
+winfo_pathname          ~~~ Label
+winfo_pixels            ~~~ Label
+winfo_pointerx          ~~~ Label
+winfo_pointerxy         ~~~ Label
+winfo_pointery          ~~~ Label
+winfo_reqheight         ~~~ Label
+winfo_reqwidth          ~~~ Label
+winfo_rgb               ~~~ Label
+winfo_rootx             ~~~ Label
+winfo_rooty             ~~~ Label
+winfo_screen            ~~~ Label
+winfo_screencells       ~~~ Label
+winfo_screendepth       ~~~ Label
+winfo_screenheight      ~~~ Label
+winfo_screenmmheight    ~~~ Label
+winfo_screenmmwidth     ~~~ Label
+winfo_screenvisual      ~~~ Label
+winfo_screenwidth       ~~~ Label
+winfo_server            ~~~ Label
+winfo_toplevel          ~~~ Label
+winfo_viewable          ~~~ Label
+winfo_visual            ~~~ Label
+winfo_visualid          ~~~ Label
+winfo_visualsavailable  ~~~ Label
+winfo_vrootheight       ~~~ Label
+winfo_vrootwidth        ~~~ Label
+winfo_vrootx            ~~~ Label
+winfo_vrooty            ~~~ Label
+winfo_width             ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
 
 ########################
 Listbox
@@ -1102,7 +1115,10 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
-activate
+
+>>>>>>>>>>>>>>>>>>activate
+
+
 after
 after_cancel
 after_idle
@@ -1120,8 +1136,8 @@ colormodel
 columnconfigure
 config
 configure
-curselection
-delete
+>>>>>>>>>>>>curselection
+>>>>>>>>>>>>delete
 deletecommand
 destroy
 event_add
@@ -1135,7 +1151,7 @@ focus_get
 focus_lastfor
 focus_set
 forget
-get
+>>>>>>>>>>>>get
 getboolean
 getdouble
 getint
@@ -1159,19 +1175,19 @@ grid_size
 grid_slaves
 image_names
 image_types
-index
+>>>>>>>>>>>>index
 info
-insert
-itemcget
-itemconfig
-itemconfigure
+>>>>>>>>>>>>insert
+>>>>>>>>>>>>itemcget
+>>>>>>>>>>>>itemconfig
+>>>>>>>>>>>>itemconfigure
 keys
 lift
 location
 lower
 mainloop
 nametowidget
-nearest
+>>>>>>>>>>>>nearest
 option_add
 option_clear
 option_get
@@ -1191,21 +1207,21 @@ propagate
 quit
 register
 rowconfigure
-scan_dragto
-scan_mark
-see
-select_anchor
-select_clear
-select_includes
-select_set
-selection_anchor
+>>>>>>>>>>>>scan_dragto
+>>>>>>>>>>>>scan_mark
+>>>>>>>>>>>>see
+>>>>>>>>>>>>select_anchor
+>>>>>>>>>>>>select_clear
+>>>>>>>>>>>>select_includes
+>>>>>>>>>>>>select_set
+>>>>>>>>>>>>selection_anchor
 selection_clear
 selection_get
 selection_handle
-selection_includes
+>>>>>>>>>>>>selection_includes
 selection_own
 selection_own_get
-selection_set
+>>>>>>>>>>>>selection_set
 send
 setvar
 size
@@ -1276,12 +1292,13 @@ winfo_vrooty
 winfo_width
 winfo_x
 winfo_y
-xview
-xview_moveto
-xview_scroll
-yview
-yview_moveto
-yview_scroll
+
+>>>>>>>>>>>> xview
+>>>>>>>>>>>> xview_moveto
+>>>>>>>>>>>> xview_scroll
+>>>>>>>>>>>> yview
+>>>>>>>>>>>> yview_moveto
+>>>>>>>>>>>> yview_scroll
 #######################
 PanedWindow
 
@@ -1333,7 +1350,10 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
 add
+
 after
 after_cancel
 after_idle
@@ -1385,7 +1405,7 @@ grid_remove
 grid_rowconfigure
 grid_size
 grid_slaves
-identify
+>>>>>>>>>>>>>>identify
 image_names
 image_types
 info
@@ -1405,28 +1425,29 @@ pack_forget
 pack_info
 pack_propagate
 pack_slaves
-panecget
-paneconfig
-paneconfigure
-panes
+>>>>>>>>>>>>>panecget
+>>>>>>>>>>>>>paneconfig
+>>>>>>>>>>>>>paneconfigure
+>>>>>>>>>>>>>panes
 place
 place_configure
 place_forget
 place_info
 place_slaves
 propagate
-proxy
-proxy_coord
-proxy_forget
-proxy_place
+>>>>>>>>>>>>>proxy
+>>>>>>>>>>>>>proxy_coord
+>>>>>>>>>>>>>proxy_forget
+>>>>>>>>>>>>>proxy_place
 quit
 register
-remove
-rowconfigure
-sash
-sash_coord
-sash_mark
-sash_place
+>>>>>>>>>>>>>remove
+rowconfigure+
+
+>>>>>>>>>>>>>sash
+>>>>>>>>>>>>>sash_coord
+>>>>>>>>>>>>>sash_mark
+>>>>>>>>>>>>>sash_place
 selection_clear
 selection_get
 selection_handle
@@ -1565,6 +1586,8 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
 after
 after_cancel
 after_idle
@@ -1773,6 +1796,7 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
 after
 after_cancel
 after_idle
@@ -1791,13 +1815,13 @@ columnconfigure
 config
 configure
 deletecommand
-deselect
+>>>>>>>>>>deselect
 destroy
 event_add
 event_delete
 event_generate
 event_info
-flash
+>>>>>>>>>>flash
 focus
 focus_displayof
 focus_force
@@ -1829,7 +1853,7 @@ grid_slaves
 image_names
 image_types
 info
-invoke
+>>>>>>>>>>invoke
 keys
 lift
 location
@@ -1855,7 +1879,7 @@ propagate
 quit
 register
 rowconfigure
-select
+>>>>>>>>>>select
 selection_clear
 selection_get
 selection_handle
@@ -1982,7 +2006,9 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
-activate
+
+
+>>>>>>>>>>>>>activate
 after
 after_cancel
 after_idle
@@ -2001,7 +2027,7 @@ columnconfigure
 config
 configure
 deletecommand
-delta
+>>>>>>>>>>>>>delta
 destroy
 event_add
 event_delete
@@ -2014,8 +2040,8 @@ focus_get
 focus_lastfor
 focus_set
 forget
-fraction
-get
+>>>>>>>>>>>>>fraction
+>>>>>>>>>>>>>get
 getboolean
 getdouble
 getint
@@ -2037,7 +2063,7 @@ grid_remove
 grid_rowconfigure
 grid_size
 grid_slaves
-identify
+>>>>>>>>>>>>>identify
 image_names
 image_types
 info
@@ -2072,7 +2098,7 @@ selection_handle
 selection_own
 selection_own_get
 send
-set
+>>>>>>>>>>>>>set
 setvar
 size
 slaves
@@ -2195,6 +2221,7 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
 after
 after_cancel
 after_idle
@@ -2212,7 +2239,7 @@ colormodel
 columnconfigure
 config
 configure
-delete
+>>>>>>>>>>>>>delete
 deletecommand
 destroy
 event_add
@@ -2226,7 +2253,7 @@ focus_get
 focus_lastfor
 focus_set
 forget
-get
+>>>>>>>>>>>>>get
 getboolean
 getdouble
 getint
@@ -2248,14 +2275,14 @@ grid_remove
 grid_rowconfigure
 grid_size
 grid_slaves
-icursor
-identify
+>>>>>>>>>>>>>icursor
+>>>>>>>>>>>>>identify
 image_names
 image_types
-index
+>>>>>>>>>>>>>index
 info
-insert
-invoke
+>>>>>>>>>>>>>insert
+>>>>>>>>>>>>>invoke
 keys
 lift
 location
@@ -2281,13 +2308,13 @@ propagate
 quit
 register
 rowconfigure
-scan
-scan_dragto
-scan_mark
-selection
-selection_adjust
+ >>>>>>>>>>>>>scan
+>>>>>>>>>>>>>scan_dragto
+>>>>>>>>>>>>>scan_mark
+>>>>>>>>>>>>>selection
+>>>>>>>>>>>>>selection_adjust
 selection_clear
-selection_element
+>>>>>>>>>>>>>selection_element
 selection_get
 selection_handle
 selection_own
@@ -2418,6 +2445,9 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 after
 after_cancel
 after_idle
@@ -2621,6 +2651,8 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
 after
 after_cancel
 after_idle
@@ -2639,13 +2671,13 @@ columnconfigure
 config
 configure
 deletecommand
-deselect
+>>>>>>>>>>>>>deselect
 destroy
 event_add
 event_delete
 event_generate
 event_info
-flash
+>>>>>>>>>>>>>flash
 focus
 focus_displayof
 focus_force
@@ -2703,7 +2735,7 @@ propagate
 quit
 register
 rowconfigure
-select
+>>>>>>>>>>>>>select
 selection_clear
 selection_get
 selection_handle
@@ -2721,7 +2753,7 @@ tk_menuBar
 tk_setPalette
 tk_strictMotif
 tkraise
-toggle
+>>>>>>>>>>>>>toggle
 unbind
 unbind_all
 unbind_class
@@ -2832,6 +2864,9 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
+
 after
 after_cancel
 after_idle
@@ -3042,6 +3077,8 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
 after
 after_cancel
 after_idle
@@ -3248,6 +3285,7 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
 after
 after_cancel
 after_idle
@@ -3455,13 +3493,14 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
-activate
-add
-add_cascade
-add_checkbutton
-add_command
-add_radiobutton
-add_separator
+>>>>>>>>>>>>>
+>>>>>>>>>>>>>activate
+>>>>>>>>>>>>>add
+>>>>>>>>>>>>>add_cascade
+>>>>>>>>>>>>>add_checkbutton
+>>>>>>>>>>>>>add_command
+>>>>>>>>>>>>>add_radiobutton
+>>>>>>>>>>>>>add_separator
 after
 after_cancel
 after_idle
@@ -3479,12 +3518,12 @@ colormodel
 columnconfigure
 config
 configure
-delete
+>>>>>>>>>>>>>delete
 deletecommand
 destroy
-entrycget
-entryconfig
-entryconfigure
+>>>>>>>>>>>>>entrycget
+>>>>>>>>>>>>>entryconfig
+>>>>>>>>>>>>>entryconfigure
 event_add
 event_delete
 event_generate
@@ -3519,15 +3558,15 @@ grid_size
 grid_slaves
 image_names
 image_types
-index
+>>>>>>>>>>>>>index
 info
-insert
-insert_cascade
-insert_checkbutton
-insert_command
-insert_radiobutton
-insert_separator
-invoke
+>>>>>>>>>>>>>insert
+>>>>>>>>>>>>>insert_cascade
+>>>>>>>>>>>>>insert_checkbutton
+>>>>>>>>>>>>>insert_command
+>>>>>>>>>>>>>insert_radiobutton
+>>>>>>>>>>>>>insert_separator
+>>>>>>>>>>>>>invoke
 keys
 lift
 location
@@ -3549,8 +3588,8 @@ place_configure
 place_forget
 place_info
 place_slaves
-post
-propagate
+>>>>>>>>>>>>>post
+>>>>>>>>>>>>>propagate
 quit
 register
 rowconfigure
@@ -3563,31 +3602,31 @@ send
 setvar
 size
 slaves
-tk_bindForTraversal
+>>>>>>>>>>>>>tk_bindForTraversal
 tk_bisque
-tk_firstMenu
+>>>>>>>>>>>>>tk_firstMenu
 tk_focusFollowsMouse
 tk_focusNext
 tk_focusPrev
-tk_getMenuButtons
-tk_invokeMenu
-tk_mbButtonDown
-tk_mbPost
-tk_mbUnpost
-tk_menuBar
-tk_nextMenu
-tk_nextMenuEntry
-tk_popup
+>>>>>>>>>>>>>tk_getMenuButtons
+>>>>>>>>>>>>>tk_invokeMenu
+>>>>>>>>>>>>>tk_mbButtonDown
+>>>>>>>>>>>>>tk_mbPost
+>>>>>>>>>>>>>tk_mbUnpost
+>>>>>>>>>>>>>tk_menuBar
+>>>>>>>>>>>>>tk_nextMenu
+>>>>>>>>>>>>>tk_nextMenuEntry
+>>>>>>>>>>>>>tk_popup
 tk_setPalette
 tk_strictMotif
-tk_traverseToMenu
-tk_traverseWithinMenu
+>>>>>>>>>>>>>tk_traverseToMenu
+>>>>>>>>>>>>>tk_traverseWithinMenu
 tkraise
-type
+>>>>>>>>>>>>>type
 unbind
 unbind_all
 unbind_class
-unpost
+>>>>>>>>>>>>>unpost
 update
 update_idletasks
 wait_variable
@@ -3643,7 +3682,7 @@ winfo_vrooty
 winfo_width
 winfo_x
 winfo_y
-yposition
+>>>>>>>>>>>>>yposition
 
 
 ####################
