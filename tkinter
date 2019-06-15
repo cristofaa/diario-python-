@@ -2458,7 +2458,7 @@ bind_all
 bind_class
 bindtags
 cget
-clipboard_append
+clipboard_append  
 clipboard_clear
 clipboard_get
 colormodel
