@@ -400,56 +400,11 @@ winfo_y                 ~~~ Label
 
 Entry ()
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
+__gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__
+__sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure
+_nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands
 _windowingsystem
-
-
 
 
 >>>>>>>>>>>>>>xview
@@ -474,160 +429,160 @@ _windowingsystem
 >>>>>><<<<selection_range
 >>>>>><<<<selection_to
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+after                 ~~~ Label
+after_cancel                 ~~~ Label
+after_idle                 ~~~ Label
+bbox                 ~~~ Label
+bell                 ~~~ Label
+bind                          ~~~ Label
+bind_all                       ~~~ Label
+bind_class                          ~~~ Label
+bindtags                           ~~~ Label
+cget                               ~~~ Label
+clipboard_append                 ~~~ Label
+clipboard_clear                 ~~~ Label
+clipboard_get                 ~~~ Label
+colormodel                 ~~~ Label
+columnconfigure                 ~~~ Label
+config                 ~~~ Label
+configure                 ~~~ Label
+deletecommand                 ~~~ Label
+destroy                 ~~~ Label
+event_add                 ~~~ Label
+event_delete                 ~~~ Label
+event_generatev                 ~~~ Label
+event_infov                 ~~~ Label
+focusv                 ~~~ Label
+focus_displayof                 ~~~ Label
+focus_force                 ~~~ Label
+focus_get                 ~~~ Label
+focus_lastfor                 ~~~ Label
+focus_set                 ~~~ Label
+forget                 ~~~ Label
+getboolean                 ~~~ Label
+getdouble                 ~~~ Label
+getint                 ~~~ Label
+getvar                 ~~~ Label
+grab_current                 ~~~ Label
+grab_release                 ~~~ Label
+grab_set                 ~~~ Label
+grab_set_global                 ~~~ Label
+grab_status                 ~~~ Label
+grid                 ~~~ Label
+grid_bbox                 ~~~ Label
+grid_columnconfigure                 ~~~ Label
+grid_configure                 ~~~ Label
+grid_forget                 ~~~ Label
+grid_info                 ~~~ Label
+grid_location                 ~~~ Label
+grid_propagate                 ~~~ Label
+grid_remove                 ~~~ Label
+grid_rowconfigure                 ~~~ Label
+grid_size                 ~~~ Label
+grid_slaves                 ~~~ Label
+image_names                 ~~~ Label
+image_types                 ~~~ Label
+info                 ~~~ Label
+keys                 ~~~ Label
+lift                 ~~~ Label
+location                 ~~~ Label
+lower                 ~~~ Label
+mainloop                 ~~~ Label
+nametowidget                 ~~~ Label
+option_add                 ~~~ Label
+option_clear                 ~~~ Label
+option_get                 ~~~ Label
+option_readfile                 ~~~ Label
+pack                 ~~~ Label
+pack_configure                 ~~~ Label
+pack_forget                 ~~~ Label
+pack_info                 ~~~ Label
+pack_propagate                 ~~~ Label
+pack_slaves                 ~~~ Label
+place                 ~~~ Label
+place_configure                 ~~~ Label
+place_forget                 ~~~ Label
+place_info                 ~~~ Label
+place_slaves                 ~~~ Label
+propagate                 ~~~ Label
+quit                 ~~~ Label
+register                 ~~~ Label
+rowconfigure                 ~~~ Label
+selection_clear                 ~~~ Label
+selection_get                 ~~~ Label
+selection_handle                 ~~~ Label
+selection_own                 ~~~ Label
+selection_own_get                 ~~~ Label
+send                 ~~~ Label
+setvar                 ~~~ Label
+size                 ~~~ Label
+slaves                 ~~~ Label
+tk_bisque                 ~~~ Label
+tk_focusFollowsMouse                 ~~~ Label
+tk_focusNext                 ~~~ Label
+tk_focusPrev                 ~~~ Label
+tk_menuBar                 ~~~ Label
+tk_setPalette                 ~~~ Label
+tk_strictMotif                 ~~~ Label
+tkraise                 ~~~ Label
+unbind                 ~~~ Label
+unbind_all                 ~~~ Label
+unbind_class                 ~~~ Label
+update                 ~~~ Label
+update_idletasks                 ~~~ Label
+wait_variable                 ~~~ Label
+wait_visibility                 ~~~ Label
+wait_window                 ~~~ Label
+waitvarv                 ~~~ Label
+winfo_atvom                 ~~~ Label
+winfo_atomname                 ~~~ Label
+winfo_cells                 ~~~ Label
+winfo_children                 ~~~ Label
+winfo_class                 ~~~ Label
+winfo_colormapfull                 ~~~ Label
+winfo_containing                 ~~~ Label
+winfo_depth                 ~~~ Label
+winfo_exists                 ~~~ Label
+winfo_fpixels                 ~~~ Label
+winfo_geometry                 ~~~ Label
+winfo_height                 ~~~ Label
+winfo_id                 ~~~ Label
+winfo_interps                 ~~~ Label
+winfo_ismapped                 ~~~ Label
+winfo_manager                 ~~~ Label
+winfo_name                 ~~~ Label
+winfo_parent                 ~~~ Label
+winfo_pathname                 ~~~ Label
+winfo_pixels                 ~~~ Label
+winfo_pointerx                 ~~~ Label
+winfo_pointerxy                 ~~~ Label
+winfo_pointery                 ~~~ Label
+winfo_reqheight                 ~~~ Label
+winfo_reqwidth                 ~~~ Label
+winfo_rgb                 ~~~ Label
+winfo_rootx                 ~~~ Label
+winfo_rooty                 ~~~ Label
+winfo_screen                 ~~~ Label
+winfo_screencells                 ~~~ Label
+winfo_screendepth                 ~~~ Label
+winfo_screenheight                 ~~~ Label
+winfo_screenmmheight                 ~~~ Label
+winfo_screenmmwidth                 ~~~ Label
+winfo_screenvisual                 ~~~ Label
+winfo_screenwidth                 ~~~ Label
+winfo_server                 ~~~ Label
+winfo_toplevel                 ~~~ Label
+winfo_viewable                 ~~~ Label
+winfo_visual                 ~~~ Label
+winfo_visualid                 ~~~ Label
+winfo_visualsavailable                 ~~~ Label
+winfo_vrootheight                 ~~~ Label
+winfo_vrootwidth                 ~~~ Label
+winfo_vrootx                 ~~~ Label
+winfo_vrooty                 ~~~ Label
+winfo_width                 ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
 
 
 
@@ -638,55 +593,11 @@ Frame
 
 
 	
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
-
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__
+__getattribute__ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__
+ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure
+_displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget _noarg_ _options _register _report_exception
+_root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 after                   ~~~ Label
 after_cancel            ~~~ Label
@@ -705,7 +616,6 @@ colormodel              ~~~ Label
 columnconfigure         ~~~ Label
 config                  ~~~ Label
 configure               ~~~ Label
-
 deletecommand           ~~~ Label
 destroy                 ~~~ Label
 event_add               ~~~ Label
@@ -857,57 +767,11 @@ Image
 ###########################
 LabelFrame
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
+__gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__
+__str__ __subclasshook__ __weakref__ _bind _configure _displayof_do _getboolean_getdoubles _getints _grid_configure 
+_nametowidget _noarg_ _options _register _report_exception_root  _setup _subst_format _subst_format_str _substitute _tclCommands
 _windowingsystem
-
-
-
 
 after                   ~~~ Label
 after_cancel            ~~~ Label
@@ -1067,146 +931,22 @@ winfo_y                 ~~~ Label
 ########################
 Listbox
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__
+__ge__ __getattribute__ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__
+__reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure
+_displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget _noarg_ _options _register _report_exception
+_root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 >>>>>>>>>>>>>>>>>>activate
-
-
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
 >>>>>>>>>>>>curselection
 >>>>>>>>>>>>delete
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
 >>>>>>>>>>>>get
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
 >>>>>>>>>>>>index
-info
 >>>>>>>>>>>>insert
 >>>>>>>>>>>>itemcget
 >>>>>>>>>>>>itemconfig
 >>>>>>>>>>>>itemconfigure
-keys
-lift
-location
-lower
-mainloop
-nametowidget
 >>>>>>>>>>>>nearest
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
 >>>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>scan_mark
 >>>>>>>>>>>>see
@@ -1215,317 +955,349 @@ rowconfigure
 >>>>>>>>>>>>select_includes
 >>>>>>>>>>>>select_set
 >>>>>>>>>>>>selection_anchor
-selection_clear
-selection_get
-selection_handle
 >>>>>>>>>>>>selection_includes
-selection_own
-selection_own_get
 >>>>>>>>>>>>selection_set
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
-
 >>>>>>>>>>>> xview
 >>>>>>>>>>>> xview_moveto
 >>>>>>>>>>>> xview_scroll
 >>>>>>>>>>>> yview
 >>>>>>>>>>>> yview_moveto
 >>>>>>>>>>>> yview_scroll
+after                 ~~~ Label
+after_cancel                 ~~~ Label
+after_idle                 ~~~ Label
+bbox                 ~~~ Label
+bell                 ~~~ Label
+bind                 ~~~ Label
+bind_all                 ~~~ Label
+bind_class                 ~~~ Label
+bindtags                 ~~~ Label
+cget                 ~~~ Label
+clipboard_append                 ~~~ Label
+clipboard_clear                 ~~~ Label
+clipboard_get                 ~~~ Label
+colormodel                 ~~~ Label
+columnconfigure                 ~~~ Label
+config                 ~~~ Label
+configure                 ~~~ Label
+deletecommand                 ~~~ Label
+destroy                 ~~~ Label
+event_add                 ~~~ Label
+event_delete                 ~~~ Label
+event_generate                 ~~~ Label
+event_info                 ~~~ Label
+focus                 ~~~ Label
+focus_displayof                 ~~~ Label
+focus_force                 ~~~ Label
+focus_get                 ~~~ Label
+focus_lastfor                 ~~~ Label
+focus_set                 ~~~ Label
+forget                 ~~~ Label
+getboolean                 ~~~ Label
+getdouble                 ~~~ Label
+getint                 ~~~ Label
+getvar                 ~~~ Label
+grab_current                 ~~~ Label
+grab_release                 ~~~ Label
+grab_set                 ~~~ Label
+grab_set_global                 ~~~ Label
+grab_status                 ~~~ Label
+grid                 ~~~ Label
+grid_bbox                 ~~~ Label
+grid_columnconfigure                 ~~~ Label
+grid_configure                 ~~~ Label
+grid_forget                 ~~~ Label
+grid_info                 ~~~ Label
+grid_location                 ~~~ Label
+grid_propagate                 ~~~ Label
+grid_remove                 ~~~ Label
+grid_rowconfigure                 ~~~ Label
+grid_size                 ~~~ Label
+grid_slaves                 ~~~ Label
+image_names                 ~~~ Label
+image_types                 ~~~ Label
+info                 ~~~ Label
+keys                 ~~~ Label
+lift                 ~~~ Label
+location                 ~~~ Label
+lower                 ~~~ Label
+mainloop                 ~~~ Label
+nametowidget                 ~~~ Label
+option_add                 ~~~ Label
+option_clear                 ~~~ Label
+option_get                 ~~~ Label
+option_readfile                 ~~~ Label
+pack                 ~~~ Label
+pack_configure                 ~~~ Label
+pack_forget                 ~~~ Label
+pack_info                 ~~~ Label
+pack_propagate                 ~~~ Label
+pack_slaves                 ~~~ Label
+place                 ~~~ Label
+place_configure                 ~~~ Label
+place_forget                 ~~~ Label
+place_info                 ~~~ Label
+place_slaves                 ~~~ Label
+propagate                 ~~~ Label
+quit                 ~~~ Label
+register                 ~~~ Label
+rowconfigure                 ~~~ Label
+selection_clear                 ~~~ Label
+selection_get                 ~~~ Label
+selection_handle                 ~~~ Label
+selection_own                 ~~~ Label
+selection_own_get                 ~~~ Label
+send                 ~~~ Label
+setvar                 ~~~ Label
+size                 ~~~ Label
+slaves                 ~~~ Label
+tk_bisque                 ~~~ Label
+tk_focusFollowsMouse                 ~~~ Label
+tk_focusNext                 ~~~ Label
+tk_focusPrev                 ~~~ Label
+tk_menuBar                 ~~~ Label
+tk_setPalette                 ~~~ Label
+tk_strictMotif                 ~~~ Label
+tkraise                 ~~~ Label
+unbind                 ~~~ Label
+unbind_all                 ~~~ Label
+unbind_class                 ~~~ Label
+update                 ~~~ Label
+update_idletasks                 ~~~ Label
+wait_variable                 ~~~ Label
+wait_visibility                 ~~~ Label
+wait_window                 ~~~ Label
+waitvar                 ~~~ Label
+winfo_atom                 ~~~ Label
+winfo_atomname                 ~~~ Label
+winfo_cells                 ~~~ Label
+winfo_children                 ~~~ Label
+winfo_class                 ~~~ Label
+winfo_colormapfull                 ~~~ Label
+winfo_containing                 ~~~ Label
+winfo_depth                 ~~~ Label
+winfo_exists                 ~~~ Label
+winfo_fpixels                 ~~~ Label
+winfo_geometry                 ~~~ Label
+winfo_height                 ~~~ Label
+winfo_id                 ~~~ Label
+winfo_interps                 ~~~ Label
+winfo_ismapped                 ~~~ Label
+winfo_manager                 ~~~ Label
+winfo_name                 ~~~ Label
+winfo_parent                 ~~~ Label
+winfo_pathname                 ~~~ Label
+winfo_pixels                 ~~~ Label
+winfo_pointerx                 ~~~ Label
+winfo_pointerxy                 ~~~ Label
+winfo_pointery                 ~~~ Label
+winfo_reqheight                 ~~~ Label
+winfo_reqwidth                 ~~~ Label
+winfo_rgb                 ~~~ Label
+winfo_rootx                 ~~~ Label
+winfo_rooty                 ~~~ Label
+winfo_screen                 ~~~ Label
+winfo_screencells                 ~~~ Label
+winfo_screendepth                 ~~~ Label
+winfo_screenheight                 ~~~ Label
+winfo_screenmmheight                 ~~~ Label
+winfo_screenmmwidth                 ~~~ Label
+winfo_screenvisual                 ~~~ Label
+winfo_screenwidth                 ~~~ Label
+winfo_server                 ~~~ Label
+winfo_toplevel                 ~~~ Label
+winfo_viewable                 ~~~ Label
+winfo_visual                 ~~~ Label
+winfo_visualid                 ~~~ Label
+winfo_visualsavailable                 ~~~ Label
+winfo_vrootheight                 ~~~ Label
+winfo_vrootwidth                 ~~~ Label
+winfo_vrootx                 ~~~ Label
+winfo_vrooty                 ~~~ Label
+winfo_width                 ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
+
+
 #######################
 PanedWindow
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__
+__sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 
-add
-
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
+>>>>>>>>>>>>>>add
 >>>>>>>>>>>>>>identify
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
 >>>>>>>>>>>>>panecget
 >>>>>>>>>>>>>paneconfig
 >>>>>>>>>>>>>paneconfigure
 >>>>>>>>>>>>>panes
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
 >>>>>>>>>>>>>proxy
 >>>>>>>>>>>>>proxy_coord
 >>>>>>>>>>>>>proxy_forget
 >>>>>>>>>>>>>proxy_place
-quit
-register
 >>>>>>>>>>>>>remove
-rowconfigure+
-
 >>>>>>>>>>>>>sash
 >>>>>>>>>>>>>sash_coord
 >>>>>>>>>>>>>sash_mark
 >>>>>>>>>>>>>sash_place
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
+
+after                 ~~~ Label
+after_cancel                 ~~~ Label
+after_idle                 ~~~ Label
+bbox                 ~~~ Label
+bell                 ~~~ Label
+bind                 ~~~ Label
+bind_all                 ~~~ Label
+bind_class                 ~~~ Label
+bindtags                 ~~~ Label
+cget                 ~~~ Label
+clipboard_append                 ~~~ Label
+clipboard_clear                 ~~~ Label
+clipboard_get                 ~~~ Label
+colormodel                 ~~~ Label
+columnconfigure                 ~~~ Label
+config                 ~~~ Label
+configure                 ~~~ Label
+deletecommand                 ~~~ Label
+destroy                 ~~~ Label
+event_add                 ~~~ Label
+event_delete                 ~~~ Label
+event_generate                 ~~~ Label
+event_info                 ~~~ Label
+focus                 ~~~ Label
+focus_displayof                 ~~~ Label
+focus_force                 ~~~ Label
+focus_get                 ~~~ Label
+focus_lastfor                 ~~~ Label
+focus_set                 ~~~ Label
+forget                 ~~~ Label
+getboolean                 ~~~ Label
+getdouble                 ~~~ Label
+getint                 ~~~ Label
+getvar                 ~~~ Label
+grab_current                 ~~~ Label
+grab_release                 ~~~ Label
+grab_set                 ~~~ Label
+grab_set_global                 ~~~ Label
+grab_status                 ~~~ Label
+grid                 ~~~ Label
+grid_bbox                 ~~~ Label
+grid_columnconfigure                 ~~~ Label
+grid_configure                 ~~~ Label
+grid_forget                 ~~~ Label
+grid_info                 ~~~ Label
+grid_location                 ~~~ Label
+grid_propagate                 ~~~ Label
+grid_remove                 ~~~ Label
+grid_rowconfigure                 ~~~ Label
+grid_size                 ~~~ Label
+grid_slaves                 ~~~ Label
+image_names                 ~~~ Label
+image_types                 ~~~ Label
+info                 ~~~ Label
+keys                 ~~~ Label
+lift                 ~~~ Label
+location                 ~~~ Label
+lower                 ~~~ Label
+mainloop                 ~~~ Label
+nametowidget                 ~~~ Label
+option_add                 ~~~ Label
+option_clear                 ~~~ Label
+option_get                 ~~~ Label
+option_readfile                 ~~~ Label
+pack                 ~~~ Label
+pack_configure                 ~~~ Label
+pack_forget                 ~~~ Label
+pack_info                 ~~~ Label
+pack_propagate                 ~~~ Label
+pack_slaves                 ~~~ Label
+place                 ~~~ Label
+place_configure                 ~~~ Label
+place_forget                 ~~~ Label
+place_info                 ~~~ Label
+place_slaves                 ~~~ Label
+propagate                 ~~~ Label
+quit                 ~~~ Label
+register                 ~~~ Label
+rowconfigure                 ~~~ Label
+selection_clear                 ~~~ Label
+selection_get                 ~~~ Label
+selection_handle                 ~~~ Label
+selection_own                 ~~~ Label
+selection_own_get                 ~~~ Label
+send                 ~~~ Label
+setvar                 ~~~ Label
+size                 ~~~ Label
+slaves                 ~~~ Label
+tk_bisque                 ~~~ Label
+tk_focusFollowsMouse                 ~~~ Label
+tk_focusNext                 ~~~ Label
+tk_focusPrev                 ~~~ Label
+tk_menuBar                 ~~~ Label
+tk_setPalette                 ~~~ Label
+tk_strictMotif                 ~~~ Label
+tkraise                 ~~~ Label
+unbind                 ~~~ Label
+unbind_all                 ~~~ Label
+unbind_class                 ~~~ Label
+update                 ~~~ Label
+update_idletasks                 ~~~ Label
+wait_variable                 ~~~ Label
+wait_visibility                 ~~~ Label
+wait_window                 ~~~ Label
+waitvar                 ~~~ Label
+winfo_atom                 ~~~ Label
 winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
-
-
-
+winfo_cells                 ~~~ Label                 ~~~ Label
+winfo_children                 ~~~ Label
+winfo_class                 ~~~ Label
+winfo_colormapfull                 ~~~ Label
+winfo_containing                 ~~~ Label
+winfo_depth                 ~~~ Label
+winfo_exists                 ~~~ Label
+winfo_fpixels                 ~~~ Label
+winfo_geometry                 ~~~ Label
+winfo_height                 ~~~ Label
+winfo_id                 ~~~ Label
+winfo_interps                 ~~~ Label
+winfo_ismapped                 ~~~ Label
+winfo_manager                 ~~~ Label
+winfo_name                 ~~~ Label
+winfo_parent                 ~~~ Label
+winfo_pathname                 ~~~ Label
+winfo_pixels                 ~~~ Label
+winfo_pointerx                 ~~~ Label
+winfo_pointerxy                 ~~~ Label
+winfo_pointery                 ~~~ Label
+winfo_reqheight                 ~~~ Label
+winfo_reqwidth                 ~~~ Label
+winfo_rgb                 ~~~ Label
+winfo_rootx                 ~~~ Label
+winfo_rooty                 ~~~ Label
+winfo_screen                 ~~~ Label
+winfo_screencells                 ~~~ Label
+winfo_screendepth                 ~~~ Label
+winfo_screenheight                 ~~~ Label
+winfo_screenmmheight                 ~~~ Label
+winfo_screenmmwidth                 ~~~ Label
+winfo_screenvisual                 ~~~ Label
+winfo_screenwidth                 ~~~ Label
+winfo_server                 ~~~ Label
+winfo_toplevel                 ~~~ Label
+winfo_viewable                 ~~~ Label
+winfo_visual                 ~~~ Label
+winfo_visualid                 ~~~ Label
+winfo_visualsavailable                 ~~~ Label
+winfo_vrootheight                 ~~~ Label
+winfo_vrootwidth                 ~~~ Label
+winfo_vrootx                 ~~~ Label
+winfo_vrooty                 ~~~ Label
+winfo_width                 ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
 
 ###################
 PhotoImage
@@ -1538,1054 +1310,853 @@ PhotoImage
 
 #######################
 Widget
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint  _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
+__gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__
+__str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+after                 ~~~ Label
+after_cancel                 ~~~ Label
+after_idle                 ~~~ Label
+bbox                 ~~~ Label
+bell                 ~~~ Label
+bind                 ~~~ Label
+bind_all                 ~~~ Label
+bind_class                 ~~~ Label
+bindtags                 ~~~ Label
+cget                 ~~~ Label
+clipboard_append                 ~~~ Label
+clipboard_clear                 ~~~ Label
+clipboard_get                 ~~~ Label
+colormodel                 ~~~ Label
+columnconfigure                 ~~~ Label
+config                 ~~~ Label
+configure                 ~~~ Label
+deletecommand                 ~~~ Label
+destroy                 ~~~ Label
+event_add                 ~~~ Label
+event_delete                 ~~~ Label
+event_generate                 ~~~ Label
+event_info                 ~~~ Label
+focus                 ~~~ Label
+focus_displayof                 ~~~ Label
+focus_force                 ~~~ Label
+focus_get                 ~~~ Label
+focus_lastfor                 ~~~ Label
+focus_set                 ~~~ Label
+forget                 ~~~ Label
+getboolean                 ~~~ Label
+getdouble                 ~~~ Label
+getint                 ~~~ Label
+getvar                 ~~~ Label
+grab_current                 ~~~ Label
+grab_release                 ~~~ Label
+grab_set                 ~~~ Label
+grab_set_global                 ~~~ Label
+grab_status                 ~~~ Label
+grid                 ~~~ Label
+grid_bbox                 ~~~ Label
+grid_columnconfigure                 ~~~ Label
+grid_configure                 ~~~ Label
+grid_forget                 ~~~ Label
+grid_info                 ~~~ Label
+grid_location                 ~~~ Label
+grid_propagate                 ~~~ Label
+grid_removev                 ~~~ Label
+grid_rowconfigure                 ~~~ Label
+grid_size                 ~~~ Label
+grid_slaves                 ~~~ Label
+image_names                 ~~~ Label
+image_types                 ~~~ Label
+info                 ~~~ Label
+keys                 ~~~ Label
+lift                 ~~~ Label
+location                 ~~~ Label
+lower                 ~~~ Label
+mainloop                 ~~~ Label
+nametowidget                 ~~~ Label
+option_add                 ~~~ Label
+option_clear                 ~~~ Label
+option_get                 ~~~ Label
+option_readfile                 ~~~ Label
+pack                 ~~~ Label
+pack_configure                 ~~~ Label
+pack_forget                 ~~~ Label
+pack_info                 ~~~ Label
+pack_propagate                 ~~~ Label
+pack_slaves                 ~~~ Label
+place                 ~~~ Label
+place_configure                 ~~~ Label
+place_forget                 ~~~ Label
+place_info                 ~~~ Label
+place_slaves                 ~~~ Label
+propagate                 ~~~ Label
+quit                 ~~~ Label
+register                 ~~~ Label
+rowconfigure                 ~~~ Label
+selection_clear                 ~~~ Label
+selection_get                 ~~~ Label
+selection_handle                 ~~~ Label
+selection_own                 ~~~ Label
+selection_own_get                 ~~~ Label
+send                 ~~~ Label
+setvar                 ~~~ Label
+size                 ~~~ Label
+slaves                 ~~~ Label
+tk_bisque                 ~~~ Label
+tk_focusFollowsMouse                 ~~~ Label
+tk_focusNext                 ~~~ Label
+tk_focusPrev                 ~~~ Label
+tk_menuBar                 ~~~ Label
+tk_setPalette                 ~~~ Label
+tk_strictMotif                 ~~~ Label
+tkraise                 ~~~ Label
+unbind                 ~~~ Label
+unbind_all                 ~~~ Label
+unbind_class                 ~~~ Label
+update                 ~~~ Label
+update_idletasks                 ~~~ Label
+wait_variable                 ~~~ Label
+wait_visibility                 ~~~ Label
+wait_window                 ~~~ Label
+waitvar                 ~~~ Label
+winfo_atom                 ~~~ Label
+winfo_atomname                 ~~~ Label
+winfo_cells                 ~~~ Label
+winfo_children                 ~~~ Label
+winfo_class                 ~~~ Label
+winfo_colormapfull                 ~~~ Label
+winfo_containing                 ~~~ Label
+winfo_depth                 ~~~ Label
+winfo_exists                 ~~~ Label
+winfo_fpixels                 ~~~ Label
+winfo_geometry                 ~~~ Label
+winfo_height                 ~~~ Label
+winfo_id                 ~~~ Label
+winfo_interps                 ~~~ Label
+winfo_ismapped                 ~~~ Label
+winfo_manager                 ~~~ Label
+winfo_name                 ~~~ Label
+winfo_parent                 ~~~ Label
+winfo_pathname                 ~~~ Label
+winfo_pixels                 ~~~ Label
+winfo_pointerx                 ~~~ Label
+winfo_pointerxy                 ~~~ Label
+winfo_pointery                 ~~~ Label
+winfo_reqheight                 ~~~ Label
+winfo_reqwidth                 ~~~ Label
+winfo_rgb                 ~~~ Label
+winfo_rootx                 ~~~ Label
+winfo_rooty                 ~~~ Label
+winfo_screen                 ~~~ Label
+winfo_screencells                 ~~~ Label
+winfo_screendepth                 ~~~ Label
+winfo_screenheight                 ~~~ Label
+winfo_screenmmheight                 ~~~ Label
+winfo_screenmmwidth                 ~~~ Label
+winfo_screenvisual                 ~~~ Label
+winfo_screenwidth                 ~~~ Label
+winfo_server                 ~~~ Label
+winfo_toplevel                 ~~~ Label
+winfo_viewable                 ~~~ Label
+winfo_visual                 ~~~ Label
+winfo_visualid                 ~~~ Label
+winfo_visualsavailable                 ~~~ Label
+winfo_vrootheight                 ~~~ Label
+winfo_vrootwidth                 ~~~ Label
+winfo_vrootx                 ~~~ Label
+winfo_vrooty                 ~~~ Label
+winfo_width                 ~~~ Label
+winfo_x                 ~~~ Label
+winfo_y                 ~~~ Label
 
 ######################
 Radiobutton
 
 
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
+__gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr____setattr__ __setitem__ __sizeof__
+__str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands  _windowingsystem
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
+
 >>>>>>>>>>deselect
-destroy
-event_add
-event_delete
-event_generate
-event_info
->>>>>>>>>>flash
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
 >>>>>>>>>>invoke
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
+>>>>>>>>>>flash
 >>>>>>>>>>select
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+after                 ~~~ Label
+after_cancel                 ~~~ Label
+after_idle                 ~~~ Label
+bbox                 ~~~ Label
+bell                 ~~~ Label
+bind                 ~~~ Label
+bind_all                 ~~~ Label
+bind_class                 ~~~ Label
+bindtags                 ~~~ Label
+cget                 ~~~ Label
+clipboard_append                 ~~~ Label
+clipboard_clear                 ~~~ Label
+clipboard_get                 ~~~ Label
+colormodel                 ~~~ Label
+columnconfigure                 ~~~ Label
+config                 ~~~ Label
+configure                 ~~~ Label
+deletecommand                 ~~~ Label
+destroy                 ~~~ Label
+event_add                 ~~~ Label
+event_delete                 ~~~ Label
+event_generate                 ~~~ Label
+event_info                 ~~~ Label
+focus                 ~~~ Label
+focus_displayof                 ~~~ Label
+focus_force                 ~~~ Label
+focus_get                 ~~~ Label
+focus_lastfor                 ~~~ Label
+focus_set                 ~~~ Label
+forget                 ~~~ Label
+getboolean                 ~~~ Label
+getdouble                 ~~~ Label
+getint                 ~~~ Label
+getvar                 ~~~ Label
+grab_current                 ~~~ Label
+grab_release                 ~~~ Label
+grab_set                 ~~~ Label
+grab_set_global                 ~~~ Label
+grab_status                 ~~~ Label
+grid                 ~~~ Label
+grid_bbox                 ~~~ Label
+grid_columnconfigure                 ~~~ Label
+grid_configure                 ~~~ Label
+grid_forget                 ~~~ Label
+grid_info                 ~~~ Label
+grid_location                 ~~~ Label
+grid_propagate                 ~~~ Label
+grid_remove                 ~~~ Label
+grid_rowconfigure                 ~~~ Label
+grid_size                 ~~~ Label
+grid_slaves                 ~~~ Label
+image_names                 ~~~ Label
+image_types                 ~~~ Label
+info                 ~~~ Label
+keys                 ~~~ Label
+lift                 ~~~ Label
+location                 ~~~ Label
+lower                 ~~~ Label
+mainloop                 ~~~ Label
+nametowidget                 ~~~ Label
+option_add                 ~~~ Label
+option_clear                 ~~~ Label
+option_get                 ~~~ Label
+option_readfile                 ~~~ Label
+pack                 ~~~ Label
+pack_configure                 ~~~ Label
+pack_forget                 ~~~ Label
+pack_info                 ~~~ Label
+pack_propagate                 ~~~ Label
+pack_slaves                 ~~~ Label
+place                 ~~~ Label
+place_configure                 ~~~ Label
+place_forget                 ~~~ Label
+place_info                 ~~~ Label
+place_slaves                 ~~~ Label
+propagate                 ~~~ Label
+quit                 ~~~ Label
+register                 ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 ######################
 Scrollbar
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr____setitem__
+__sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root  _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 
 >>>>>>>>>>>>>activate
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
 >>>>>>>>>>>>>delta
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
 >>>>>>>>>>>>>fraction
 >>>>>>>>>>>>>get
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
 >>>>>>>>>>>>>identify
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
 >>>>>>>>>>>>>set
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+
+
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 
 
 ############
 Spinbox
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__
+__setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints
+_grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str
+_substitute _tclCommands _windowingsystem
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
+
 >>>>>>>>>>>>>delete
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
 >>>>>>>>>>>>>get
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
 >>>>>>>>>>>>>icursor
 >>>>>>>>>>>>>identify
-image_names
-image_types
 >>>>>>>>>>>>>index
-info
 >>>>>>>>>>>>>insert
 >>>>>>>>>>>>>invoke
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
+>>>>>>>>>>>>>selection_element
  >>>>>>>>>>>>>scan
 >>>>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>>scan_mark
 >>>>>>>>>>>>>selection
 >>>>>>>>>>>>>selection_adjust
-selection_clear
->>>>>>>>>>>>>selection_element
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
-xview
-xview_moveto
-xview_scroll
+>>>>>>>>>>>>>>>xview
+>>>>>>>>>>>>>>>xview_moveto
+>>>>>>>>>>>>>>>xview_scroll
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
+
+
+
+
 ##############################
 BaseWidget
 
 
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__
+__getattribute__ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__
+__repr__ __setattr__ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean_getdoubles
+_getints _grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute
+_tclCommands _windowingsystem
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append  
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid_bbox
-grid_columnconfigure
-grid_location
-grid_propagate
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-keys
-lift
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack_propagate
-pack_slaves
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                  ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+getboolean                ~~~ Label                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 
 
 
@@ -2603,424 +2174,351 @@ BitmapImage
 ##############################
 Checkbutton
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__
+__getattribute__ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__
+__setattr__ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure
+_nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
->>>>>>>>>>>>>deselect
-destroy
-event_add
-event_delete
-event_generate
-event_info
->>>>>>>>>>>>>flash
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-invoke
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
->>>>>>>>>>>>>select
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
+
+
+
+
 >>>>>>>>>>>>>toggle
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+>>>>>>>>>>>>>select
+>>>>>>>>>>>>>deselect
+>>>>>>>>>>>>>flash
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+invoke                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
+
 ##############################
 Menubutton
 
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__
+__setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints
+_grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute
+_tclCommands _windowingsystem
 
 
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
+
+
+
+
+
+
+
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
 getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
 grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
 grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
 keys
-lift
+lift                ~~~ Label               
 location
-lower
-mainloop
-nametowidget
-option_add
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
 option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
 tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Labelv
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label            
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label             
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
 winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 
 
 ################################
@@ -3029,470 +2527,348 @@ Message
 
 
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
+__gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__
+__str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
+
+
+
+
+
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
 winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 
 
 ##############################
 OptionMenu
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint  _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__
+__sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
+_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
-deletecommand
-destroy
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
-info
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
-propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
-tk_bisque
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
-tk_menuBar
-tk_setPalette
-tk_strictMotif
-tkraise
-unbind
-unbind_all
-unbind_class
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
+
+
+
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+propagate                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_menuBar                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
 
 
 #####################
 Menu
 
-_Misc__winfo_getint
-_Misc__winfo_parseitem
-__class__
-__delattr__
-__dict__
-__doc__
-__eq__
-__format__
-__ge__
-__getattribute__
-__getitem__
-__gt__
-__hash__
-__init__
-__le__
-__lt__
-__module__
-__ne__
-__new__
-__reduce__
-__reduce_ex__
-__repr__
-__setattr__
-__setitem__
-__sizeof__
-__str__
-__subclasshook__
-__weakref__
-_bind
-_configure
-_displayof
-_do
-_getboolean
-_getdoubles
-_getints
-_grid_configure
-_nametowidget
-_noarg_
-_options
-_register
-_report_exception
-_root
-_setup
-_subst_format
-_subst_format_str
-_substitute
-_tclCommands
-_windowingsystem
+_Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
+__getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__
+__setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints
+_grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>
 >>>>>>>>>>>>>activate
 >>>>>>>>>>>>>add
@@ -3501,65 +2877,10 @@ _windowingsystem
 >>>>>>>>>>>>>add_command
 >>>>>>>>>>>>>add_radiobutton
 >>>>>>>>>>>>>add_separator
-after
-after_cancel
-after_idle
-bbox
-bell
-bind
-bind_all
-bind_class
-bindtags
-cget
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
-columnconfigure
-config
-configure
 >>>>>>>>>>>>>delete
-deletecommand
-destroy
 >>>>>>>>>>>>>entrycget
 >>>>>>>>>>>>>entryconfig
 >>>>>>>>>>>>>entryconfigure
-event_add
-event_delete
-event_generate
-event_info
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-forget
-getboolean
-getdouble
-getint
-getvar
-grab_current
-grab_release
-grab_set
-grab_set_global
-grab_status
-grid
-grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
-grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
-grid_size
-grid_slaves
-image_names
-image_types
->>>>>>>>>>>>>index
-info
 >>>>>>>>>>>>>insert
 >>>>>>>>>>>>>insert_cascade
 >>>>>>>>>>>>>insert_checkbutton
@@ -3567,47 +2888,9 @@ info
 >>>>>>>>>>>>>insert_radiobutton
 >>>>>>>>>>>>>insert_separator
 >>>>>>>>>>>>>invoke
-keys
-lift
-location
-lower
-mainloop
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
-pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
-pack_slaves
-place
-place_configure
-place_forget
-place_info
-place_slaves
+>>>>>>>>>>>>>index
 >>>>>>>>>>>>>post
 >>>>>>>>>>>>>propagate
-quit
-register
-rowconfigure
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
-send
-setvar
-size
-slaves
->>>>>>>>>>>>>tk_bindForTraversal
-tk_bisque
->>>>>>>>>>>>>tk_firstMenu
-tk_focusFollowsMouse
-tk_focusNext
-tk_focusPrev
 >>>>>>>>>>>>>tk_getMenuButtons
 >>>>>>>>>>>>>tk_invokeMenu
 >>>>>>>>>>>>>tk_mbButtonDown
@@ -3617,72 +2900,167 @@ tk_focusPrev
 >>>>>>>>>>>>>tk_nextMenu
 >>>>>>>>>>>>>tk_nextMenuEntry
 >>>>>>>>>>>>>tk_popup
-tk_setPalette
-tk_strictMotif
+>>>>>>>>>>>>>tk_bindForTraversal
+>>>>>>>>>>>>>tk_firstMenu
 >>>>>>>>>>>>>tk_traverseToMenu
 >>>>>>>>>>>>>tk_traverseWithinMenu
-tkraise
 >>>>>>>>>>>>>type
-unbind
-unbind_all
-unbind_class
 >>>>>>>>>>>>>unpost
-update
-update_idletasks
-wait_variable
-wait_visibility
-wait_window
-waitvar
-winfo_atom
-winfo_atomname
-winfo_cells
-winfo_children
-winfo_class
-winfo_colormapfull
-winfo_containing
-winfo_depth
-winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
-winfo_id
-winfo_interps
-winfo_ismapped
-winfo_manager
-winfo_name
-winfo_parent
-winfo_pathname
-winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
-winfo_reqheight
-winfo_reqwidth
-winfo_rgb
-winfo_rootx
-winfo_rooty
-winfo_screen
-winfo_screencells
-winfo_screendepth
-winfo_screenheight
-winfo_screenmmheight
-winfo_screenmmwidth
-winfo_screenvisual
-winfo_screenwidth
-winfo_server
-winfo_toplevel
-winfo_viewable
-winfo_visual
-winfo_visualid
-winfo_visualsavailable
-winfo_vrootheight
-winfo_vrootwidth
-winfo_vrootx
-winfo_vrooty
-winfo_width
-winfo_x
-winfo_y
 >>>>>>>>>>>>>yposition
+
+after                ~~~ Label
+after_cancel                ~~~ Label
+after_idle                ~~~ Label
+bbox                ~~~ Label
+bell                ~~~ Label
+bind                ~~~ Label
+bind_all                ~~~ Label
+bind_class                ~~~ Label
+bindtags                ~~~ Label
+cget                ~~~ Label
+clipboard_append                ~~~ Label
+clipboard_clear                ~~~ Label
+clipboard_get                ~~~ Label
+colormodel                ~~~ Label
+columnconfigure                ~~~ Label
+config                ~~~ Label
+configure                ~~~ Label
+deletecommand                ~~~ Label
+destroy                ~~~ Label
+event_add                ~~~ Label
+event_delete                ~~~ Label
+event_generate                ~~~ Label
+event_info                ~~~ Label
+focus                ~~~ Label
+focus_displayof                ~~~ Label
+focus_force                ~~~ Label
+focus_get                ~~~ Label
+focus_lastfor                ~~~ Label
+focus_set                ~~~ Label
+forget                ~~~ Label
+getboolean                ~~~ Label
+getdouble                ~~~ Label
+getint                ~~~ Label
+getvar                ~~~ Label
+grab_current                ~~~ Label
+grab_release                ~~~ Label
+grab_set                ~~~ Label
+grab_set_global                ~~~ Label
+grab_status                ~~~ Label
+grid                ~~~ Label
+grid_bbox                ~~~ Label
+grid_columnconfigure                ~~~ Label
+grid_configure                ~~~ Label
+grid_forget                ~~~ Label
+grid_info                ~~~ Label
+grid_location                ~~~ Label
+grid_propagate                ~~~ Label
+grid_remove                ~~~ Label
+grid_rowconfigure                ~~~ Label
+grid_size                ~~~ Label
+grid_slaves                ~~~ Label
+image_names                ~~~ Label
+image_types                ~~~ Label
+info                ~~~ Label
+keys                ~~~ Label
+lift                ~~~ Label
+location                ~~~ Label
+lower                ~~~ Label
+mainloop                ~~~ Label
+nametowidget                ~~~ Label
+option_add                ~~~ Label
+option_clear                ~~~ Label
+option_get                ~~~ Label
+option_readfile                ~~~ Label
+pack                ~~~ Label
+pack_configure                ~~~ Label
+pack_forget                ~~~ Label
+pack_info                ~~~ Label
+pack_propagate                ~~~ Label
+pack_slaves                ~~~ Label
+place                ~~~ Label
+place_configure                ~~~ Label
+place_forget                ~~~ Label
+place_info                ~~~ Label
+place_slaves                ~~~ Label
+quit                ~~~ Label
+register                ~~~ Label
+rowconfigure                ~~~ Label
+selection_clear                ~~~ Label
+selection_get                ~~~ Label
+selection_handle                ~~~ Label
+selection_own                ~~~ Label
+selection_own_get                ~~~ Label
+send                ~~~ Label
+setvar                ~~~ Label
+size                ~~~ Label
+slaves                ~~~ Label
+tk_bisque                ~~~ Label
+tk_focusFollowsMouse                ~~~ Label
+tk_focusNext                ~~~ Label
+tk_focusPrev                ~~~ Label
+tk_setPalette                ~~~ Label
+tk_strictMotif                ~~~ Label
+tkraise                ~~~ Label
+unbind                ~~~ Label
+unbind_all                ~~~ Label
+unbind_class                ~~~ Label
+update                ~~~ Label
+update_idletasks                ~~~ Label
+wait_variable                ~~~ Label
+wait_visibility                ~~~ Label
+wait_window                ~~~ Label
+waitvar                ~~~ Label
+winfo_atom                ~~~ Label
+winfo_atomname                ~~~ Label
+winfo_cells                ~~~ Label
+winfo_children                ~~~ Label
+winfo_class                ~~~ Label
+winfo_colormapfull                ~~~ Label
+winfo_containing                ~~~ Label
+winfo_depth                ~~~ Label
+winfo_exists                ~~~ Label
+winfo_fpixels                ~~~ Label
+winfo_geometry                ~~~ Label
+winfo_height                ~~~ Label
+winfo_id                ~~~ Label
+winfo_interps                ~~~ Label
+winfo_ismapped                ~~~ Label
+winfo_manager                ~~~ Label
+winfo_name                ~~~ Label
+winfo_parent                ~~~ Label
+winfo_pathname                ~~~ Label
+winfo_pixels                ~~~ Label
+winfo_pointerx                ~~~ Label
+winfo_pointerxy                ~~~ Label
+winfo_pointery                ~~~ Label
+winfo_reqheight                ~~~ Label
+winfo_reqwidth                ~~~ Label
+winfo_rgb                ~~~ Label
+winfo_rootx                ~~~ Label
+winfo_rooty                ~~~ Label
+winfo_screen                ~~~ Label
+winfo_screencells                ~~~ Label
+winfo_screendepth                ~~~ Label
+winfo_screenheight                ~~~ Label
+winfo_screenmmheight                ~~~ Label
+winfo_screenmmwidth                ~~~ Label
+winfo_screenvisual                ~~~ Label
+winfo_screenwidth                ~~~ Label
+winfo_server                ~~~ Label
+winfo_toplevel                ~~~ Label
+winfo_viewable                ~~~ Label
+winfo_visual                ~~~ Label
+winfo_visualid                ~~~ Label
+winfo_visualsavailable                ~~~ Label
+winfo_vrootheight                ~~~ Label
+winfo_vrootwidth                ~~~ Label
+winfo_vrootx                ~~~ Label
+winfo_vrooty                ~~~ Label
+winfo_width                ~~~ Label
+winfo_x                ~~~ Label
+winfo_y                ~~~ Label
+
 
 
 ####################
@@ -3737,6 +3115,9 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
+
 after
 after_cancel
 after_idle
@@ -3760,7 +3141,7 @@ event_add
 event_delete
 event_generate
 event_info
-flash
+>>>>>>>>>>>>>>>>>>>>flash
 focus
 focus_displayof
 focus_force
@@ -3792,7 +3173,7 @@ grid_slaves
 image_names
 image_types
 info
-invoke
+>>>>>>>>>>>>>>>>>>>>invoke
 keys
 lift
 location
@@ -3827,11 +3208,11 @@ send
 setvar
 size
 slaves
-tkButtonDown
-tkButtonEnter
-tkButtonInvoke
-tkButtonLeave
-tkButtonUp
+>>>>>>>>>>>>>>>>>>>>tkButtonDown
+>>>>>>>>>>>>>>>>>>>>tkButtonEnter
+>>>>>>>>>>>>>>>>>>>>tkButtonInvoke
+>>>>>>>>>>>>>>>>>>>>tkButtonLeave
+>>>>>>>>>>>>>>>>>>>>tkButtonUp
 tk_bisque
 tk_focusFollowsMouse
 tk_focusNext
@@ -3952,6 +3333,10 @@ _subst_format_str
 _substitute
 _tclCommands
 _windowingsystem
+
+
+
+
 after
 after_cancel
 after_idle
@@ -3975,7 +3360,7 @@ event_add
 event_delete
 event_generate
 event_info
-flash
+>>>>>>>>>>>>>>>>>>>>flash
 focus
 focus_displayof
 focus_force
@@ -4042,11 +3427,11 @@ send
 setvar
 size
 slaves
-tkButtonDown
-tkButtonEnter
-tkButtonInvoke
-tkButtonLeave
-tkButtonUp
+>>>>>>>>>>>>>>>>>>>>tkButtonDown
+>>>>>>>>>>>>>>>>>>>>tkButtonEnter
+>>>>>>>>>>>>>>>>>>>>tkButtonInvoke
+>>>>>>>>>>>>>>>>>>>>tkButtonLeave
+>>>>>>>>>>>>>>>>>>>>tkButtonUp
 tk_bisque
 tk_focusFollowsMouse
 tk_focusNext
