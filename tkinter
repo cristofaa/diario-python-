@@ -47,14 +47,14 @@ bind
 bind_all
 bind_class
 bindtags
-cget
+cget                      Label.cget("Text") >>> "parametro"     #   regresa  los parametros de la funcion 
 clipboard_append
 clipboard_clear
 clipboard_get
 colormodel
 columnconfigure
 config
-configure
+configure                label.configure() >>>         #  regresa todas la configuraciones de la etiqueta
 deletecommand
 destroy
 event_add
