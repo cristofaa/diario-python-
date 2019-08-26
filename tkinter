@@ -7,7 +7,7 @@ Label
  background             Label(background="red") >> define el color de fondo de la etiqueta 
  bitmap,
  borderwidth,           Label(borderwidth =20) >> aumenta el contorno de la etiqueta 
- cursor,
+ cursor,                  label (cursor="hand1")http://www.tcl.tk/man/tcl8.5/TkCmd/cursors.htm aqui estan los cursores disponibles
  disabledforeground, 
  font,                 label(font ="times 15 bold")    >>modifica la fuente de la etiqueta  indica la  funte el tamaño y el tipo  investigar mas 
  foreground            Label(foreground ="blue") >> define el color de la letra
@@ -25,7 +25,7 @@ Label
  text                  Label (text="hola  mundo ")  >> es el mensaje de la etiqueta 
  textvariable,         texto = StringVar()    texto.set("Un nuevo texto")  label.config(textvariable=texto)  # añadimos una variable de texto  cambia el texto en tiempo real 
 
- underline, 
+ underline,            label (underline = 2)  permite subrayar  una o varias  letras  de la etiqueta 
  wraplength
       
       
