@@ -4,23 +4,25 @@ Label
  activebackground, 
  activeforeground,
  anchor,
- background,
+ background            Label(background="red") >> define el color de fondo de la etiqueta 
  bitmap,
- borderwidth, 
+ borderwidth,           Label(borderwidth =20) >> aumenta el contorno de la etiqueta 
  cursor,
  disabledforeground, 
- font,
- foreground,
+ font,                 label(font ="times 15 bold")    >>modifica la fuente de la etiqueta  indica la  funte el tamaño y el tipo  investigar mas 
+ foreground            Label(foreground ="blue") >> define el color de la letra
+ 
  highlightbackground, 
  highlightcolor,
  highlightthickness,
+ 
  image,
- justify,
- padx,
- pady, 
- relief,
+ justify                 Label (text='         hola',justify='center') >>>  alinea el texto  "left", "center", "right", and "fill".
+ padx,                  label (pady=40)  define el tamaño que se le da acia ariva  sin afectar alas letras 
+ pady,                  label (padx=40)  define el tamaño que se le da acia los lados  sin afectar alas letras 
+ relief                 label (relief="groove")    determina el tipo de borde   "raised", "sunken", "flat", "groove", and "ridge". 
  takefocus,
- text,
+ text                  Label (text="hola  mundo ")  >> es el mensaje de la etiqueta 
  textvariable,
  underline, 
  wraplength
@@ -57,26 +59,33 @@ config
 configure                label.configure() >>>         #  regresa todas la configuraciones de la etiqueta
 deletecommand
 destroy
+
 event_add
 event_delete
 event_generate
 event_info
+
+
 focus
 focus_displayof
 focus_force
 focus_get
 focus_lastfor
 focus_set
+
 forget
+
 getboolean
 getdouble
 getint
 getvar
+
 grab_current
 grab_release
 grab_set
 grab_set_global
 grab_status
+
 grid
 grid_bbox
 grid_columnconfigure
@@ -89,6 +98,7 @@ grid_remove
 grid_rowconfigure
 grid_size
 grid_slaves
+
 image_names
 image_types
 info
@@ -98,21 +108,25 @@ location
 lower
 mainloop
 nametowidget
+
 option_add
 option_clear
 option_get
 option_readfile
+
 pack
 pack_configure
 pack_forget
 pack_info
 pack_propagate
 pack_slaves
+
 place
 place_configure
 place_forget
 place_info
 place_slaves
+
 propagate
 quit
 register
@@ -126,6 +140,7 @@ send
 setvar
 size
 slaves
+
 tk_bisque
 tk_focusFollowsMouse
 tk_focusNext
@@ -134,15 +149,18 @@ tk_menuBar
 tk_setPalette
 tk_strictMotif
 tkraise
+
 unbind
 unbind_all
 unbind_class
+
 update
 update_idletasks
 wait_variable
 wait_visibility
 wait_window
 waitvar
+
 winfo_atom
 winfo_atomname
 winfo_cells
