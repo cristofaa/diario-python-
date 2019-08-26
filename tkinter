@@ -1,10 +1,10 @@
 #######################################################################
 Label
 
- activebackground, 
- activeforeground,
- anchor,
- background            Label(background="red") >> define el color de fondo de la etiqueta 
+ activebackground,       activebackgroud ="black"     se  prende cuando se  pone el cursor
+ activeforeground,       activeforegroud = "green"    cambia de color cuando esta  el cursor 
+ anchor,                label (anchor = "SW")          marcar el lugar donde aparece # ivestigar mas 
+ background             Label(background="red") >> define el color de fondo de la etiqueta 
  bitmap,
  borderwidth,           Label(borderwidth =20) >> aumenta el contorno de la etiqueta 
  cursor,
@@ -16,14 +16,15 @@ Label
  highlightcolor,
  highlightthickness,
  
- image,
+ image,                  imagen = PhotoImage(file="imagen.gif")  Label(root, image=imagen, bd=0).pack()
  justify                 Label (text='         hola',justify='center') >>>  alinea el texto  "left", "center", "right", and "fill".
  padx,                  label (pady=40)  define el tamaño que se le da acia ariva  sin afectar alas letras 
  pady,                  label (padx=40)  define el tamaño que se le da acia los lados  sin afectar alas letras 
  relief                 label (relief="groove")    determina el tipo de borde   "raised", "sunken", "flat", "groove", and "ridge". 
  takefocus,
  text                  Label (text="hola  mundo ")  >> es el mensaje de la etiqueta 
- textvariable,
+ textvariable,         texto = StringVar()    texto.set("Un nuevo texto")  label.config(textvariable=texto)  # añadimos una variable de texto  cambia el texto en tiempo real 
+
  underline, 
  wraplength
       
