@@ -23,10 +23,7 @@ Label
  text                  Label (text="hola  mundo ")  >> es el mensaje de la etiqueta 
  textvariable,         texto = StringVar()    texto.set("Un nuevo texto")  label.config(textvariable=texto)  # añadimos una variable de texto  cambia el texto en tiempo real 
  underline,            label (underline = 2)  permite subrayar  una o varias  letras  de la etiqueta 
- wraplength             dtermina el aguste de linea  en unidaces de pantalla el valor por defecto es 0 # probarlo 
-      
-      
-      
+ wraplength             dtermina el aguste de linea  en unidaces de pantalla el valor por defecto es 0 # probarlo    
         ~~~
  height,              define el tamaño de la etiqueta
  width                define el tamaño de la etiqueta
@@ -53,10 +50,10 @@ clipboard_clear
 clipboard_get
 colormodel
 columnconfigure
-config
+config                   label.config(text="texto")    # cambia las configuraciones de los parametros
 configure                label.configure() >>>         #  regresa todas la configuraciones de la etiqueta
 deletecommand
-destroy
+destroy                   label.destroy()              # destruye el objeto
 
 event_add
 event_delete
@@ -104,7 +101,7 @@ keys
 lift
 location
 lower
-mainloop
+mainloop                 se vuelve en el loop principal
 nametowidget
 
 option_add
