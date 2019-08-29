@@ -39,8 +39,9 @@ after
 after_cancel
 after_idle
 bbox
-bell
-bind
+bell                        bell()  genera el sonido de un beep
+
+bind                       bind("<evento>",funcion)    se pone el evento y la funcion a ejecutar
 bind_all
 bind_class
 bindtags
@@ -337,7 +338,7 @@ relief,
 selectbackground,
 selectborderwidth,
 selectforeground,
-show, 
+show,                 show("#")   es para que funcione como si fuera un password 
 state,
 takefocus,
 textvariable,
@@ -2026,7 +2027,7 @@ overrideredirect
 protocol
 positionfrom
 report_callback_exception
-resizable
+resizable                             resizable(1,0)solo acepta 0 o 1 define la si la ventana se pude redimensionar con el mause  
 readprofile
 state
 title                               le   pone el titulo ala  ventana 
@@ -2035,7 +2036,7 @@ transient
 loadtk
 group
 command
-iconbitmap
+iconbitmap                         iconbitmap("gato.ico")  cambia el icono
 iconify
 iconmask
 iconname
