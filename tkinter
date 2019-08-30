@@ -35,17 +35,21 @@ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __r
 __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof_do _getboolean_getdoubles_getints _grid_configure
 _nametowidget_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
-after
+after                     label.after(1000,funcion1)   es como time.sleep 
 after_cancel
 after_idle
+
 bbox
 bell                        bell()  genera el sonido de un beep
+
 
 bind                       bind("<evento>",funcion)    se pone el evento y la funcion a ejecutar
 bind_all
 bind_class
 bindtags
+
 cget                      Label.cget("Text") >>> "parametro"     #   regresa  los parametros de la funcion 
+
 clipboard_append
 clipboard_clear
 clipboard_get
