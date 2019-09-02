@@ -377,22 +377,23 @@ _windowingsystem
 >>>>>>>>>>>>>>xview
 >>>>>>>>>>>>>>>xview_moveto
 >>>>>>>>>>>>>>>>>xview_scroll
->>>>>>>>>delete
->>>>>>>>>>>>>get
->>>>>>>>>>>>>>>>icursor
+>>>>>>>>>delete                   delete(1,12)     marca  un rango para ser eliminado se  puede poner  solo un digito 
+>>>>>>>>>>>>>get                  get()           regresa el texto que tiene el cuatro de texto 
+>>>>>>>>>>>>>>>>icursor            icursor (3)    cambia el cursor dentro del cuadro de texto 
 >>>>>>>><<<>>>index
->>>>>>>>>>>>>>insert
+>>>>>>>>>>>>>>insert              insert (1,hola)  inserta un string 
 >>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>scan_mark
->>>>>><<<<select_adjust
->>>>>><<<<select_clear
+>>>>>><<<<select_adjust           select_agust(3)  seleccion hasta  de 0 hasta 3  ejemplo 
+>>>>>><<<<select_clear            select_clear  quita la seleccion del texto 
 >>>>>><<<<select_from
 >>>>>><<<<select_present
->>>>>><<<<select_range
+>>>>>><<<<select_range           select_range(1,12) seleciona texto  un rango 
 >>>>>><<<<select_to
->>>>>><<<<selection_adjust
+
+>>>>>><<<<selection_adjust      
 >>>>>><<<<selection_from
->>>>>><<<<selection_present
+>>>>>><<<<selection_present        selection_present()indica si esta  selecionado  debuelve true o false
 >>>>>><<<<selection_range
 >>>>>><<<<selection_to
 after                              ~~~ Label after_cancel                       ~~~ Label after_idle                         ~~~ Label
@@ -1297,8 +1298,8 @@ _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_f
 
 
 >>>>>>>>>>>>>toggle
->>>>>>>>>>>>>select
->>>>>>>>>>>>>deselect
+>>>>>>>>>>>>>select       select()     activa  el checkbuton()
+>>>>>>>>>>>>>deselect                   desactiva
 >>>>>>>>>>>>>flash
  
 after                  ~~~ Label after_cancel           ~~~ Label after_idle             ~~~ Label bbox                   ~~~ Label
