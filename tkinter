@@ -40,40 +40,43 @@ after_cancel
 after_idle
 
 bbox
+
+
+
 bell                        bell()  genera el sonido de un beep
-
-
 bind                       bind("<evento>",funcion)    se pone el evento y la funcion a ejecutar
+
 bind_all
 bind_class
 bindtags
 
 cget                      Label.cget("Text") >>> "parametro"     #   regresa  los parametros de la funcion 
+clipboard_append          clipboard_append() agrega un archivo de texto al porta papeles  como ctr + c
+clipboard_clear           clipboard_clear()  limpia el portapapeles 
+clipboard_get             clipboard_get()    obtiene la informacion del portapapeles 
+colormodel                es  inutil para  tkinter
 
-clipboard_append
-clipboard_clear
-clipboard_get
-colormodel
 columnconfigure
+rowconfigure
+
 config                   label.config(text="texto")    # cambia las configuraciones de los parametros
 configure                label.configure() >>>         #  regresa todas la configuraciones de la etiqueta
 deletecommand
 destroy                   label.destroy()              # destruye el objeto
 
-event_add
+event_add                  agrega un evento virual (<<evento>> ) para los bindings  investigar mas
 event_delete
 event_generate
-event_info
+event_info                muestra los eventos disponibles
 
 
-focus
-focus_displayof
-focus_force
-focus_get
-focus_lastfor
-focus_set
-
-forget
+focus                        activa  el focus  en ese objeto
+focus_force                   tambien ace el focus 
+focus_set                    ace lo mismo que focus 
+focus_get                    muestra el numero de foco actual , entre todos los posibles focos
+focus_lastfor                se usa para muchas ventanas investigar mas
+focus_displayof               muestra lo mismo que focus_get
+forget                       desactiva etiqueta
 
 getboolean
 getdouble
@@ -86,23 +89,26 @@ grab_set
 grab_set_global
 grab_status
 
-grid
+grid                   etiqueta0.grid(row=0,column=0) genera una regilla,activa la etiqueta 
+
 grid_bbox
-grid_columnconfigure
-grid_configure
-grid_forget
-grid_info
+
+grid_columnconfigure     cambia los paratametros en tiempo real 
+grid_rowconfigure        cambia los paratametros en tiempo real 
+grid_configure          cambia los paratametros en tiempo real 
+grid_forget             .grid_forget()   des activa  la etiquea 
+grid_info              .grid_info()   debuelve la  misma  informacioin sobre todos los parametros
 grid_location
-grid_propagate
-grid_remove
-grid_rowconfigure
+grid_propagate          manda sierto  o falso si tine  una propagacion geometrica 
+grid_remove            ace que deje de ser visible la etiqueta 
+
 grid_size
 grid_slaves
 
 image_names
 image_types
-info
-keys
+info                   debuelve la  misma  informacioin sobre todos los parametros   de pack  olo que se uso para mostrarlo 
+keys                  key() debuelvel todos los parametros  de entada solo los parametros 
 lift
 location
 lower
@@ -115,22 +121,22 @@ option_get
 option_readfile
 
 pack
-pack_configure
-pack_forget
-pack_info
-pack_propagate
+pack_configure      cambia los paratametros en tiempo real 
+pack_forget         desctiva la etiqueta 
+pack_info           debuelve la  misma  informacioin sobre todos los parametros
+pack_propagate      manda sierto  o falso si tine  una propagacion geometrica 
 pack_slaves
 
 place
-place_configure
-place_forget
-place_info
+place_configure          cambia los paratametros en tiempo real 
+place_forget            desactiva la etiqueta 
+place_info                debuelve la  misma  informacioin sobre todos los parametros 
 place_slaves
 
-propagate
-quit
+propagate   manda sierto  o falso si tine  una propagacion geometrica  investigar mas 
+quit        quit()   desactiva todo la etiqueta  es como destroy
 register
-rowconfigure
+
 selection_clear
 selection_get
 selection_handle
@@ -156,10 +162,18 @@ unbind_class
 
 update
 update_idletasks
+
 wait_variable
 wait_visibility
 wait_window
 waitvar
+
+
+
+
+
+
+
 
 winfo_atom
 winfo_atomname
@@ -192,11 +206,11 @@ winfo_rooty
 winfo_screen
 winfo_screencells
 winfo_screendepth
-winfo_screenheight
+winfo_screenheight       alto de toda la pantalla
 winfo_screenmmheight
 winfo_screenmmwidth
 winfo_screenvisual
-winfo_screenwidth
+winfo_screenwidth         ancjo de toda la pantalla
 winfo_server
 winfo_toplevel
 winfo_viewable
@@ -208,8 +222,8 @@ winfo_vrootwidth
 winfo_vrootx
 winfo_vrooty
 winfo_width
-winfo_x
-winfo_y
+winfo_x                 ancho de la ventana
+winfo_y                alto de la ventana
 ########################################################################
 Button    :(   
 
@@ -2028,7 +2042,7 @@ deiconify
 maxsize
 minsize
 overrideredirect
-protocol
+protocol                  protocolo("WM_DELATTE_WINDOWS",FUNCIOON)  
 positionfrom
 report_callback_exception
 resizable                             resizable(1,0)solo acepta 0 o 1 define la si la ventana se pude redimensionar con el mause  
@@ -2048,7 +2062,7 @@ iconposition
 iconwindow
 client
 aspect
-attributes
+attributes         atributes ('-fullscreen',True)   pone la panta full scren
 colormapwindows
 withdraw
 wm_aspect
@@ -2075,7 +2089,7 @@ wm_positionfrom
 wm_protocol
 wm_resizable
 wm_sizefrom
-wm_state
+wm_state        wm_state("zoomed")   # pone en pantalla completa
 wm_title
 wm_transient
 wm_withdraw
