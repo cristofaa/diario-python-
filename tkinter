@@ -161,7 +161,7 @@ unbind_all
 unbind_class
 
 update
-update_idletasks
+update_idletasks    forza a acer el update sirve al momento de usar algunos comandos de detruccion siclica
 
 wait_variable
 wait_visibility
@@ -2036,36 +2036,55 @@ winfo_vrootheight       ~~~ Label winfo_vrootwidth        ~~~ Label winfo_vrootx
 winfo_width             ~~~ Label winfo_x                 ~~~ Label winfo_y                 ~~~ Label
 
 
-focusmodel
-frame
-geometry         geometry("20x100")  define el tamaño de la ventana 
-deiconify
-maxsize
-minsize
-overrideredirect
+
+frame                  el metodo solo es util para sistemas x      # investigar mas
+geometry                geometry("20x100")  define el tamaño de la ventana 
+deiconify                 quita la ventana de la barra 
+maxsize                   maxsize()    regresa el tamaño de el tamaño maximo de maximizar
+minsize                    minsize()              regresa el   tamaño minimo de minimizar
+overrideredirect            true  ,  desactiva todas las configuraciones por defecto
 protocol                  protocolo("WM_DELATTE_WINDOWS",FUNCIOON)  
-positionfrom
-report_callback_exception
 resizable                             resizable(1,0)solo acepta 0 o 1 define la si la ventana se pude redimensionar con el mause  
-readprofile
-state
+state                                regresa el estado de la ventana  si es  normal  iconify o withdraw
 title                               le   pone el titulo ala  ventana 
-sizefrom
-transient
-loadtk
-group
-command
+transient                            nuevaventana.transient(root)   permite siempre estar por ensima de la otra ventana   
+attributes         atributes ('-fullscreen',True)   pone la panta full scren
+withdraw            ventana.withdraw ()   oculta la ventana  puede regresar por de iconofy  investigar mas 
 iconbitmap                         iconbitmap("gato.ico")  cambia el icono
-iconify
+iconify                            iconify()     manda ala ventana ala barra 
 iconmask
 iconname
 iconposition
 iconwindow
+positionfrom
+report_callback_exception
+readprofile
+loadtk
+group
+command
+sizefrom
+focusmodel
+colormapwindows
 client
 aspect
-attributes         atributes ('-fullscreen',True)   pone la panta full scren
-colormapwindows
-withdraw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 wm_aspect
 wm_attributes
 wm_client
