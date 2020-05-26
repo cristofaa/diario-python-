@@ -182,9 +182,7 @@ winfo_colormapfull
 winfo_containing
 winfo_depth
 winfo_exists
-winfo_fpixels
-winfo_geometry
-winfo_height
+winfo_fpixels 
 winfo_id
 winfo_interps
 winfo_ismapped
@@ -193,14 +191,17 @@ winfo_name
 winfo_parent
 winfo_pathname
 winfo_pixels
-winfo_pointerx
-winfo_pointerxy
-winfo_pointery
+
+
+winfo_pointerx  regresa la poscionn en x con respecto a toda la pantalla
+winfo_pointerxy  regresa la poscionn en xy con respecto a toda la pantalla
+winfo_pointery  regresa la poscionn en y con respecto a toda la pantalla
+
+
 winfo_reqheight
 winfo_reqwidth
 winfo_rgb
-winfo_rootx
-winfo_rooty
+
 winfo_screen
 winfo_screencells
 winfo_screendepth
@@ -219,7 +220,12 @@ winfo_vrootheight
 winfo_vrootwidth
 winfo_vrootx
 winfo_vrooty
-winfo_width
+
+winfo_rootx                 regresa la porsicion de la ventana principal en x 
+winfo_rooty                 regresa la porsicion de la ventana principal en y
+winfo_geometry                 winfo_geometry() >> debuelve el valor del tamaño x ,y y desde donde se referencia x y 
+winfo_height                   debuelve el valor de lo alto del objeto
+winfo_width                    debuelve el valor de lo ancho del objeto
 winfo_x                         ancho de la ventana
 winfo_y                         alto de la ventana
 ########################################################################
