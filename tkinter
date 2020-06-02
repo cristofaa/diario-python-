@@ -34,40 +34,18 @@ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _di
 _nametowidget_noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
 
 after                     label.after(1000,funcion1)   es como time.sleep 
-after_cancel
-after_idle
-
-bbox
-
-
-
 bell                        bell()  genera el sonido de un beep
 bind                       bind("<evento>",funcion)    se pone el evento y la funcion a ejecutar
-
-bind_all
-bind_class
-bindtags
-
 cget                      Label.cget("Text") >>> "parametro"     #   regresa  los parametros de la funcion 
 clipboard_append          clipboard_append() agrega un archivo de texto al porta papeles  como ctr + c
 clipboard_clear           clipboard_clear()  limpia el portapapeles 
 clipboard_get             clipboard_get()    obtiene la informacion del portapapeles 
 colormodel                es  inutil para  tkinter
-
-columnconfigure
-rowconfigure
-
 config                   label.config(text="texto")    # cambia las configuraciones de los parametros
 configure                label.configure() >>>         #  regresa todas la configuraciones de la etiqueta
-deletecommand
 destroy                   label.destroy()              # destruye el objeto
-
 event_add                  agrega un evento virual (<<evento>> ) para los bindings  investigar mas
-event_delete
-event_generate
 event_info                muestra los eventos disponibles
-
-
 focus                        activa  el focus  en ese objeto
 focus_force                   tambien ace el focus 
 focus_set                    ace lo mismo que focus 
@@ -75,6 +53,58 @@ focus_get                    muestra el numero de foco actual , entre todos los 
 focus_lastfor                se usa para muchas ventanas investigar mas
 focus_displayof               muestra lo mismo que focus_get
 forget                       desactiva etiqueta
+grid                   etiqueta0.grid(row=0,column=0) genera una regilla,activa la etiqueta 
+grid_columnconfigure     cambia los paratametros en tiempo real 
+grid_rowconfigure        cambia los paratametros en tiempo real 
+grid_configure          cambia los paratametros en tiempo real 
+grid_forget             .grid_forget()   des activa  la etiquea 
+grid_info              .grid_info()   debuelve la  misma  informacioin sobre todos los parametros
+grid_propagate          manda sierto  o falso si tine  una propagacion geometrica 
+grid_remove            ace que deje de ser visible la etiqueta 
+info                   debuelve la  misma  informacioin sobre todos los parametros   de pack  olo que se uso para mostrarlo 
+keys                  key() debuelvel todos los parametros  de entada solo los parametros 
+update                  ACTUALIZA
+update_idletasks    forza a acer el update sirve al momento de usar algunos comandos de detruccion siclica
+propagate   manda sierto  o falso si tine  una propagacion geometrica  investigar mas 
+quit        quit()   desactiva todo la etiqueta  es como destroy
+pack                   ORDENA DE MANDERA OUTOMATICA LOS WITGETS
+pack_configure      cambia los paratametros en tiempo real 
+pack_forget         desctiva la etiqueta 
+pack_info           debuelve la  misma  informacioin sobre todos los parametros
+pack_propagate      manda sierto  o falso si tine  una propagacion geometrica 
+place_info                debuelve la  misma  informacioin sobre todos los parametros 
+place                    CON FIGURAARA CON X , Y LA POSICION     
+place_configure          cambia los paratametros en tiempo real 
+place_forget            desactiva la etiqueta 
+mainloop                 se vuelve en el loop principal
+lift         ariva de otro witget
+lower        abajo de otro witget
+location        regresa fila y columna de donde esta lo calizado x y for fila  y columna  investigarmas
+grid_location   debuelve la columna y fila  tomando como argumento la posicion en fixeles
+image_names    This method returns a tuple of the names of all the text widget's embedded images.
+image_types    Devuelve una lista de todos los tipos de imágenes disponibles.
+
+
+
+
+
+after_cancel
+after_idle
+bbox
+
+unbind
+unbind_all
+unbind_class
+bind_all
+bind_class
+bindtags
+
+columnconfigure
+rowconfigure
+
+deletecommand
+event_delete
+event_generate
 
 getboolean
 getdouble
@@ -86,55 +116,18 @@ grab_release
 grab_set
 grab_set_global
 grab_status
-
-grid                   etiqueta0.grid(row=0,column=0) genera una regilla,activa la etiqueta 
-
 grid_bbox
-
-grid_columnconfigure     cambia los paratametros en tiempo real 
-grid_rowconfigure        cambia los paratametros en tiempo real 
-grid_configure          cambia los paratametros en tiempo real 
-grid_forget             .grid_forget()   des activa  la etiquea 
-grid_info              .grid_info()   debuelve la  misma  informacioin sobre todos los parametros
-grid_location
-grid_propagate          manda sierto  o falso si tine  una propagacion geometrica 
-grid_remove            ace que deje de ser visible la etiqueta 
-
 grid_size
 grid_slaves
 
-image_names
-image_types
-info                   debuelve la  misma  informacioin sobre todos los parametros   de pack  olo que se uso para mostrarlo 
-keys                  key() debuelvel todos los parametros  de entada solo los parametros 
-lift
-location
-lower
-mainloop                 se vuelve en el loop principal
 nametowidget
-
 option_add
 option_clear
 option_get
 option_readfile
-
-pack
-pack_configure      cambia los paratametros en tiempo real 
-pack_forget         desctiva la etiqueta 
-pack_info           debuelve la  misma  informacioin sobre todos los parametros
-pack_propagate      manda sierto  o falso si tine  una propagacion geometrica 
 pack_slaves
-
-place
-place_configure          cambia los paratametros en tiempo real 
-place_forget            desactiva la etiqueta 
-place_info                debuelve la  misma  informacioin sobre todos los parametros 
 place_slaves
-
-propagate   manda sierto  o falso si tine  una propagacion geometrica  investigar mas 
-quit        quit()   desactiva todo la etiqueta  es como destroy
 register
-
 selection_clear
 selection_get
 selection_handle
@@ -144,7 +137,6 @@ send
 setvar
 size
 slaves
-
 tk_bisque
 tk_focusFollowsMouse
 tk_focusNext
@@ -154,12 +146,6 @@ tk_setPalette
 tk_strictMotif
 tkraise
 
-unbind
-unbind_all
-unbind_class
-
-update
-update_idletasks    forza a acer el update sirve al momento de usar algunos comandos de detruccion siclica
 
 wait_variable
 wait_visibility
@@ -191,17 +177,12 @@ winfo_name
 winfo_parent
 winfo_pathname
 winfo_pixels
-
-
 winfo_pointerx  regresa la poscionn en x con respecto a toda la pantalla
 winfo_pointerxy  regresa la poscionn en xy con respecto a toda la pantalla
 winfo_pointery  regresa la poscionn en y con respecto a toda la pantalla
-
-
 winfo_reqheight
 winfo_reqwidth
 winfo_rgb
-
 winfo_screen
 winfo_screencells
 winfo_screendepth
@@ -220,7 +201,6 @@ winfo_vrootheight
 winfo_vrootwidth
 winfo_vrootx
 winfo_vrooty
-
 winfo_rootx                 regresa la porsicion de la ventana principal en x 
 winfo_rooty                 regresa la porsicion de la ventana principal en y
 winfo_geometry                 winfo_geometry() >> debuelve el valor del tamaño x ,y y desde donde se referencia x y 
