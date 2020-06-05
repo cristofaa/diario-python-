@@ -169,24 +169,32 @@ location        regresa fila y columna de donde esta lo calizado x y for fila  y
 grid_location   debuelve la columna y fila  tomando como argumento la posicion en fixeles
 image_names    This method returns a tuple of the names of all the text widget's embedded images.
 image_types    Devuelve una lista de todos los tipos de imágenes disponibles.
-
-after_cancel
-after_idle
-bbox
-
+option_add      agrega una comfiguracion predeterminada en la base de datos de tk 
+self.bigFont = tkFont.Font ( family="times", size=24,
+weight="bold" )
+self.option_add ( "*Button*font", self.bigFont )
+option_clear    limpia  a base de datos 
+option_get      lee los datso guardados  en la base 
+option_readfile   leee  la base de datos me imagino  investigar mas  
 unbind      QUITA  LLAS  RELACIONES  ENTRE  LOS EVENTOS  Y LAS FUNCIONES  CANVAS.unbind("<button1>")
+after_cancel   after_cancel(<id>)     cancela  una solicitud after  el id  lo debuelve el affter
+after_idle     se ejecuta cuando el el procesos esta inactivo  investigar mas 
+nametowidget   regresa el nombre real del witget nametowidget(name)
+selection_clear   si se selecciona el texto  limpia la selecion 
+selection_get      regresa el texto selecionado 
+selection_own      roba la selecicon del anterior selecionado
+selection_own_get   debuelve el witget que esta seleccionado actualmente 
+unbind_all    quita todos los bind's
+bind_all        como bind  pero se aplica a toda la plicacion 
+unbind_class  quita el bind pero por clases  
+bind_class    sele aplica el bind a todos los los que vengan de la misma clase ejemplo Button 
+event_delete    ELIMINA EL EVENTO VITUAL 
+event_generate   ES IGUAL A BIND  PERO CON CON EVENTOS VIRTUALES 
 
-unbind_all  
-bind_all
-
-unbind_class
-bind_class
-
+bbox
 bindtags
 deletecommand
 
-event_delete
-event_generate
 
 columnconfigure
 rowconfigure
@@ -201,33 +209,33 @@ grab_release
 grab_set
 grab_set_global
 grab_status
+
 grid_bbox
 grid_size
 grid_slaves
 
-nametowidget
-option_add
-option_clear
-option_get
-option_readfile
+
 pack_slaves
 place_slaves
+
 register
-selection_clear
-selection_get
-selection_handle
-selection_own
-selection_own_get
+
+
+
+selection_handle 
+
 send
 setvar
 size
 slaves
+
 tk_bisque
-tk_focusFollowsMouse
+tk_setPalette
+tk_focusFollowsMouse  PONE EL FOCO DONDE ESTA EL MAUS 
 tk_focusNext
 tk_focusPrev
 tk_menuBar
-tk_setPalette
+
 tk_strictMotif
 tkraise
 
