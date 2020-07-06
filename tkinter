@@ -330,12 +330,12 @@ wraplength            ~~~ Label
 height                ~~~ Label
 width                 ~~~ Label
 state                 ~~~ Label
-repeatdelay       
-repeatinterval 
-command
+repeatdelay        repeatdelay=50 que se espere un lapso de tiempo en minisegundos antes de ejecutar la instruccuion
+repeatinterval     repeatinterval=100 si se sige presionandi eses boton se genere un siclo de ejecion en milisegundos
+command             aqui va la funcion que va a ejecutar
 compound
 overrelief
-default
+default          configura si esta apredado o no por defecto
 
 
 )   parametros de contruccion
@@ -409,7 +409,7 @@ winfo_y                 ~~~ Label
 ############################################################
 
 Entry (
-background,
+background, 
 bd,
 bg, 
 borderwidth,
