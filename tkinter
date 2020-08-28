@@ -409,39 +409,41 @@ winfo_y                 ~~~ Label
 ############################################################
 
 Entry (
-background, 
-bd,
-bg, 
-borderwidth,
-cursor,
-exportselection,
-fg,
-font,
-foreground,
-highlightbackground,
-highlightcolor,
-highlightthickness,
-insertbackground,
-insertborderwidth,
-insertofftime,
-insertontime,
-insertwidth,
-invalidcommand,
-invcmd, 
-justify, 
-relief, 
-selectbackground,
-selectborderwidth,
-selectforeground,
-show,                 show("#")   es para que funcione como si fuera un password 
-state,
-takefocus,
-textvariable,
-validate, 
-validatecommand
-vcmd,
-width,
-xscrollcommand.
+
+>>>>>><<<<bd,
+>>>>>><<<<exportselection,
+>>>>>><<<<insertbackground,        
+>>>>>><<<<insertborderwidth,
+>>>>>><<<<insertofftime,
+>>>>>><<<<insertontime,
+>>>>>><<<<insertwidth,
+>>>>>><<<<invalidcommand,
+>>>>>><<<<invcmd, 
+>>>>>><<<<selectbackground,        
+>>>>>><<<<selectborderwidth,
+>>>>>><<<<selectforeground,
+>>>>>><<<<show,                 show("#")   es para que funcione como si fuera un password
+>>>>>><<<<takefocus,
+>>>>>><<<<textvariable,            
+>>>>>><<<<validate,                
+>>>>>><<<<validatecommand          
+>>>>>><<<<xscrollcommand.          
+>>>>>><<<<vcmd,                    
+background,             ~~~ Label
+bg,                     ~~~ Label
+borderwidth,            ~~~ Label
+cursor,                 ~~~ Label
+fg,                     ~~~ Label
+font,                   ~~~ Label
+foreground,             ~~~ Label
+highlightbackground,    ~~~ Label
+highlightcolor,         ~~~ Label
+highlightthickness,     ~~~ Label
+justify,                ~~~ Label
+relief,                 ~~~ Label
+state,                  ~~~ Label
+width,                  ~~~ Label
+
 )
 
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
@@ -467,7 +469,6 @@ _windowingsystem
 >>>>>><<<<select_present
 >>>>>><<<<select_range           select_range(1,12) seleciona texto  un rango 
 >>>>>><<<<select_to
-
 >>>>>><<<<selection_adjust      
 >>>>>><<<<selection_from
 >>>>>><<<<selection_present        selection_present()indica si esta  selecionado  debuelve true o false
@@ -533,20 +534,20 @@ winfo_y                            ~~~ Label
 
 Frame( 
 background,
-bd,
+>>>>>><<<<bd,
 bg, 
 borderwidth, 
-class,
- colormap,
- container,
- cursor, 
+>>>>>><<<<class,
+colormap,
+container,
+>>>>>><<<<cursor, 
  height, 
  highlightbackground,
  highlightcolor,
  highlightthickness, 
  relief,
-  takefocus, 
-  visual, 
+ >>>>>><<<< takefocus, 
+ >>>>>><<<< visual, 
   width.
  )
 
