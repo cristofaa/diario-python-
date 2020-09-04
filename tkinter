@@ -334,7 +334,7 @@ repeatdelay        repeatdelay=50 que se espere un lapso de tiempo en minisegund
 repeatinterval     repeatinterval=100 si se sige presionandi eses boton se genere un siclo de ejecion en milisegundos
 command             aqui va la funcion que va a ejecutar
 compound
-overrelief
+overrelief         cambia el contorno del boton cuando se pone el mause en sima 
 default          configura si esta apredado o no por defecto
 
 
