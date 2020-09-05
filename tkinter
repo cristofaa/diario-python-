@@ -333,7 +333,7 @@ state                 ~~~ Label
 repeatdelay        repeatdelay=50 que se espere un lapso de tiempo en minisegundos antes de ejecutar la instruccuion
 repeatinterval     repeatinterval=100 si se sige presionandi eses boton se genere un siclo de ejecion en milisegundos
 command             aqui va la funcion que va a ejecutar
-compound
+compound             BOTTOM, LEFT, RIGHT, or TOP, ,es para poder combinar letras y imaenes en un boton 
 overrelief         cambia el contorno del boton cuando se pone el mause en sima 
 default          configura si esta apredado o no por defecto
 
@@ -346,13 +346,13 @@ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ _
 _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget _noarg_ _options _register _report_exception
 _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem__weakref__
 
-tkButtonDown          
-tkButtonEnter         
-tkButtonInvoke          
-tkButtonLeave           
-tkButtonUp    
-invoke
-flash
+tkButtonDown     inactivos      
+tkButtonEnter    inactivos      
+tkButtonInvoke   inactivos        
+tkButtonLeave  inactivos          
+tkButtonUp     inactivos 
+invoke     ejecuta la instriccion asociada al boton
+flash      solo ace un flaseo activa y desactiva el pero no activa la instruccion
 
 after                   ~~~ Label after_cancel            ~~~ Label after_idle              ~~~ Label
 bbox                    ~~~ Label bell                    ~~~ Label bind                    ~~~ Label
@@ -410,25 +410,28 @@ winfo_y                 ~~~ Label
 
 Entry (
 
->>>>>><<<<bd,
->>>>>><<<<exportselection,
->>>>>><<<<insertbackground,        
->>>>>><<<<insertborderwidth,
->>>>>><<<<insertofftime,
->>>>>><<<<insertontime,
->>>>>><<<<insertwidth,
->>>>>><<<<invalidcommand,
->>>>>><<<<invcmd, 
->>>>>><<<<selectbackground,        
->>>>>><<<<selectborderwidth,
->>>>>><<<<selectforeground,
+>>>>>><<<<bd,      bd=20   ancho del borde 
+>>>>>><<<<exportselection,    en True exporta directammente al portapapeles , pero aparentemente no sirve :(
+>>>>>><<<<insertbackground,    insertbackground="red" cambia el color del pulsor     
+>>>>>><<<<insertborderwidth,    =cambia el tamaño del borde
+>>>>>><<<<insertofftime,        cambia el deley del cursor en milisegundods 
+>>>>>><<<<insertontime,        cambia el sleep del cursor en miliseundos 1 es un miliseundo
+ >>>>>><<<<insertwidth,        insertwidth=10 cabia el tamaño del cursor  
+>>>>>><<<<selectbackground,     se define el color de la seleccion       
+>>>>>><<<<selectborderwidth,    es borde se la selecion      
+>>>>>><<<<selectforeground,      cambiar el color del foreworg      
 >>>>>><<<<show,                 show("#")   es para que funcione como si fuera un password
->>>>>><<<<takefocus,
+>>>>>><<<<takefocus,            es el brinco automatico con el tabulador  si se pone False se desactiva 
 >>>>>><<<<textvariable,            
 >>>>>><<<<validate,                
 >>>>>><<<<validatecommand          
 >>>>>><<<<xscrollcommand.          
->>>>>><<<<vcmd,                    
+>>>>>><<<<vcmd,     
+>>>>>><<<<invalidcommand,
+>>>>>><<<<invcmd, 
+
+
+
 background,             ~~~ Label
 bg,                     ~~~ Label
 borderwidth,            ~~~ Label
