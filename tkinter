@@ -455,28 +455,29 @@ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do 
 _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands
 _windowingsystem
 
-
->>>>>>>>>>>>>>xview
->>>>>>>>>>>>>>>xview_moveto
->>>>>>>>>>>>>>>>>xview_scroll
+>>>>>><<<<select_adjust           select_agust(3)  seleccion hasta  de 0 hasta 3  ejemplo 
+>>>>>><<<<select_clear            select_clear  quita la seleccion del texto 
+>>>>>><<<<select_from              guarda en memoria desde donde se selecionara el texto para selecionarlo con select?to
+>>>>>><<<<select_present           regresa cierto o falso si algo esta selecionado
+>>>>>><<<<select_range           select_range(1,12) seleciona texto  un rango 
+>>>>>><<<<select_to               selecciona texto as un el indice desde el 0
 >>>>>>>>>delete                   delete(1,12)     marca  un rango para ser eliminado se  puede poner  solo un digito 
 >>>>>>>>>>>>>get                  get()           regresa el texto que tiene el cuatro de texto 
 >>>>>>>>>>>>>>>>icursor            icursor (3)    cambia el cursor dentro del cuadro de texto 
+>>>>>>>>>>>>>>insert              insert (1,hola)  inserta un string     
+>>>>>><<<<selection_from            ace lo mismo que select_from
+>>>>>><<<<selection_present        selection_present()indica si esta  selecionado  debuelve true o false
+>>>>>><<<<selection_range             igual a select range
+>>>>>><<<<selection_to              ace lo mismo que selcet_to
+>>>>>><<<<selection_adjust  
 >>>>>>>><<<>>>index
->>>>>>>>>>>>>>insert              insert (1,hola)  inserta un string 
 >>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>scan_mark
->>>>>><<<<select_adjust           select_agust(3)  seleccion hasta  de 0 hasta 3  ejemplo 
->>>>>><<<<select_clear            select_clear  quita la seleccion del texto 
->>>>>><<<<select_from
->>>>>><<<<select_present
->>>>>><<<<select_range           select_range(1,12) seleciona texto  un rango 
->>>>>><<<<select_to
->>>>>><<<<selection_adjust      
->>>>>><<<<selection_from
->>>>>><<<<selection_present        selection_present()indica si esta  selecionado  debuelve true o false
->>>>>><<<<selection_range
->>>>>><<<<selection_to
+>>>>>>>>>>>>>>xview
+>>>>>>>>>>>>>>>xview_moveto
+>>>>>>>>>>>>>>>>>xview_scroll
+
+
 after                              ~~~ Label after_cancel                       ~~~ Label after_idle                         ~~~ Label
 bbox                               ~~~ Label bell                               ~~~ Label bind                               ~~~ Label
 bind_all                           ~~~ Label bind_class                         ~~~ Label bindtags                           ~~~ Label
