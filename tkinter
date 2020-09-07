@@ -422,7 +422,7 @@ Entry (
 >>>>>><<<<selectforeground,      cambiar el color del foreworg      
 >>>>>><<<<show,                 show("#")   es para que funcione como si fuera un password
 >>>>>><<<<takefocus,            es el brinco automatico con el tabulador  si se pone False se desactiva 
->>>>>><<<<textvariable,            
+>>>>>><<<<textvariable,             es para asignar texto desde una avariable 
 >>>>>><<<<validate,                
 >>>>>><<<<validatecommand          
 >>>>>><<<<xscrollcommand.          
@@ -536,23 +536,25 @@ winfo_y                            ~~~ Label
 #####################################################
 
 
+
 Frame( 
-background,
->>>>>><<<<bd,
-bg, 
-borderwidth, 
+takefocus,                  ~~~ Entry
+bd,                         ~~~ Entry
+bg,                         ~~~ Label
+colormap,                   ~~~ Label
+container,                  ~~~ Label
+background,                 ~~~ Label
+borderwidth,                ~~~ Label
+height,                     ~~~ Label
+highlightbackground,        ~~~ Label
+highlightcolor,             ~~~ Label
+highlightthickness,         ~~~ Label
+relief,                     ~~~ Label
+width.                      ~~~ Label
+cursor,                     ~~~ Label
 >>>>>><<<<class,
-colormap,
-container,
->>>>>><<<<cursor, 
- height, 
- highlightbackground,
- highlightcolor,
- highlightthickness, 
- relief,
- >>>>>><<<< takefocus, 
  >>>>>><<<< visual, 
-  width.
+
  )
 
 
@@ -628,22 +630,27 @@ Image
 
 ###########################
 LabelFrame   (
-  borderwidth, cursor, font, foreground,
- |          highlightbackground, highlightcolor,
- |          highlightthickness, padx, pady, relief,
- |          takefocus, text
- |
- |      WIDGET-SPECIFIC OPTIONS
- |
- |          background, class, colormap, container,
- |          height, labelanchor, labelwidget,
- |          visual, width
- |
- 
- 
-
-
-
+class,                    ~~~   Frame
+visual,                   ~~~  Frame
+ borderwidth,             ~~~ Label
+ cursor,                  ~~~ Label
+ font,                    ~~~ Label
+ foreground,              ~~~ Label
+ highlightbackground,     ~~~ Label
+ highlightcolor,          ~~~ Label
+ highlightthickness,      ~~~ Label
+ padx,                    ~~~ Label
+ pady,                    ~~~ Label
+ relief,                  ~~~ Label
+ takefocus,               ~~~ Entry
+ text                     ~~~ Label
+ background               ~~~ Label
+ colormap,                ~~~ Label
+ height,                  ~~~ Label
+ width                    ~~~ Label
+ container,
+ labelanchor,
+ labelwidget,
 )
 
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
@@ -708,11 +715,30 @@ winfo_y                 ~~~ Label
 ########################
 Listbox (  
 
- background, bd, bg, borderwidth, cursor,
- |      exportselection, fg, font, foreground, height, highlightbackground,
- |      highlightcolor, highlightthickness, relief, selectbackground,
- |      selectborderwidth, selectforeground, selectmode, setgrid, takefocus,
- |      width, xscrollcommand, yscrollcommand, listvariable.
+ background,
+ bd,
+ bg,
+ borderwidth,
+ cursor,
+ exportselection,
+ fg,
+ font,
+ foreground,
+ height,
+ highlightbackground,
+ highlightcolor, 
+ highlightthickness,
+ relief,
+ selectbackground,
+ selectborderwidth,
+ selectforeground, 
+ selectmode,
+ setgrid,
+ takefocus,
+ width,
+ xscrollcommand,
+ yscrollcommand, 
+ listvariable.
 
 
 
@@ -986,9 +1012,19 @@ Radiobutton (
  |      background, bd, bg, bitmap, borderwidth, command, cursor,
  |      disabledforeground, fg, font, foreground, height,
  |      highlightbackground, highlightcolor, highlightthickness, image,
- |      indicatoron, justify, padx, pady, relief, selectcolor, selectimage,
+ 
+ |      indicatoron,
+ 
+ justify, padx, pady, relief,
+ 
+ selectcolor,
+ 
+ selectimage,
+ 
  |      state, takefocus, text, textvariable, underline, value, variable,
- |      width, wraplength.
+ |      width, 
+ 
+ wraplength.
 
 
 
@@ -1002,11 +1038,11 @@ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __re
 __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
 _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands  _windowingsystem
 
-
->>>>>>>>>>deselect
->>>>>>>>>>invoke
->>>>>>>>>>flash
 >>>>>>>>>>select
+>>>>>>>>>>deselect
+>>>>>>>>>>invoke     Button
+>>>>>>>>>>flash      Button
+
 
 
 after                    ~~~ Label after_cancel             ~~~ Label after_idle               ~~~ Label
@@ -1066,10 +1102,18 @@ Scrollbar   (
 
  activebackground, activerelief,
  |      background, bd, bg, borderwidth, command, cursor,
- |      elementborderwidth, highlightbackground,
- |      highlightcolor, highlightthickness, jump, orient,
- |      relief, repeatdelay, repeatinterval, takefocus,
- |      troughcolor, width.
+ 
+ |      elementborderwidth,
+ highlightbackground,
+ |      highlightcolor, highlightthickness,
+ jump, 
+ orient,
+ |      relief, 
+ repeatdelay, 
+ repeatinterval,
+ takefocus,
+ |      troughcolor,
+ width.
 
 
 )
@@ -1162,9 +1206,12 @@ Spinbox   (
  |
  |      WIDGET-SPECIFIC OPTIONS
  |
- |          buttonbackground, buttoncursor,
- |          buttondownrelief, buttonuprelief,
- |          command, disabledbackground,
+ |          buttonbackground,
+            buttoncursor,
+ |          buttondownrelief,
+            buttonuprelief,
+ |          command,
+             disabledbackground,
  |          disabledforeground, format, from,
  |          invalidcommand, increment,
  |          readonlybackground, state, to,
