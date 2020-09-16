@@ -1895,21 +1895,27 @@ _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>addtag_enclosed
 >>>>>>>>>>>>>addtag_overlapping
 >>>>>>>>>>>>>addtag_withtag
->>>>>>>>>>>>>canvasx
->>>>>>>>>>>>>canvasy
->>>>>>>>>>>>>coords
->>>>>>>>>>>>>create_arc
->>>>>>>>>>>>>create_bitmap
->>>>>>>>>>>>>create_image
->>>>>>>>>>>>>create_line
->>>>>>>>>>>>>create_oval
->>>>>>>>>>>>>create_polygon
->>>>>>>>>>>>>create_rectangle
->>>>>>>>>>>>>create_text
->>>>>>>>>>>>>create_window
->>>>>>>>>>>>>dchars
->>>>>>>>>>>>>delete
+>>>>>>>>>>>>>tag_bind
+>>>>>>>>>>>>>tag_lower
+>>>>>>>>>>>>>tag_raise
+>>>>>>>>>>>>>tag_unbind
 >>>>>>>>>>>>>dtag
+
+>>>>>>>>>>>>>canvasx         camgbia de cordenadas de la ventana a cordenadas de canvas 
+>>>>>>>>>>>>>canvasy        camgbia de cordenadas de la ventana a cordenadas de canvas
+>>>>>>>>>>>>>coords            cords (tags,id)regersa cordenadas de una figura 
+>>>>>>>>>>>>>create_arc                   crea un arco 
+>>>>>>>>>>>>>create_bitmap                 crea un mapa de bits 
+>>>>>>>>>>>>>create_image                  creas una imagen 
+>>>>>>>>>>>>>create_line                   crea una linea 
+>>>>>>>>>>>>>create_oval                   creas un ovalo y circulo 
+>>>>>>>>>>>>>create_polygon                crea un poligono 
+>>>>>>>>>>>>>create_rectangle              crea un rectangulo 
+>>>>>>>>>>>>>create_text                   inserta texto 
+>>>>>>>>>>>>>create_window                 crea una ventana 
+>>>>>>>>>>>>>dchars                elimina texto de un elemento editable
+>>>>>>>>>>>>>delete                delete(id) elimina uno o varios elementos 
+
 >>>>>>>>>>>>>find
 >>>>>>>>>>>>>find_above
 >>>>>>>>>>>>>find_all
@@ -1918,24 +1924,24 @@ _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>find_enclosed
 >>>>>>>>>>>>>find_overlapping
 >>>>>>>>>>>>>find_withtag
+
 >>>>>>>>>>>>>insert
+
 >>>>>>>>>>>>>itemcget
 >>>>>>>>>>>>>itemconfig
 >>>>>>>>>>>>>itemconfigure
 >>>>>>>>>>>>>index
->>>>>>>>>>>>>move
+>>>>>>>>>>>>>move              mueve una figura necesita el identificador y la orientacion 
 >>>>>>>>>>>>>scale
 >>>>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>>scan_mark
+
 >>>>>>>>>>>>>select_adjust
 >>>>>>>>>>>>>select_clear
 >>>>>>>>>>>>>select_from
 >>>>>>>>>>>>>select_item
 >>>>>>>>>>>>>select_to
->>>>>>>>>>>>>tag_bind
->>>>>>>>>>>>>tag_lower
->>>>>>>>>>>>>tag_raise
->>>>>>>>>>>>>tag_unbind
+
 >>>>>>>>>>>>>type
 >>>>>>>>>>>>>xview
 >>>>>>>>>>>>>xview_moveto
