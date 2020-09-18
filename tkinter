@@ -1932,7 +1932,7 @@ _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>itemconfigure
 >>>>>>>>>>>>>index
 >>>>>>>>>>>>>move              mueve una figura necesita el identificador y la orientacion 
->>>>>>>>>>>>>scale
+>>>>>>>>>>>>>scale             redimenciona una figura x ,y 
 >>>>>>>>>>>>>scan_dragto
 >>>>>>>>>>>>>scan_mark
 
@@ -1943,6 +1943,7 @@ _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>select_to
 
 >>>>>>>>>>>>>type
+
 >>>>>>>>>>>>>xview
 >>>>>>>>>>>>>xview_moveto
 >>>>>>>>>>>>>xview_scroll
