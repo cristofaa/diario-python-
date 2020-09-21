@@ -625,13 +625,18 @@ Image
 '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__',
 '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__',
 '__str__', '__subclasshook__', 
-'__weakref__', '_last_id', 'config', 'configure', 'height', 'type', 'width']
+'__weakref__', '_last_id',
+'config',
+'configure', 
+'height', 
+'type', 
+'width']
 
 
 ###########################
 LabelFrame   (
-class,                    ~~~   Frame
-visual,                   ~~~  Frame
+ class,                   ~~~ Frame
+ visual,                  ~~~ Frame
  borderwidth,             ~~~ Label
  cursor,                  ~~~ Label
  font,                    ~~~ Label
@@ -714,33 +719,30 @@ winfo_y                 ~~~ Label
 
 ########################
 Listbox (  
-
- background,
- bd,
- bg,
- borderwidth,
- cursor,
- exportselection,
- fg,
- font,
- foreground,
- height,
- highlightbackground,
- highlightcolor, 
- highlightthickness,
- relief,
- selectbackground,
- selectborderwidth,
- selectforeground, 
- selectmode,
- setgrid,
- takefocus,
- width,
- xscrollcommand,
- yscrollcommand, 
- listvariable.
-
-
+ >>>>>>>>>bd,
+ >>>>>>>>>exportselection,
+ >>>>>>>>>selectbackground,
+ >>>>>>>>>selectborderwidth,
+ >>>>>>>>>selectforeground, 
+ >>>>>>>> selectmode,
+ >>>>>>>>>setgrid,
+ >>>>>>>>>takefocus,
+ >>>>>>>>>xscrollcommand,
+ >>>>>>>>>yscrollcommand, 
+>>>>>>>>> listvariable.
+ background             ~~~ Label
+ bg                     ~~~ Label
+ borderwidth            ~~~ Label
+  cursor                ~~~ Label
+  fg                    ~~~ Label
+  font                  ~~~ Label
+ foreground             ~~~ Label
+ height                 ~~~ Label
+ highlightbackground    ~~~ Label
+ highlightcolor         ~~~ Label
+ highlightthickness     ~~~ Label
+ relief                 ~~~ Label
+  width                 ~~~ Label
 
 
 )
@@ -835,15 +837,23 @@ winfo_y                      ~~~ Label
 PanedWindow  (    
 
       STANDARD OPTIONS
- |
- |          background, borderwidth, cursor, height,
- |          orient, relief, width
- |
- |      WIDGET-SPECIFIC OPTIONS
- |
- |          handlepad, handlesize, opaqueresize,
- |          sashcursor, sashpad, sashrelief,
- |          sashwidth, showhandle,
+ 
+           background,    ~~~ Label
+	   borderwidth,   ~~~ Label
+	   cursor,      ~~~ Label
+	   height,      ~~~ Label
+           orient,
+	   relief,     ~~~ Label
+	   width       ~~~ Label
+	   
+           handlepad,
+	   handlesize,
+	   opaqueresize,
+          sashcursor,
+	  sashpad,
+	  sashrelief,
+          sashwidth, 
+	  showhandle,
 
 
 
@@ -938,8 +948,20 @@ PhotoImage(
 '__class__', '__del__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', 
 '__getitem__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', 
 '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__',
-'_last_id', 'blank', 'cget', 
-'config', 'configure', 'copy', 'get', 'height', 'put', 'subsample', 'type', 'width', 'write', 'zoom']
+'_last_id',
+'blank', 
+'cget', 
+'config', 
+'configure', 
+'copy',
+'get', 
+'height', 
+'put', 
+'subsample', 
+'type', 
+'width', 
+'write', 
+'zoom'
 
 #######################
 Widget
@@ -1005,30 +1027,41 @@ winfo_y                ~~~ Label
 ######################
 Radiobutton (
 
-
-
-
- activebackground, activeforeground, anchor,
- |      background, bd, bg, bitmap, borderwidth, command, cursor,
- |      disabledforeground, fg, font, foreground, height,
- |      highlightbackground, highlightcolor, highlightthickness, image,
- 
- |      indicatoron,
- 
- justify, padx, pady, relief,
- 
- selectcolor,
- 
- selectimage,
- 
- |      state, takefocus, text, textvariable, underline, value, variable,
- |      width, 
- 
- wraplength.
-
-
-
-
+>>>>>>>>>>>value,
+>>>>>>>>>>>variable,
+>>>>>>>>>>>takefocus, 
+>>>>>>>>>>>text, 
+>>>>>>>>>>>textvariable,
+>>>>>>>>>>>selectcolor,
+>>>>>>>>>>>selectimage,
+>>>>>>>>>>>indicatoron,
+>>>>>>>>>>>command,
+>>>>>>>>>>>bd,
+activebackground,       ~~~ Label
+activeforeground,       ~~~ Label
+anchor,                 ~~~ Label
+background,             ~~~ Label
+bg,                     ~~~ Label
+bitmap,                 ~~~ Label
+borderwidth,            ~~~ Label
+cursor,                 ~~~ Label
+disabledforeground,     ~~~ Label
+fg,                     ~~~ Label
+font,                   ~~~ Label
+foreground,             ~~~ Label
+height,                 ~~~ Label
+highlightbackground,    ~~~ Label
+highlightcolor,         ~~~ Label
+highlightthickness,     ~~~ Label
+image,                  ~~~ Label
+justify,                ~~~ Label
+padx,                   ~~~ Label
+pady,                   ~~~ Label
+relief,                 ~~~ Label
+state,                  ~~~ Label
+underline,              ~~~ Label
+width,                  ~~~ Label
+wraplength.             ~~~ Label
 )
 
 
@@ -1100,20 +1133,26 @@ winfo_y                  ~~~ Label
 ######################
 Scrollbar   (
 
- activebackground, activerelief,
- |      background, bd, bg, borderwidth, command, cursor,
- 
- |      elementborderwidth,
- highlightbackground,
- |      highlightcolor, highlightthickness,
- jump, 
- orient,
- |      relief, 
- repeatdelay, 
- repeatinterval,
- takefocus,
- |      troughcolor,
- width.
+jump, 
+orient,
+repeatdelay, 
+repeatinterval,
+takefocus,
+troughcolor,
+elementborderwidth,
+command,
+bd,
+activerelief,
+activebackground,     ~~~ Label
+background,           ~~~ Label
+bg,                   ~~~ Label
+borderwidth,          ~~~ Label
+cursor,               ~~~ Label
+highlightbackground , ~~~ Label
+highlightcolor,       ~~~ Label
+highlightthickness,   ~~~ Label
+relief,               ~~~ Label
+width.                ~~~ Label
 
 
 )
@@ -1191,34 +1230,50 @@ winfo_y                ~~~ Label
 
 ############
 Spinbox   (
- STANDARD OPTIONS
- |
- |          activebackground, background, borderwidth,
- |          cursor, exportselection, font, foreground,
- |          highlightbackground, highlightcolor,
- |          highlightthickness, insertbackground,
- |          insertborderwidth, insertofftime,
- |          insertontime, insertwidth, justify, relief,
- |          repeatdelay, repeatinterval,
- |          selectbackground, selectborderwidth
- |          selectforeground, takefocus, textvariable
- |          xscrollcommand.
- |
- |      WIDGET-SPECIFIC OPTIONS
- |
- |          buttonbackground,
-            buttoncursor,
- |          buttondownrelief,
-            buttonuprelief,
- |          command,
-             disabledbackground,
- |          disabledforeground, format, from,
- |          invalidcommand, increment,
- |          readonlybackground, state, to,
- |          validate, validatecommand values,
- |          width, wrap,
 
-
+exportselection,
+insertbackground,    
+insertborderwidth,
+insertofftime,
+insertontime, 
+insertwidth,
+justify,
+repeatdelay,
+repeatinterval,
+selectbackground,
+selectborderwidth
+selectforeground,
+takefocus, 
+textvariable
+xscrollcommand.
+buttonbackground,
+buttoncursor,
+buttondownrelief,
+buttonuprelief,
+command,
+disabledbackground,
+format,
+from,
+invalidcommand,
+increment,
+readonlybackground,
+to,
+validate,
+validatecommand values,
+wrap,
+activebackground,        ~~~ Label
+background,              ~~~ Label
+borderwidth,             ~~~ Label
+cursor ,                 ~~~ Label 
+font,                    ~~~ Label
+foreground,              ~~~ Label
+highlightbackground,     ~~~ Label
+highlightcolor,          ~~~ Label
+highlightthickness,      ~~~ Label
+disabledforeground,      ~~~ Label
+relief,                  ~~~ Label
+state,                   ~~~ Label
+width,                   ~~~ Label
 
 )
 
@@ -1402,18 +1457,43 @@ bitmap = BitmapImage(file="bitmap.xbm")
 
 ##############################
 Checkbutton(
+offvalue, 
+onvalue, 
+selectcolor,
+selectimage,
+command,
+indicatoron, 
+bd,
+takefocus,           
+text,
+textvariable,
+underline,
+variable,
 
-
-
- |      Valid resource names: activebackground, activeforeground, anchor,
- |      background, bd, bg, bitmap, borderwidth, command, cursor,
- |      disabledforeground, fg, font, foreground, height,
- |      highlightbackground, highlightcolor, highlightthickness, image,
- |      indicatoron, justify, offvalue, onvalue, padx, pady, relief,
- |      selectcolor, selectimage, state, takefocus, text, textvariable,
- |      underline, variable, width, wraplength.
-
-
+activebackground,           ~~~ Label
+activeforeground,           ~~~ Label
+anchor,                     ~~~ Label
+background,                 ~~~ Label
+bg,                         ~~~ Label
+bitmap,                     ~~~ Label
+borderwidth,                ~~~ Label
+cursor,                     ~~~ Label
+disabledforeground,         ~~~ Label
+fg,                         ~~~ Label
+font,                       ~~~ Label
+foreground,                 ~~~ Label
+height,                     ~~~ Label
+highlightbackground,        ~~~ Label
+highlightcolor,             ~~~ Label
+highlightthickness,         ~~~ Label
+image,                      ~~~ Label
+justify,                    ~~~ Label
+padx,                       ~~~ Label
+pady,                       ~~~ Label
+relief,                     ~~~ Label
+state,                      ~~~ Label
+width,                      ~~~ Label
+wraplength.                 ~~~ Label
 )
 
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__
@@ -1651,13 +1731,27 @@ winfo_x                ~~~ Label winfo_y                ~~~ Label
 
 #####################
 Menu (
-
-
- activebackground, activeborderwidth,
- |      activeforeground, background, bd, bg, borderwidth, cursor,
- |      disabledforeground, fg, font, foreground, postcommand, relief,
- |      selectcolor, takefocus, tearoff, tearoffcommand, title, type.
- |
+activeborderwidth,      
+bd,
+disabledforeground,      
+postcommand,
+selectcolor,          
+tearoff,
+tearoffcommand,
+title,
+type.
+activebackground,         ~~~ Label
+activeforeground,         ~~~ Label
+background,               ~~~ Label
+bg,                       ~~~ Label
+borderwidth,              ~~~ Label
+cursor,                   ~~~ Label
+fg,                       ~~~ Label
+font,                     ~~~ Label
+foreground,               ~~~ Label
+relief,                   ~~~ Label
+takefocus,                ~~~ Label
+ 
 )
 
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
@@ -1869,13 +1963,36 @@ winfo_x                 ~~~ Label winfo_y                 ~~~ Label
 #####################
 Canvas  # acer una investigacion 
 (
- |      Valid resource names: background, bd, bg, borderwidth, closeenough,
- |      confine, cursor, height, highlightbackground, highlightcolor,
- |      highlightthickness, insertbackground, insertborderwidth,
- |      insertofftime, insertontime, insertwidth, offset, relief,
- |      scrollregion, selectbackground, selectborderwidth, selectforeground,
- |      state, takefocus, width, xscrollcommand, xscrollincrement,
- |      yscrollcommand, yscrollincrement.
+bd,           
+closeenough,
+confine,
+insertbackground,
+insertborderwidth,
+insertofftime,
+insertontime,
+insertwidth,
+offset,
+scrollregion,
+selectbackground,
+selectborderwidth,
+selectforeground,
+xscrollcommand,
+xscrollincrement,
+yscrollcommand,
+yscrollincrement.
+background,                    ~~~ Label
+bg,                            ~~~ Label
+borderwidth,                   ~~~ Label
+cursor,                        ~~~ Label
+height,                        ~~~ Label
+highlightbackground,           ~~~ Label   
+highlightcolor,                ~~~ Label
+highlightthickness,            ~~~ Label
+relief,                        ~~~ Label
+state,                         ~~~ Label
+takefocus,                     ~~~ Label
+width,                         ~~~ Label
+
 
 
 )
