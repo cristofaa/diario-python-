@@ -1088,13 +1088,12 @@ Scrollbar   (
 >>>>>>>>>orient,
 >>>>>>>>>repeatdelay, 
 >>>>>>>>>repeatinterval,
->>>>>>>>>takefocus,     ~~~ entry
+>>>>>>>>>activerelief,
 >>>>>>>>>troughcolor,
 >>>>>>>>>elementborderwidth,
-
->>>>>>>>>command,      ~~~ Button
->>>>>>>>>bd,           ~~~ Entry  
->>>>>>>>>activerelief,
+takefocus,            ~~~ entry
+command,              ~~~ Button
+bd,                   ~~~ Entry  
 activebackground,     ~~~ Label
 background,           ~~~ Label
 bg,                   ~~~ Label
@@ -1171,25 +1170,19 @@ winfo_y                ~~~ Label
 ############
 Spinbox   (
 >>>>>>>>>exportselection,
->>>>>>>>>insertbackground,    
->>>>>>>>>insertborderwidth,
->>>>>>>>>insertofftime,
->>>>>>>>>insertontime, 
->>>>>>>>>insertwidth,
->>>>>>>>>justify,
+
+insertbackground,       ~~~ Entry
+insertborderwidth,      ~~~ Entry
+insertofftime,           ~~~ Entry
+insertontime,          ~~~ Entry
+insertwidth,            ~~~ Entry
+justify,                ~~~ Label
 >>>>>>>>>repeatdelay,
 >>>>>>>>>repeatinterval,
->>>>>>>>>selectbackground,
->>>>>>>>>selectborderwidth
->>>>>>>>>selectforeground,
->>>>>>>>>takefocus, 
->>>>>>>>>textvariable
->>>>>>>>>xscrollcommand.
 >>>>>>>>>buttonbackground,
 >>>>>>>>>buttoncursor,
 >>>>>>>>>buttondownrelief,
 >>>>>>>>>buttonuprelief,
->>>>>>>>>command,
 >>>>>>>>>disabledbackground,
 >>>>>>>>>format,
 >>>>>>>>>from,
@@ -1200,6 +1193,14 @@ Spinbox   (
 >>>>>>>>>validate,
 >>>>>>>>>validatecommand values,
 >>>>>>>>>wrap,
+
+textvariable             ~~~ Entry 
+xscrollcommand.          ~~~ Entry
+command,                 ~~~ button
+selectbackground,        ~~~ Entry
+selectborderwidth        ~~~ Entry
+selectforeground,        ~~~ Entry
+takefocus,               ~~~ Entry
 activebackground,        ~~~ Label
 background,              ~~~ Label
 borderwidth,             ~~~ Label
@@ -1367,13 +1368,13 @@ Checkbutton(
 >>>>>>>>>onvalue, 
 >>>>>>>>>selectcolor,
 >>>>>>>>>selectimage,
->>>>>>>>>command,
 >>>>>>>>>indicatoron, 
->>>>>>>>>bd,
->>>>>>>>>takefocus,           
->>>>>>>>>textvariable,
 >>>>>>>>>underline,
 >>>>>>>>>variable,
+command,                    ~~~ button
+bd,                         ~~~ Label
+takefocus,                  ~~~ Label   
+textvariable,               ~~~ Label
 text,                       ~~~ Label
 activebackground,           ~~~ Label
 activeforeground,           ~~~ Label
@@ -1472,16 +1473,6 @@ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _di
 _grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute
 _tclCommands _windowingsystem
 
-
-
-
-
-
-
-
-
-
-
 after                   ~~~ Label after_cancel            ~~~ Label after_idle              ~~~ Label bbox                    ~~~ Label
 bell                    ~~~ Label bind                    ~~~ Label bind_all                ~~~ Label bind_class              ~~~ Label
 bindtags                ~~~ Label cget                    ~~~ Label clipboard_append        ~~~ Label clipboard_clear         ~~~ Label
@@ -1526,20 +1517,10 @@ winfo_x                 ~~~ Label winfo_y                 ~~~ Label
 ################################
 Message
 
-
-
-
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
 __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__
 __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
 _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
-
-
-
-
-
-
-
 
 after                   ~~~ Label after_cancel            ~~~ Label after_idle              ~~~ Label bbox                    ~~~ Label
 bell                    ~~~ Label bind                    ~~~ Label bind_all                ~~~ Label bind_class              ~~~ Label
@@ -1636,8 +1617,7 @@ winfo_x                ~~~ Label winfo_y                ~~~ Label
 
 #####################
 Menu (
->>>>>>>>>>>>>activeborderwidth,      
->>>>>>>>>>>>>bd,
+>>>>>>>>>>>>>activeborderwidth,    
 >>>>>>>>>>>>>disabledforeground,      
 >>>>>>>>>>>>>postcommand,
 >>>>>>>>>>>>>selectcolor,          
@@ -1645,6 +1625,7 @@ Menu (
 >>>>>>>>>>>>>tearoffcommand,
 >>>>>>>>>>>>>title,
 >>>>>>>>>>>>>type.
+bd,                       ~~~ Label
 activebackground,         ~~~ Label
 activeforeground,         ~~~ Label
 background,               ~~~ Label
@@ -1756,8 +1737,8 @@ _noarg_ _options _register _report_exception _root _setup _subst_format _subst_f
 
 
 
->>>>>>>>>>>>>>>>>>>>invoke
->>>>>>>>>>>>>>>>>>>>flash
+>>>>>>>>>>>>>>>>>>>>invoke   
+>>>>>>>>>>>>>>>>>>>>flash    
 >>>>>>>>>>>>>>>>>>>>tkButtonDown
 >>>>>>>>>>>>>>>>>>>>tkButtonEnter
 >>>>>>>>>>>>>>>>>>>>tkButtonInvoke
@@ -1868,23 +1849,23 @@ winfo_x                 ~~~ Label winfo_y                 ~~~ Label
 #####################
 Canvas  # acer una investigacion 
 (
->>>>>>>>>>>>>bd,           
 >>>>>>>>>>>>>closeenough,
 >>>>>>>>>>>>>confine,
->>>>>>>>>>>>>insertbackground,
->>>>>>>>>>>>>insertborderwidth,
->>>>>>>>>>>>>insertofftime,
->>>>>>>>>>>>>insertontime,
->>>>>>>>>>>>>insertwidth,
 >>>>>>>>>>>>>offset,
 >>>>>>>>>>>>>scrollregion,
->>>>>>>>>>>>>selectbackground,
->>>>>>>>>>>>>selectborderwidth,
->>>>>>>>>>>>>selectforeground,
->>>>>>>>>>>>>xscrollcommand,
 >>>>>>>>>>>>>xscrollincrement,
 >>>>>>>>>>>>>yscrollcommand,
 >>>>>>>>>>>>>yscrollincrement.
+bd,                            ~~~ Label  
+insertbackground,              ~~~ Label
+insertborderwidth,             ~~~ Label
+insertofftime,                 ~~~ Label
+insertontime,                  ~~~ Label
+insertwidth,                   ~~~ Label
+selectbackground,              ~~~ Label
+selectborderwidth,             ~~~ Label
+selectforeground,              ~~~ Label
+xscrollcommand,                ~~~ Label
 background,                    ~~~ Label
 bg,                            ~~~ Label
 borderwidth,                   ~~~ Label
