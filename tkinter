@@ -190,68 +190,43 @@ unbind_class  quita el bind pero por clases
 bind_class    sele aplica el bind a todos los los que vengan de la misma clase ejemplo Button 
 event_delete    ELIMINA EL EVENTO VITUAL 
 event_generate   ES IGUAL A BIND  PERO CON CON EVENTOS VIRTUALES 
-
 bbox
 bindtags
 deletecommand
-
-
 columnconfigure
 rowconfigure
-
 getboolean
 getdouble
 getint
 getvar
-
 grab_current
 grab_release
 grab_set
 grab_set_global
 grab_status
-
 grid_bbox
 grid_size
 grid_slaves
-
-
 pack_slaves
 place_slaves
-
 register
-
-
-
 selection_handle 
-
 send
 setvar
 size
 slaves
-
 tk_bisque
 tk_setPalette
 tk_focusFollowsMouse  PONE EL FOCO DONDE ESTA EL MAUS 
 tk_focusNext
 tk_focusPrev
 tk_menuBar
-
 tk_strictMotif
 tkraise
-
-
 wait_variable
 wait_visibility
 wait_window
 waitvar
-
-
-
-
-
-
-
-
 winfo_atom
 winfo_atomname
 winfo_cells
@@ -719,30 +694,30 @@ winfo_y                 ~~~ Label
 
 ########################
 Listbox (  
- >>>>>>>>>bd,
  >>>>>>>>>exportselection,
- >>>>>>>>>selectbackground,
- >>>>>>>>>selectborderwidth,
- >>>>>>>>>selectforeground, 
  >>>>>>>> selectmode,
  >>>>>>>>>setgrid,
- >>>>>>>>>takefocus,
- >>>>>>>>>xscrollcommand,
  >>>>>>>>>yscrollcommand, 
 >>>>>>>>> listvariable.
- background             ~~~ Label
- bg                     ~~~ Label
- borderwidth            ~~~ Label
-  cursor                ~~~ Label
-  fg                    ~~~ Label
-  font                  ~~~ Label
- foreground             ~~~ Label
- height                 ~~~ Label
- highlightbackground    ~~~ Label
- highlightcolor         ~~~ Label
- highlightthickness     ~~~ Label
- relief                 ~~~ Label
-  width                 ~~~ Label
+bd,                    ~~~ Entry
+selectbackground,      ~~~ Entry
+selectborderwidth,     ~~~ Entry
+selectforeground,      ~~~ Entry
+takefocus,             ~~~ Entry
+xscrollcommand,        ~~~ Entry
+background             ~~~ Label
+bg                     ~~~ Label
+borderwidth            ~~~ Label
+cursor                 ~~~ Label
+fg                     ~~~ Label
+font                   ~~~ Label
+foreground             ~~~ Label
+height                 ~~~ Label
+highlightbackground    ~~~ Label
+highlightcolor         ~~~ Label
+highlightthickness     ~~~ Label
+relief                 ~~~ Label
+width                  ~~~ Label
 
 
 )
@@ -834,29 +809,22 @@ winfo_y                      ~~~ Label
 
 
 #######################
-PanedWindow  (    
-
-      STANDARD OPTIONS
- 
-           background,    ~~~ Label
-	   borderwidth,   ~~~ Label
-	   cursor,      ~~~ Label
-	   height,      ~~~ Label
-           orient,
-	   relief,     ~~~ Label
-	   width       ~~~ Label
-	   
-           handlepad,
-	   handlesize,
-	   opaqueresize,
-          sashcursor,
-	  sashpad,
-	  sashrelief,
-          sashwidth, 
-	  showhandle,
-
-
-
+PanedWindow  (  
+>>>>>>>>>>>>>orient,	   
+>>>>>>>>>>>>>handlepad,
+>>>>>>>>>>>>>handlesize,
+>>>>>>>>>>>>>opaqueresize,
+>>>>>>>>>>>>>sashcursor,
+>>>>>>>>>>>>>sashpad,
+>>>>>>>>>>>>>sashrelief,
+>>>>>>>>>>>>>sashwidth, 
+>>>>>>>>>>>>>showhandle,
+background,      ~~~ Label
+borderwidth,     ~~~ Label
+cursor,          ~~~ Label
+height,          ~~~ Label
+relief,          ~~~ Label
+width            ~~~ Label
 
 
 )
@@ -938,11 +906,6 @@ winfo_y                   ~~~ Label
 
 ###################
 PhotoImage(  
-
-
-
-
-
 )
 
 '__class__', '__del__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', 
@@ -962,15 +925,12 @@ PhotoImage(
 'width', 
 'write', 
 'zoom'
-
 #######################
 Widget
 _Misc__winfo_getint  _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
 __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__ __setitem__ __sizeof__
 __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
 _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
-
-
 
 after                  ~~~ Label after_cancel           ~~~ Label after_idle             ~~~ Label
 bbox                   ~~~ Label bell                   ~~~ Label bind                   ~~~ Label
@@ -1026,17 +986,16 @@ winfo_vrooty           ~~~ Label winfo_width            ~~~ Label winfo_x       
 winfo_y                ~~~ Label
 ######################
 Radiobutton (
-
 >>>>>>>>>>>value,
 >>>>>>>>>>>variable,
->>>>>>>>>>>takefocus, 
->>>>>>>>>>>text, 
->>>>>>>>>>>textvariable,
 >>>>>>>>>>>selectcolor,
 >>>>>>>>>>>selectimage,
 >>>>>>>>>>>indicatoron,
->>>>>>>>>>>command,
->>>>>>>>>>>bd,
+>>>>>>>>>>>takefocus,   ~~~ Entry
+>>>>>>>>>>>text,        ~~~ Label
+>>>>>>>>>>>textvariable,~~~ Entry
+>>>>>>>>>>>command,     ~~~ Button
+>>>>>>>>>>>bd,          ~~~ Entry
 activebackground,       ~~~ Label
 activeforeground,       ~~~ Label
 anchor,                 ~~~ Label
@@ -1063,21 +1022,14 @@ underline,              ~~~ Label
 width,                  ~~~ Label
 wraplength.             ~~~ Label
 )
-
-
-
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__ __getitem__
 __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr____setattr__ __setitem__ __sizeof__
 __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
 _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute _tclCommands  _windowingsystem
-
 >>>>>>>>>>select
 >>>>>>>>>>deselect
 >>>>>>>>>>invoke     Button
 >>>>>>>>>>flash      Button
-
-
-
 after                    ~~~ Label after_cancel             ~~~ Label after_idle               ~~~ Label
 bbox                     ~~~ Label bell                     ~~~ Label bind                     ~~~ Label
 bind_all                 ~~~ Label bind_class               ~~~ Label bindtags                 ~~~ Label
@@ -1132,17 +1084,17 @@ winfo_vrooty             ~~~ Label winfo_width              ~~~ Label winfo_x   
 winfo_y                  ~~~ Label
 ######################
 Scrollbar   (
+>>>>>>>>>jump, 
+>>>>>>>>>orient,
+>>>>>>>>>repeatdelay, 
+>>>>>>>>>repeatinterval,
+>>>>>>>>>takefocus,     ~~~ entry
+>>>>>>>>>troughcolor,
+>>>>>>>>>elementborderwidth,
 
-jump, 
-orient,
-repeatdelay, 
-repeatinterval,
-takefocus,
-troughcolor,
-elementborderwidth,
-command,
-bd,
-activerelief,
+>>>>>>>>>command,      ~~~ Button
+>>>>>>>>>bd,           ~~~ Entry  
+>>>>>>>>>activerelief,
 activebackground,     ~~~ Label
 background,           ~~~ Label
 bg,                   ~~~ Label
@@ -1153,27 +1105,17 @@ highlightcolor,       ~~~ Label
 highlightthickness,   ~~~ Label
 relief,               ~~~ Label
 width.                ~~~ Label
-
-
 )
-
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
 __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr____setitem__
 __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints _grid_configure _nametowidget
 _noarg_ _options _register _report_exception _root  _setup _subst_format _subst_format_str _substitute _tclCommands _windowingsystem
-
-
 >>>>>>>>>>>>>activate
 >>>>>>>>>>>>>delta
 >>>>>>>>>>>>>fraction
 >>>>>>>>>>>>>get
 >>>>>>>>>>>>>identify
 >>>>>>>>>>>>>set
-
-
-
-
-
 after                  ~~~ Label after_cancel           ~~~ Label after_idle             ~~~ Label
 bbox                   ~~~ Label bell                   ~~~ Label bind                   ~~~ Label
 bind_all               ~~~ Label bind_class             ~~~ Label bindtags               ~~~ Label
@@ -1226,41 +1168,38 @@ winfo_visual           ~~~ Label winfo_visualid         ~~~ Label winfo_visualsa
 winfo_vrootheight      ~~~ Label winfo_vrootwidth       ~~~ Label winfo_vrootx           ~~~ Label
 winfo_vrooty           ~~~ Label winfo_width            ~~~ Label winfo_x                ~~~ Label
 winfo_y                ~~~ Label
-
-
 ############
 Spinbox   (
-
-exportselection,
-insertbackground,    
-insertborderwidth,
-insertofftime,
-insertontime, 
-insertwidth,
-justify,
-repeatdelay,
-repeatinterval,
-selectbackground,
-selectborderwidth
-selectforeground,
-takefocus, 
-textvariable
-xscrollcommand.
-buttonbackground,
-buttoncursor,
-buttondownrelief,
-buttonuprelief,
-command,
-disabledbackground,
-format,
-from,
-invalidcommand,
-increment,
-readonlybackground,
-to,
-validate,
-validatecommand values,
-wrap,
+>>>>>>>>>exportselection,
+>>>>>>>>>insertbackground,    
+>>>>>>>>>insertborderwidth,
+>>>>>>>>>insertofftime,
+>>>>>>>>>insertontime, 
+>>>>>>>>>insertwidth,
+>>>>>>>>>justify,
+>>>>>>>>>repeatdelay,
+>>>>>>>>>repeatinterval,
+>>>>>>>>>selectbackground,
+>>>>>>>>>selectborderwidth
+>>>>>>>>>selectforeground,
+>>>>>>>>>takefocus, 
+>>>>>>>>>textvariable
+>>>>>>>>>xscrollcommand.
+>>>>>>>>>buttonbackground,
+>>>>>>>>>buttoncursor,
+>>>>>>>>>buttondownrelief,
+>>>>>>>>>buttonuprelief,
+>>>>>>>>>command,
+>>>>>>>>>disabledbackground,
+>>>>>>>>>format,
+>>>>>>>>>from,
+>>>>>>>>>invalidcommand,
+>>>>>>>>>increment,
+>>>>>>>>>readonlybackground,
+>>>>>>>>>to,
+>>>>>>>>>validate,
+>>>>>>>>>validatecommand values,
+>>>>>>>>>wrap,
 activebackground,        ~~~ Label
 background,              ~~~ Label
 borderwidth,             ~~~ Label
@@ -1274,16 +1213,12 @@ disabledforeground,      ~~~ Label
 relief,                  ~~~ Label
 state,                   ~~~ Label
 width,                   ~~~ Label
-
 )
-
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__ __getattribute__
 __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__ __repr__ __setattr__
 __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean _getdoubles _getints
 _grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str
 _substitute _tclCommands _windowingsystem
-
-
 >>>>>>>>>>>>>delete
 >>>>>>>>>>>>>get
 >>>>>>>>>>>>>icursor
@@ -1300,7 +1235,6 @@ _substitute _tclCommands _windowingsystem
 >>>>>>>>>>>>>>>xview
 >>>>>>>>>>>>>>>xview_moveto
 >>>>>>>>>>>>>>>xview_scroll
-
 after                     ~~ Label after_cancel             ~~~ Label after_idle               ~~~ Label
 bbox                     ~~~ Label bell                     ~~~ Label bind                     ~~~ Label
 bind_all                 ~~~ Label bind_class               ~~~ Label bindtags                 ~~~ Label
@@ -1353,34 +1287,14 @@ winfo_visual             ~~~ Label winfo_visualid           ~~~ Label winfo_visu
 winfo_vrootheight        ~~~ Label winfo_vrootwidth         ~~~ Label winfo_vrootx             ~~~ Label
 winfo_vrooty             ~~~ Label winfo_width              ~~~ Label winfo_x                  ~~~ Label
 winfo_y                  ~~~ Label
-
-
-
-
 ##############################
 BaseWidget  (
-
-
-
-
-
-
-
-
 )
-
-
-
 _Misc__winfo_getint _Misc__winfo_parseitem __class__ __delattr__ __dict__ __doc__ __eq__ __format__ __ge__
 __getattribute__ __getitem__ __gt__ __hash__ __init__ __le__ __lt__ __module__ __ne__ __new__ __reduce__ __reduce_ex__
 __repr__ __setattr__ __setitem__ __sizeof__ __str__ __subclasshook__ __weakref__ _bind _configure _displayof _do _getboolean_getdoubles
 _getints _grid_configure _nametowidget _noarg_ _options _register _report_exception _root _setup _subst_format _subst_format_str _substitute
 _tclCommands _windowingsystem
-
-
-
-
-
 after                   ~~~ Label after_cancel            ~~~ Label after_idle              ~~~ Label bbox                    ~~~ Label
 bell                    ~~~ Label bind                    ~~~ Label bind_all                ~~~ Label bind_class              ~~~ Label
 bindtags                ~~~ Label cget                    ~~~ Label clipboard_append        ~~~ Label clipboard_clear         ~~~ Label
@@ -1416,12 +1330,8 @@ winfo_screenwidth       ~~~ Label winfo_server            ~~~ Label winfo_toplev
 winfo_visual            ~~~ Label winfo_visualid          ~~~ Label winfo_visualsavailable  ~~~ Label winfo_vrootheight       ~~~ Label
 winfo_vrootwidth        ~~~ Label winfo_vrootx            ~~~ Label winfo_vrooty            ~~~ Label winfo_width             ~~~ Label
 winfo_x                 ~~~ Label winfo_y                 ~~~ Label
-
-
-
 ########################
 BitmapImage
-
 BITMAP = """
 #define im_width 32
 #define im_height 32
@@ -1445,31 +1355,26 @@ static char im_bits[] = {
 };
 """
 bitmap = BitmapImage(data=BITMAP)
-
 bitmap = BitmapImage(file="bitmap.xbm")
-
 ['__class__', '__del__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', 
 '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__le__', 
 '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', 
 '__setitem__', '__sizeof__', '__str__', '__subclasshook__',
 '__weakref__', '_last_id', 'config', 'configure', 'height', 'type', 'width']
-
-
 ##############################
 Checkbutton(
-offvalue, 
-onvalue, 
-selectcolor,
-selectimage,
-command,
-indicatoron, 
-bd,
-takefocus,           
-text,
-textvariable,
-underline,
-variable,
-
+>>>>>>>>>offvalue, 
+>>>>>>>>>onvalue, 
+>>>>>>>>>selectcolor,
+>>>>>>>>>selectimage,
+>>>>>>>>>command,
+>>>>>>>>>indicatoron, 
+>>>>>>>>>bd,
+>>>>>>>>>takefocus,           
+>>>>>>>>>textvariable,
+>>>>>>>>>underline,
+>>>>>>>>>variable,
+text,                       ~~~ Label
 activebackground,           ~~~ Label
 activeforeground,           ~~~ Label
 anchor,                     ~~~ Label
@@ -1731,15 +1636,15 @@ winfo_x                ~~~ Label winfo_y                ~~~ Label
 
 #####################
 Menu (
-activeborderwidth,      
-bd,
-disabledforeground,      
-postcommand,
-selectcolor,          
-tearoff,
-tearoffcommand,
-title,
-type.
+>>>>>>>>>>>>>activeborderwidth,      
+>>>>>>>>>>>>>bd,
+>>>>>>>>>>>>>disabledforeground,      
+>>>>>>>>>>>>>postcommand,
+>>>>>>>>>>>>>selectcolor,          
+>>>>>>>>>>>>>tearoff,
+>>>>>>>>>>>>>tearoffcommand,
+>>>>>>>>>>>>>title,
+>>>>>>>>>>>>>type.
 activebackground,         ~~~ Label
 activeforeground,         ~~~ Label
 background,               ~~~ Label
@@ -1963,23 +1868,23 @@ winfo_x                 ~~~ Label winfo_y                 ~~~ Label
 #####################
 Canvas  # acer una investigacion 
 (
-bd,           
-closeenough,
-confine,
-insertbackground,
-insertborderwidth,
-insertofftime,
-insertontime,
-insertwidth,
-offset,
-scrollregion,
-selectbackground,
-selectborderwidth,
-selectforeground,
-xscrollcommand,
-xscrollincrement,
-yscrollcommand,
-yscrollincrement.
+>>>>>>>>>>>>>bd,           
+>>>>>>>>>>>>>closeenough,
+>>>>>>>>>>>>>confine,
+>>>>>>>>>>>>>insertbackground,
+>>>>>>>>>>>>>insertborderwidth,
+>>>>>>>>>>>>>insertofftime,
+>>>>>>>>>>>>>insertontime,
+>>>>>>>>>>>>>insertwidth,
+>>>>>>>>>>>>>offset,
+>>>>>>>>>>>>>scrollregion,
+>>>>>>>>>>>>>selectbackground,
+>>>>>>>>>>>>>selectborderwidth,
+>>>>>>>>>>>>>selectforeground,
+>>>>>>>>>>>>>xscrollcommand,
+>>>>>>>>>>>>>xscrollincrement,
+>>>>>>>>>>>>>yscrollcommand,
+>>>>>>>>>>>>>yscrollincrement.
 background,                    ~~~ Label
 bg,                            ~~~ Label
 borderwidth,                   ~~~ Label
@@ -2320,21 +2225,6 @@ focusmodel
 colormapwindows
 client
 aspect
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
