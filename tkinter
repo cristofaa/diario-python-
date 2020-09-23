@@ -398,14 +398,18 @@ Entry (
 >>>>>><<<<show,                 show("#")   es para que funcione como si fuera un password
 >>>>>><<<<takefocus,            es el brinco automatico con el tabulador  si se pone False se desactiva 
 >>>>>><<<<textvariable,             es para asignar texto desde una avariable 
->>>>>><<<<validate,                
->>>>>><<<<validatecommand          
->>>>>><<<<xscrollcommand.          
->>>>>><<<<vcmd,     
+>>>>>><<<<validate,                validate es para validar un evento "focus","focusout",key,all, y mas
+>>>>>><<<<validatecommand          ejecuta un comando cuando se realiza la validacion        
+>>>>>><<<<vcmd,                    es iguala validation command 
+>>>>>><<<<invcmd,                   invalidcommand
+>>>>>><<<<xscrollcommand.         enlaza el scroll con el Entry
+scroll = Scrollbar()
+txt.configure(xscrollcommand=scroll.set)
+scroll.config(command = txt.xview)
+scroll.pack()
+scroll.pack(fill.X)
+
 >>>>>><<<<invalidcommand,
->>>>>><<<<invcmd, 
-
-
 
 background,             ~~~ Label
 bg,                     ~~~ Label
@@ -628,8 +632,8 @@ LabelFrame   (
  colormap,                ~~~ Label
  height,                  ~~~ Label
  width                    ~~~ Label
- container,
- labelanchor,
+ container,                          lo definne como un contenedor true y  false
+ labelanchor,               donde dibujar la etiqueta por defecto es WN
  labelwidget,
 )
 
@@ -697,7 +701,7 @@ Listbox (
  >>>>>>>>>exportselection,
  >>>>>>>> selectmode,
  >>>>>>>>>setgrid,
- >>>>>>>>>yscrollcommand, 
+ >>>>>>>>>yscrollcommand,    en laza el scrollbar
 >>>>>>>>> listvariable.
 bd,                    ~~~ Entry
 selectbackground,      ~~~ Entry
