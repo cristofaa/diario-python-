@@ -142,7 +142,14 @@ from as interger
  kivy.uix.gesturesurface 
  kivy.uix.gridlayout 
  kivy.uix.image 
- kivy.uix.label 
+ 
+ 
+ kivy.uix.label                          
+ 
+ 
+ 
+ 
+ 
  kivy.uix.layout 
  kivy.uix.modalview 
  kivy.uix.pagelayout 
