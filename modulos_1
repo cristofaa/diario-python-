@@ -121,7 +121,7 @@ asctime
 ctime
 daylight
 get_clock_info
-gmtime
+gmtime             se ingresa en segundos y debuelve una estructura de tiempo time.gmtime(100)
 localtime
 mktime
 monotonic
